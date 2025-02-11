@@ -1,0 +1,25 @@
+// Choreo version 1
+actor "orator"
+{
+  channel "triggers"
+  {
+    event firetrigger "Trigger1"
+    {
+      time 9.854784 -1.000000
+      param "1"
+    }
+  }
+}
+
+
+scalesettings
+{
+  "CChoreoView" "84"
+  "ExpressionTool" "100"
+  "RampTool" "24"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

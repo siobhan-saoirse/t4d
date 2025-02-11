@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_plane_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.planepilot_RadioArrived10"
+    {
+      time 0.000000 3.495000
+      param "npc.planepilot_RadioArrived10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

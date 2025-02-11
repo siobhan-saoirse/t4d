@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_CommunityGeneric01"
+    {
+      time 0.000000 1.615488
+      param "Biker_CommunityGeneric01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.078947 1.445614
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "152"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,63 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.478169 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.478169
+      param "Mechanic_WorldC3M101"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "gruff2 - dialogue"
+    {
+      time 0.031250 1.750000
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.1455 0.7543
+        1.4970 0.7031
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

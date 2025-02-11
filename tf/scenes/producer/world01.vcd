@@ -1,0 +1,125 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.200664 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 3.200664
+      param "Producer_World01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.241002
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        0.8453 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.094494
+        "extreme" 0.219625
+        "loop" 0.459387
+        "end" 0.719040
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 1.642066 3.136613
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.4946 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.291667
+        "extreme" 0.510467
+        "loop" 0.710123
+        "end" 0.926342
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 1.232270 3.221619
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7334 "curve_bspline_to_curve_bspline"
+        1.8704 0.7220 "curve_bspline_to_curve_bspline"
+        1.9492 0.0812
+      }
+    }
+    event expression "serious"
+    {
+      time 0.041667 1.489583
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1727 0.6041
+        1.2242 0.6246
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

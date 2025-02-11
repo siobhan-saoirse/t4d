@@ -1,0 +1,67 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 9.250102 -1.000000
+  param ""
+}
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.013889 9.250102
+      param "Teengirl_DLC1_C6M1_InitialMeeting26"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "dlc1_intro_zoey_generator_point"
+    {
+      time 4.666667 6.133334
+      param "dlc1_intro_zoey_generator_point"
+    }
+    event gesture "dlc1_intro_zoey_head_gesture"
+    {
+      time 7.635417 9.102084
+      param "dlc1_intro_zoey_head_gesture"
+      sequenceduration 1.466667
+    }
+    event gesture "dlc1_intro_zoey_head_gesture"
+    {
+      time 1.104167 2.570834
+      param "dlc1_intro_zoey_head_gesture"
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

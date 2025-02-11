@@ -1,0 +1,111 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.384722 -1.000000
+  param ""
+}
+
+
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.384722
+      param "Coach_DeathScream06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 1.110816 2.115780
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "pain_2"
+    {
+      time 0.013520 2.332760
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "pain_2"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.4337 0.8930
+        2.1303 0.4875
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "100"
+  "CChoreoView" "64"
+}
+fps 60
+snap off
+ignorePhonemes off

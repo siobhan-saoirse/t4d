@@ -1,0 +1,114 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.858600 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.858600
+      param "Producer_WorldC3M134"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.006258 1.011223
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        0.6057 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117021
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.848561 1.853525
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.008618 1.843403
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.3667 0.4841
+        1.4220 0.4288
+        1.7947 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "272"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

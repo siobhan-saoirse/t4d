@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_farm_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.soldier_RadioInitialBroadCast01"
+    {
+      time 0.000000 3.782000
+      param "npc.soldier_RadioInitialBroadCast01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

@@ -1,0 +1,133 @@
+// Choreo version 1
+event loop "1"
+{
+  time 4.887000 -1.000000
+  param "0.250000"
+  loopcount "-1"
+}
+actor "NamVet"
+{
+  channel "Flex"
+  {
+    event flexanimation "flex"
+    {
+      time 0.013334 5.246668
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.2367 0.3000 "curve_easein_to_curve_easeout"
+          4.5500 0.2999 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.2367 0.4300 "curve_easein_to_curve_easeout"
+          4.5500 0.4299 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000 "curve_easein_to_curve_easeout"
+          4.5500 0.5000
+        }
+        "wrinkler" combo 
+        {
+          0.2367 0.1500 "curve_easein_to_curve_easeout"
+          4.5500 0.1499 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "upper_raiser" combo 
+        {
+          4.5500 0.0000
+        }
+        {
+          4.5500 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          4.5500 0.0000
+        }
+        {
+          4.5500 0.5000
+        }
+        "chin_raiser" 
+        {
+          0.2367 0.4800 "curve_easein_to_curve_easeout"
+          4.5500 0.4798 "curve_easein_to_curve_easeout"
+        }
+        "presser" 
+        {
+          4.5500 0.0000
+        }
+        "tightener" 
+        {
+          4.5500 0.0000
+        }
+        "mouth_sideways" disabled range -1.0 1.0 leftedge curve_default_to_curve_easeout 0.000 rightedge curve_easeout_to_curve_default 0.000 
+        {
+          0.2367 0.3800
+          4.5500 0.3773
+        }
+        "lid_droop" combo 
+        {
+          0.2367 0.4600 "curve_easein_to_curve_easeout"
+          4.5500 0.4598 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "inner_raiser" combo 
+        {
+          0.2367 0.1300 "curve_easein_to_curve_easeout"
+          4.5500 0.1300 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.2367 0.0000
+          4.5500 0.0000
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.2367 0.1300 "curve_easein_to_curve_easeout"
+          4.5500 0.1300 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2367 0.5000
+          4.5500 0.5000
+        }
+        "dilator" 
+        {
+          0.2367 0.3100 "curve_easein_to_curve_easeout"
+          4.5500 0.3099 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "24"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

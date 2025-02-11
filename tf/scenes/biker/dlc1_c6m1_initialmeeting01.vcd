@@ -1,0 +1,71 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.568631 -1.000000
+  param ""
+}
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.263889 2.704047
+      param "Biker_DLC1_C6M1_InitialMeeting01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "dlc1_intro_male_leanleft"
+    {
+      time 0.020833 4.020833
+      param "dlc1_intro_male_leanleft"
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "Serious"
+    {
+      time 0.145834 3.075942
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "Serious"
+      event_ramp
+      {
+        0.1879 0.6840
+        0.2485 0.8993
+        0.3091 0.9722
+        0.3697 0.9965
+        0.4424 1.0000
+        2.5078 0.9861
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+  faceposermodel "D:\l4d2_dev\main\game\left4dead2_dlc1\models\survivors\survivor_biker.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "orator"
+{
+  channel "audio"
+  {
+    event speak "Virgil_C5Start10"
+    {
+      time 0.000000 2.83100
+      param "Virgil_C5Start10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

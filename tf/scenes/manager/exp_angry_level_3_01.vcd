@@ -1,0 +1,224 @@
+// Choreo version 1
+event loop "1"
+{
+  time 5.027000 -1.000000
+  param "0.020000"
+  loopcount "-1"
+}
+actor "Manager"
+{
+  channel "Flex"
+  {
+    event flexanimation "angry_level_3_01"
+    {
+      time -0.006666 5.093334
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.0000 0.6861 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.6887 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.2834 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.2825 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "lid_tightener" combo 
+        {
+          0.0000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.6492 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.6498 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "inner_raiser" combo 
+        {
+          0.0000 0.0000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.0000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "outer_raiser" combo 
+        {
+          0.0000 0.0000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.0000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "lowerer" combo 
+        {
+          0.0000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5746 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5749 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "cheek_raiser" combo 
+        {
+          0.0000 0.8352 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.8384 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "wrinkler" combo 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "dilator" 
+        {
+          0.0000 0.9943 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.9981 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "upper_raiser" combo 
+        {
+          0.0000 0.5568 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5589 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.8838 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.8852 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "corner_puller" combo 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "corner_depressor" combo 
+        {
+          0.0000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 1.0000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.4839 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.4839 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "chin_raiser" 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        "part" combo 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "puckerer" combo 
+        {
+          0.0000 0.0597 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.0599 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "stretcher" combo 
+        {
+          0.0000 0.7875 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.7905 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "bite" 
+        {
+          0.0000 0.0895 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.0898 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "presser" 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        "jaw_drop" range 0.0 2.0 
+        {
+          0.0000 0.5863 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5885 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "jaw_sideways" disabled range -1.0 1.0 
+        {
+          0.0000 0.5895
+          5.1000 0.5898
+        }
+        "lower_lip" combo 
+        {
+          0.0000 0.0000
+          5.1000 0.0000
+        }
+        {
+        }
+        "lid_closer" combo 
+        {
+          0.0000 0.3580 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.3594 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.4441 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.4439 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "funneler" combo range 0.0 2.0 
+        {
+          0.0000 0.0795 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.0798 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5000 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "tightener" 
+        {
+          0.0000 0.6960 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.6987 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "jaw_clencher" 
+        {
+          0.0000 0.6761 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.6787 "curve_linear_interp_to_curve_linear_interp"
+        }
+        "mouth_drop" combo 
+        {
+          0.0000 0.5568 "curve_linear_interp_to_curve_linear_interp"
+          5.1000 0.5589 "curve_linear_interp_to_curve_linear_interp"
+        }
+        {
+          0.0000 0.5000
+          5.1000 0.5000
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "56"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

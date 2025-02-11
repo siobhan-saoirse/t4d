@@ -1,0 +1,71 @@
+// Choreo version 1
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "Manager_EmphaticGo01"
+    {
+      time 0.128472 0.993302
+      param "Player.Manager_EmphaticGo01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_overhere"
+    {
+      time 0.033333 1.633333
+      param "namvet_gesture_overhere"
+      absolutetags playback_time
+      {
+        "in" 0.106383
+        "out" 0.829787
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.106383
+        "out" 0.829787
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 0.052083 1.687500
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1636 1.0000
+        1.5333 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

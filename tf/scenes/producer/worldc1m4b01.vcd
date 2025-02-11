@@ -1,0 +1,130 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.444632 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 2.444632
+      param "Producer_WorldC1M4B01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.001419
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0569
+        0.4003 0.3100
+        0.6542 0.2817
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117021
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.964983 2.584530
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0603
+        0.4761 0.3100
+        1.6196 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.211440
+        "extreme" 0.426045
+        "loop" 0.610291
+        "end" 0.809822
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 1.544770 3.392670
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.4351 0.8930
+        1.6502 0.7601
+        1.7290 0.6162
+        1.7592 0.4317
+        1.8077 0.0812
+      }
+    }
+    event expression "worried"
+    {
+      time 0.031250 1.833333
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "worried"
+      event_ramp
+      {
+        0.2424 0.5734
+        1.4758 0.6212
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,112 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.516741 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 4.516741
+      param "Coach_WorldC1M1B88"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.939274 4.572606
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.3713 0.2777
+        0.9333 0.0000
+        2.7072 0.0285
+        3.0232 0.1993
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.114943
+        "extreme" 0.310345
+        "loop" 0.758550
+        "end" 0.928297
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.051862 3.232286
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.7676 0.8930
+        2.9827 0.7601
+        3.0615 0.6162
+        3.0918 0.4317
+        3.1403 0.0812
+      }
+    }
+    event expression "angry - dialogue"
+    {
+      time 2.843529 5.471870
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.2155 0.8930
+        2.4306 0.7601
+        2.5094 0.6162
+        2.5397 0.4317
+        2.5882 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

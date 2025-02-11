@@ -1,0 +1,98 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.105244 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 2.105244
+      param "Producer_WorldC2M5B01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.085107 2.010106
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        1.3148 0.1993
+        1.4192 0.1402
+        1.5366 0.0554
+        1.6605 0.0000
+        1.7931 0.0000
+        1.9163 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.159806
+        "extreme" 0.309927
+        "loop" 0.600484
+        "end" 0.881356
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.166667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "optimistic - dialogue"
+    {
+      time 0.026455 2.119048
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.1636 0.1796
+        0.3212 0.6557
+        0.9515 0.2725
+        1.5667 0.4760
+        1.8606 0.2635
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "252"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

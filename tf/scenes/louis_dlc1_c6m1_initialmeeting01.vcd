@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "L4D1_Louis"
+{
+  channel "audio"
+  {
+    event speak "Manager_DLC1_C6M1_InitialMeeting01"
+    {
+      time 0.010000 4.518000
+      param "Manager_DLC1_C6M1_InitialMeeting01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

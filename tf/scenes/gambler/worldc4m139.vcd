@@ -1,0 +1,98 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.081873 -1.000000
+  param ""
+}
+actor "Gambler"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 2.081873
+      param "Gambler_WorldC4M139"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.041667 2.249513
+      param "survivors\survivor_gambler\gambler_expressions"
+      param2 "angrier - dialogue"
+      event_ramp
+      {
+        0.1273 0.6384
+        0.2273 0.8745
+        0.3667 0.9710
+        0.5576 0.9594
+        0.7121 0.9336
+        1.3273 0.9041
+        1.5639 0.8708
+        1.7033 0.7684
+        1.8578 0.4871
+        2.0517 0.1624
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.072917 2.289583
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.1364 0.6310
+        0.2394 0.9037
+        0.5152 1.0000
+        1.0121 0.9520
+        1.4394 0.9336
+        1.8288 0.7804
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.054686
+        "extreme" 0.127601
+        "loop" 0.182287
+        "end" 0.825472
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

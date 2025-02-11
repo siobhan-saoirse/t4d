@@ -1,0 +1,113 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 7.802568 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 7.802568
+      param "Mechanic_WorldC1M4B19"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "optismistic2 - dialogue"
+    {
+      time 0.000000 2.677083
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optismistic2 - dialogue"
+      event_ramp
+      {
+        0.1152 0.3296
+        0.5970 0.6105
+        1.4545 0.5506
+        2.0603 0.4906
+        2.1667 0.3596
+      }
+    }
+    event expression "optismistic2 - dialogue"
+    {
+      time 2.364583 6.097221
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "smile - full"
+      event_ramp
+      {
+        0.1152 0.3296
+        0.5970 0.6105
+        2.5101 0.5506
+        3.1159 0.4906
+        3.2223 0.3596
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 5.786111 7.952778
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.2150 0.2809
+        0.6400 0.4719
+        1.3500 0.4981
+        1.6950 0.3109
+        1.9300 0.1648
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "60"
+  "ExpressionTool" "100"
+  "RampTool" "40"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

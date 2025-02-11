@@ -1,0 +1,80 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.618699 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.618699
+      param "Player.Manager_LostCall04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.046667 1.413334
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "concerned"
+    {
+      time 0.052083 2.806230
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1636 1.0000
+        2.6521 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

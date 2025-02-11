@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "NamVet"
+{
+  channel "audio"
+  {
+    event speak "NamVet_WitchGettingAngry03"
+    {
+      time 0.128472 2.515139
+      param "Player.NamVet_WitchGettingAngry03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.031250 2.677083
+      param "survivors\survivor_namvet\namvet_expressions"
+      param2 "angry - dialogue"
+      event_ramp
+      {
+        0.1788 1.0000
+        2.5489 1.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

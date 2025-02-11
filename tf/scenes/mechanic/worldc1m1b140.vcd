@@ -1,0 +1,144 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 5.940233 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.121602 5.950650
+      param "Mechanic_WorldC1M1B140"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 3.069149 5.542863
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        2.4738 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.662802
+        "extreme" 0.704238
+        "loop" 0.824865
+        "end" 0.955498
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "optimistic - dialogue"
+    {
+      time 0.013520 1.695692
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.2421 0.3808
+        0.3632 0.4128
+        1.2958 0.3843
+        1.4431 0.3167
+      }
+    }
+    event expression "optismistic2 - dialogue"
+    {
+      time 2.351541 6.523809
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optismistic2 - dialogue"
+      event_ramp
+      {
+        0.2067 0.3665
+        0.2900 0.6548
+        0.8667 0.6192
+        1.0100 0.3060
+        1.2333 0.1744
+        1.4800 0.2100
+        1.7300 0.7936
+        1.9267 0.5018
+        2.3194 0.4021
+        2.9927 0.4484
+        3.1394 0.7794
+        3.2867 0.8114
+        3.6761 0.7046
+        3.8300 0.4306
+      }
+    }
+    event expression "serious"
+    {
+      time 1.047619 3.083333
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.2700 0.4199
+        0.5233 0.4698
+        1.3733 0.4840
+        1.6067 0.1423
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "68"
+  "ExpressionTool" "100"
+  "RampTool" "60"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

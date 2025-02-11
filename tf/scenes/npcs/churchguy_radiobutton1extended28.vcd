@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "Churchguy"
+{
+  channel "wav"
+  {
+    event speak "npc.churchguy_RadioButton1Extended28"
+    {
+      time 0.026666 1.530666
+      param "npc.churchguy_RadioButton1Extended28"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

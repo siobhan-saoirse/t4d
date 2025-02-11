@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_ArriveBoat01"
+    {
+      time 0.128472 1.576023
+      param "Player.Biker_ArriveBoat01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_gogo"
+    {
+      time 0.062500 1.500000
+      param "namvet_gesture_gogo"
+      absolutetags playback_time
+      {
+        "in" 0.088235
+        "out" 0.882353
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.088235
+        "out" 0.882353
+      }
+      sequenceduration 1.166667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 0.010417 1.854167
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1394 1.0000
+        1.6888 1.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

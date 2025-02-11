@@ -1,0 +1,76 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.451193 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.451193
+      param "npc.Manager_WorldHospital0410"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_pointLeft"
+    {
+      time 0.046667 1.646667
+      param "namvet_gesture_pointLeft"
+      absolutetags playback_time
+      {
+        "in" 0.106383
+        "out" 0.851064
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.106383
+        "out" 0.851064
+      }
+    }
+  }
+  channel "postures"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 0.058750 2.152058
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1636 1.0000
+        1.9912 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

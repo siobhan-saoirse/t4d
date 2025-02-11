@@ -1,0 +1,79 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.038146 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 4.038146
+      param "Producer_WorldGenericProducer61"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "smile - half"
+    {
+      time 0.004831 1.437198
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.0912 0.1018
+        0.2526 0.5000 "curve_easein_to_curve_easeout"
+        1.0246 0.5749
+        1.2456 0.4162
+      }
+    }
+    event expression "serious"
+    {
+      time 1.432367 4.055555
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1842 0.7754
+        0.8474 0.7425
+        1.0211 0.6257
+        1.4193 0.6108
+        2.0123 0.6108
+        2.3474 0.5509
+        2.5053 0.0539
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "228"
+  "ExpressionTool" "100"
+  "RampTool" "114"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

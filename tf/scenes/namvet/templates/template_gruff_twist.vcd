@@ -1,0 +1,76 @@
+// Choreo version 1
+actor "NamVet"
+{
+  channel "audio"
+  {
+    event speak "NamVet_AreaClear01"
+    {
+      time 0.030715 0.611803
+      param "Player.NamVet_AreaClear01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_twistLeft"
+    {
+      time 0.017094 1.483761
+      param "namvet_gesture_head_twistLeft"
+      absolutetags playback_time
+      {
+        "apex" 0.139535
+        "extreme" 0.255814
+        "loop" 0.395349
+        "end" 0.674419
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.139535
+        "extreme" 0.255814
+        "loop" 0.395349
+        "end" 0.674419
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 0.010417 6.116453
+      param "survivors\survivor_namvet\namvet_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1182 1.0000
+        5.9758 1.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "156"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

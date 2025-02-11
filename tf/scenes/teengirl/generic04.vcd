@@ -1,0 +1,79 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.696431 -1.000000
+  param ""
+}
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 3.696431
+      param "Player.TeenGirl_Generic04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event expression "concerned - dialogue"
+    {
+      time 0.052083 4.662962
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "concerned - dialogue"
+      event_ramp
+      {
+        0.0970 0.6974
+        0.1394 0.9436
+        0.3333 0.8154
+        0.4364 0.8359
+        4.1339 0.8615
+        4.2552 0.7795
+        4.4219 0.5385
+        4.5127 0.2564
+      }
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "TeenAngst_gesture_head_no"
+    {
+      time 0.135417 2.227083
+      param "TeenAngst_gesture_head_no"
+      event_ramp
+      {
+        0.0212 0.7692
+        1.1152 0.7026
+        1.4727 0.1744
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

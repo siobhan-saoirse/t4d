@@ -1,0 +1,88 @@
+// Choreo version 1
+event loop "1"
+{
+  time 5.027000 -1.000000
+  param "0.040000"
+  loopcount "-1"
+}
+actor "Biker"
+{
+  channel "Flex"
+  {
+    event flexanimation "flex"
+    {
+      time 0.015744 5.113783
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.0158 0.3100 "curve_easein_to_curve_easeout"
+          5.0501 0.3100 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.0158 0.5000
+          5.0501 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.0158 0.2900 "curve_easein_to_curve_easeout"
+          5.0501 0.2900 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.0158 0.5000
+          5.0501 0.5000
+        }
+        "upper_raiser" combo 
+        {
+          0.0158 0.0000
+          5.0501 0.0000
+        }
+        {
+          0.0158 0.5000
+          5.0501 0.5000
+        }
+        "corner_puller" combo 
+        {
+          0.0158 0.2000 "curve_easein_to_curve_easeout"
+          5.0501 0.2000 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.0158 0.5000
+          5.0501 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.0158 0.0000
+          5.0501 0.0000
+        }
+        {
+          0.0158 0.5000
+          5.0501 0.5000
+        }
+        "chin_raiser" 
+        {
+          0.0158 0.2600 "curve_easein_to_curve_easeout"
+          5.0501 0.2600 "curve_easein_to_curve_easeout"
+        }
+        "jaw_clencher" 
+        {
+          0.0158 0.4600 "curve_easein_to_curve_easeout"
+          5.0501 0.4600 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "20"
+  "CChoreoView" "136"
+}
+fps 60
+snap off
+ignorePhonemes off

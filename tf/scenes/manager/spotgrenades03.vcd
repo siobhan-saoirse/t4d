@@ -1,0 +1,86 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.488359 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.488359
+      param "npc.Manager_SpotGrenades03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event expression "maniacal smile"
+    {
+      time 0.052083 1.670641
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "maniacal smile"
+      event_ramp
+      {
+        0.1758 1.0000
+        1.4885 1.0000
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.083333 2.060417
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.1818 0.3894
+        1.3498 0.5487
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

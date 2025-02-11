@@ -1,0 +1,222 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 11.258373 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 11.258373
+      param "Mechanic_WorldC3M1B12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 3.561297 5.027963
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        0.8565 0.1993
+        0.9609 0.1402
+        1.0783 0.0000
+        1.2022 0.0000
+        1.3348 0.0000
+        1.4580 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.159806
+        "extreme" 0.309927
+        "loop" 0.600484
+        "end" 0.881356
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 2.901216 3.906181
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.2196
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117021
+        "extreme" 0.271983
+        "loop" 0.431953
+        "end" 0.656805
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 9.235816 11.312208
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.2667 0.3132
+        0.4761 0.5733
+        2.0764 0.2338
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.082274
+        "extreme" 0.131638
+        "loop" 0.275347
+        "end" 0.430978
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 1.497721 2.502685
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.1302
+        0.4761 0.1819
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.443787
+        "end" 0.627219
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "concerned"
+    {
+      time 5.875000 9.755953
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1364 0.4307
+        0.3909 0.6929
+        1.2848 0.7640
+        2.5805 0.7453
+        3.3139 0.6217
+        3.6714 0.5169
+        3.7957 0.2772
+      }
+    }
+    event expression "shocked"
+    {
+      time 0.000000 2.642857
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.1061 0.2247
+        1.5212 0.2697
+        2.0424 0.8614
+        2.4818 0.6255
+        2.5879 0.1423
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "maniacal smile"
+    {
+      time 2.523809 6.083333
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "maniacal smile"
+      event_ramp
+      {
+        0.1182 0.3820
+        0.4758 0.6292
+        1.2909 0.7753
+        2.3665 0.6554
+        2.9846 0.4944
+        3.3755 0.2547
+      }
+    }
+    event expression "disgusted"
+    {
+      time 9.642857 11.071428
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.1152 0.3296
+        0.4182 0.5843
+        0.7896 0.5805
+        1.1407 0.3895
+        1.3043 0.2509
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "112"
+  "ExpressionTool" "100"
+  "RampTool" "72"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

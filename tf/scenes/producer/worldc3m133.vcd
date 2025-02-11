@@ -1,0 +1,138 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.879666 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 4.879666
+      param "Producer_WorldC3M133"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 2.908024 4.843440
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        1.3253 0.1993
+        1.4297 0.1402
+        1.5470 0.0000
+        1.6710 0.0000
+        1.8036 0.0000
+        1.9267 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.363298
+        "extreme" 0.477060
+        "loop" 0.697245
+        "end" 0.910091
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.860816 3.042863
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        2.1821 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.250147
+        "extreme" 0.297121
+        "loop" 0.433872
+        "end" 0.581967
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 2.461437 5.827703
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.9534 0.8930
+        3.1685 0.7601
+        3.2473 0.6162
+        3.2776 0.4317
+        3.3261 0.0812
+      }
+    }
+    event expression "disgusted"
+    {
+      time 0.052083 2.906250
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.3061 0.6587
+        2.6591 0.6212
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

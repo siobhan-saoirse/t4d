@@ -1,0 +1,133 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.253271 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.253271
+      param "Coach_WorldC4M3B03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.005527 2.207929
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.0928
+        0.9812 0.0947
+        1.6063 0.0170
+        2.2024 0.0728
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.106421
+        "extreme" 0.206393
+        "loop" 0.516019
+        "end" 0.757328
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.005463 1.010428
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        0.6057 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117021
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event expression "shocked"
+    {
+      time 0.441441 0.930931
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.0010 0.0000
+        0.0567 0.0485
+        0.2154 0.6117
+        0.4014 0.0340
+      }
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.020612 2.208401
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.7749 0.8930
+        1.9900 0.7601
+        2.0688 0.6162
+        2.0991 0.4317
+        2.1476 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "444"
+  "ExpressionTool" "100"
+  "RampTool" "96"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

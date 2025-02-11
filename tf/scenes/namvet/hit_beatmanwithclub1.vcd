@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "NamVet"
+{
+  channel "audio"
+  {
+    event speak "Hit_BeatManWithClub1"
+    {
+      time 0.128472 0.692403
+      param "Player.Hit_BeatManWithClub1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off

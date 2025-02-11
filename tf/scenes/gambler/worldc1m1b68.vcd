@@ -1,0 +1,108 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.296673 -1.000000
+  param ""
+}
+actor "Gambler"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 2.296673
+      param "Gambler_WorldC1M1B68"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 1.350399 2.355363
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.281250
+        "loop" 0.500000
+        "end" 0.625000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 1.150960
+      param "survivors\survivor_gambler\gambler_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        0.7245 0.8930
+        0.9396 0.7601
+        1.0184 0.6162
+        1.0487 0.4317
+        1.0972 0.0812
+      }
+    }
+    event expression "sarcastic"
+    {
+      time 0.742687 2.703043
+      param "survivors\survivor_gambler\gambler_expressions"
+      param2 "sarcastic"
+      event_ramp
+      {
+        0.3242 0.3958
+        0.6425 0.5675
+        1.5474 0.5478
+        1.7625 0.4149
+        1.8413 0.2710
+        1.9201 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

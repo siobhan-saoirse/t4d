@@ -1,0 +1,96 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.565048 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 3.565048
+      param "Player.Manager_GriefVet07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event gesture "namVet_head_no"
+    {
+      time 0.060000 2.193334
+      param "namVet_head_no"
+      event_ramp
+      {
+        0.3879 0.4558
+        1.8364 0.5221
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "move to"
+  {
+    event gesture "."
+    {
+      time 0.046666 2.013333
+      param "namvet_gesture_head_down"
+      event_ramp
+      {
+        0.2091 0.2920
+        1.3667 0.3894
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "concerned"
+    {
+      time 0.052083 4.752579
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1636 1.0000
+        4.5984 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

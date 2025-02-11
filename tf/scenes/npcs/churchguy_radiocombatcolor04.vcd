@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "Churchguy"
+{
+  channel "wav"
+  {
+    event speak "npc.churchguy_RadioCombatColor04"
+    {
+      time 0.000000 4.397000
+      param "npc.churchguy_RadioCombatColor04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

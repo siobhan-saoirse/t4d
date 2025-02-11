@@ -1,0 +1,132 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 6.406945 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 6.406945
+      param "Producer_WorldC3M1B02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 3.178857 6.572607
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.0068
+        0.2652 0.1382
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        2.7836 0.1993
+        2.8880 0.1402
+        3.0054 0.0546
+        3.1293 0.0000
+        3.2619 0.0000
+        3.3851 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.199929
+        "extreme" 0.353843
+        "loop" 0.569516
+        "end" 0.738630
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.089983 2.813697
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0228
+        0.4761 0.3100
+        2.7237 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.114504
+        "extreme" 0.241857
+        "loop" 0.572519
+        "end" 0.782443
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+    event expression "gruff2 - dialogue"
+    {
+      time 2.906250 6.739583
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.2818 0.6246
+        3.5333 0.6416
+      }
+    }
+    event expression "fear"
+    {
+      time 0.322917 3.322917
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "fear"
+      event_ramp
+      {
+        0.2606 0.6075
+        2.6000 0.5802
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

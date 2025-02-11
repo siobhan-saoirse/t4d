@@ -1,0 +1,54 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.333333 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry"
+    {
+      time 0.125000 5.208333
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "angry"
+      event_ramp
+      {
+        0.5333 0.9815
+        4.7400 1.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "38"
+  "RampTool" "50"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

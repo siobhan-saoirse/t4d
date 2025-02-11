@@ -1,0 +1,85 @@
+// Choreo version 1
+actor "NamVet"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  channel "cameraTriggers"
+  {
+  }
+  faceposermodel "D:\dev\L4D\game\left4dead\models\survivors\survivor_namvet.mdl"
+}
+
+actor "Manager"
+{
+  channel "audio"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  faceposermodel "D:\dev\L4D\game\left4dead\models\survivors\survivor_manager.mdl"
+}
+
+actor "Biker"
+{
+  channel "audio"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  faceposermodel "D:\dev\L4D\game\left4dead\models\survivors\survivor_biker.mdl"
+}
+
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+  }
+  channel "postures"
+  {
+    event firetrigger "1_StartTalking"
+    {
+      time 12.411112 -1.000000
+      param "1"
+    }
+  }
+  faceposermodel "D:\dev\L4D\game\left4dead\models\survivors\survivor_teenangst.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "60"
+  "ExpressionTool" "100"
+  "RampTool" "24"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

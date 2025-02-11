@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "Manager_EmphaticGo01"
+    {
+      time 0.128472 0.993302
+      param "Player.Manager_EmphaticGo01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "disgusted"
+    {
+      time 0.052083 2.180833
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.1636 1.0000
+        2.0267 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

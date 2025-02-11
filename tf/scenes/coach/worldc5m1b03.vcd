@@ -1,0 +1,155 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 6.314360 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 6.314360
+      param "Coach_WorldC5M1B03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.439544 1.733126
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3697 0.2646
+        0.6094 0.3100
+        1.0277 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.314027
+        "extreme" 0.434415
+        "loop" 0.665089
+        "end" 0.914899
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 5.626536 6.310362
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3697 0.2646
+        0.4967 0.0701
+        0.6838 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.202381
+        "extreme" 0.398810
+        "loop" 0.726190
+        "end" 1.000000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 2.524390 7.269489
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.4715 0.7687 "curve_kochanek_to_curve_kochanek"
+        4.3116 0.6066
+        4.5267 0.4737
+        4.6055 0.3298
+        4.6358 0.1453
+        4.6843 0.0812
+      }
+    }
+    event expression "serious"
+    {
+      time 0.000000 3.117886
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.2333 0.8544
+        0.4667 1.0000
+        2.5853 1.0000 "curve_kochanek_to_curve_kochanek"
+      }
+    }
+    event expression "shocked"
+    {
+      time 3.589431 4.589431
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.2429 0.0874
+        0.5048 0.6675
+        0.7857 0.0510
+      }
+    }
+    event expression "shocked"
+    {
+      time 0.601626 1.601626
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.2429 0.0874
+        0.5048 0.6675
+        0.7857 0.0510
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "164"
+  "ExpressionTool" "100"
+  "RampTool" "42"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

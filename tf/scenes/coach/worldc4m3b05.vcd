@@ -1,0 +1,107 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 0.851072 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 0.851072
+      param "Coach_WorldC4M3B05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.004521 1.797194
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.1365
+        0.7182 0.1359
+        0.8030 0.1359 "curve_kochanek_to_curve_kochanek"
+        0.9364 0.0340 "curve_kochanek_to_curve_kochanek"
+        1.0152 0.0340
+        1.7927 0.0364 "curve_linear_interp_to_curve_linear_interp"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.130744
+        "extreme" 0.253565
+        "loop" 0.491283
+        "end" 0.721077
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event expression "fear"
+    {
+      time 0.183150 0.580586
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "fear"
+      event_ramp
+      {
+        0.1804 0.5340
+        0.3158 0.0704
+      }
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.020612 1.806202
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.3727 0.8930
+        1.5878 0.7601
+        1.6666 0.6162
+        1.6969 0.4317
+        1.7454 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "364"
+  "ExpressionTool" "100"
+  "RampTool" "316"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

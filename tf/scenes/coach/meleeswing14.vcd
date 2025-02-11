@@ -1,0 +1,100 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 0.756332 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 0.756332
+      param "Coach_MeleeSwing14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.000000 1.711462
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "angry2"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.2780 0.8930
+        1.4931 0.7601
+        1.5719 0.6162
+        1.6022 0.4317
+        1.6507 0.0812
+      }
+    }
+    event expression "shocked"
+    {
+      time 0.084158 0.556106
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.0398 0.0000
+        0.1301 0.3277
+        0.3165 0.5534 "curve_kochanek_to_curve_kochanek"
+        0.4719 0.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "404"
+  "ExpressionTool" "100"
+  "RampTool" "206"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,129 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.312342 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.121602 4.322759
+      param "Mechanic_WorldC3M1B11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 1.508184 4.846645
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        2.7283 0.1993
+        2.8327 0.1402
+        2.9501 0.0000
+        3.0740 0.0000
+        3.2066 0.0000
+        3.3298 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.630883
+        "extreme" 0.696834
+        "loop" 0.824483
+        "end" 0.947877
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.278505 2.732188
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        2.0544 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.047929
+        "extreme" 0.111397
+        "loop" 0.233009
+        "end" 0.364709
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 5.260380
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.2513
+        0.2121 0.4203
+        0.3667 0.4764
+        2.5913 0.4345
+        4.8340 0.4211
+        5.0491 0.2882
+        5.1279 0.1443
+        5.2067 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "52"
+  "ExpressionTool" "100"
+  "RampTool" "46"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

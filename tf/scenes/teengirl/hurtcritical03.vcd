@@ -1,0 +1,70 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 0.674322 -1.000000
+  param ""
+}
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 0.674322
+      param "Player.TeenGirl_HurtCritical03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "hurt01"
+    {
+      time -0.002462 0.655739
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "hurt02"
+      event_ramp
+      {
+        0.1273 0.8154
+        0.2152 1.0000
+        0.3152 0.8000
+        0.4333 0.8462
+        0.9879 0.8257
+        1.4575 0.8052
+        -0.1331 0.7897
+        0.1366 0.6461
+        0.3578 0.4051
+        0.4942 0.1846
+        0.5820 0.0718
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

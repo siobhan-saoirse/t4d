@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "pilot"
+{
+  channel "wav"
+  {
+    event speak "npc.soldier_RadioButton101"
+    {
+      time 0.026666 3.011360
+      param "npc.soldier_RadioButton101"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.soldier_RadioButton101"
+    {
+      time 3.300000 10.499977
+      param "npc.soldier_RadioButton104"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,57 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_Generic02"
+    {
+      time 0.128472 2.124027
+      param "Player.Biker_Generic02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "smile"
+    {
+      time 0.052083 2.281250
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "smile"
+      event_ramp
+      {
+        0.1121 0.8186
+        0.2515 1.0000
+        2.0667 1.0000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

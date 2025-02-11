@@ -1,0 +1,25 @@
+// Choreo version 1
+actor "Gambler"
+{
+  channel "audio"
+  {
+    event speak "Gambler_DLC1_C6M1_WeddingWitchAttacking01"
+    {
+      time 0.146667 1.956055
+      param "Gambler_DLC1_C6M1_WeddingWitchAttacking01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,49 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 5.437501 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Gambler"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angrier - dialogue"
+    {
+      time 0.011905 5.452381
+      param "survivors\survivor_gambler\gambler_expressions"
+      param2 "angrier - dialogue"
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "28"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

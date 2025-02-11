@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "Churchguy"
+{
+  channel "wav"
+  {
+    event speak "npc.churchguy_RadioInitialBroadCast20"
+    {
+      time 0.026666 1.450666
+      param "npc.churchguy_RadioInitialBroadCast20"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

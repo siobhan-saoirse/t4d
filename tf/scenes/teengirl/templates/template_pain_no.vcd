@@ -1,0 +1,70 @@
+// Choreo version 1
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "TeenGirl_ReactionNegative02"
+    {
+      time 0.003472 2.424833
+      param "Player.Bot.TeenGirl_ReactionNegative02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "hurt01"
+    {
+      time 0.031250 2.510417
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "hurt01"
+      event_ramp
+      {
+        0.2152 1.0000
+        0.4545 1.0000
+        0.6091 0.9282
+        0.8788 0.8154
+        1.3606 0.8051
+        1.7758 0.7333
+        1.9364 0.6769
+        2.1182 0.5282
+        2.2849 0.2872
+        2.3970 0.0821
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "TeenAngst_gesture_head_no"
+    {
+      time 0.000000 2.133333
+      param "TeenAngst_gesture_head_no"
+      sequenceduration 2.133333
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

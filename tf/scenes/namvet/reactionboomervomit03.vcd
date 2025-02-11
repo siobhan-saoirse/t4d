@@ -1,0 +1,61 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.659374 -1.000000
+  param ""
+}
+actor "NamVet"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.065972 2.659374
+      param "Player.NamVet_ReactionBoomerVomit03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "disgusted"
+    {
+      time 0.052083 2.770879
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.2182 1.0000 "curve_easein_to_curve_easeout"
+        2.5946 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

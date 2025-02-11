@@ -1,0 +1,102 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.831298 -1.000000
+  param ""
+}
+
+
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.831298
+      param "Coach_AlertGiveItem03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "concerned"
+    {
+      time 0.013520 1.276558
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        0.8501 0.8930
+        1.0652 0.7601
+        1.1440 0.6162
+        1.1743 0.4317
+        1.2228 0.0812
+      }
+    }
+    event expression "concerned"
+    {
+      time 1.061437 2.595309
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.3485 0.7588
+        0.6940 0.9483
+        0.8391 0.9535
+        1.2997 0.6310
+        1.4937 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "60"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

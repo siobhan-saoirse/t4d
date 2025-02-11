@@ -1,0 +1,54 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.333333 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "fear2 - dialogue"
+    {
+      time 0.062500 4.854167
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "fear2 - dialogue"
+      event_ramp
+      {
+        0.4152 0.9852
+        4.4751 1.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "54"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

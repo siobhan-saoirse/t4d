@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_Fall01"
+    {
+      time 0.128472 4.999243
+      param "Player.Biker_Fall01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "surprise"
+    {
+      time 0.052083 5.166667
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "surprise"
+      event_ramp
+      {
+        0.2061 1.0000
+        4.8667 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,101 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 0.782160 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 0.782160
+      param "Mechanic_WorldC1M1B141"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.313919
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0982
+        0.2216 0.3100
+        0.7424 0.2374
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.089264
+        "extreme" 0.207469
+        "loop" 0.433962
+        "end" 0.679244
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "gruff2 - dialogue"
+    {
+      time 0.013520 0.917698
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.1606 0.2214
+        0.2121 0.3681
+        0.3667 0.4465
+      }
+    }
+    event expression "concerned"
+    {
+      time 0.388520 1.678114
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.2214
+        0.2121 0.3681
+        0.3667 0.4465
+        0.9877 0.3345
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

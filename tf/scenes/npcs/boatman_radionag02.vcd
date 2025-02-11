@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_boat_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.boatman_RadioNag02"
+    {
+      time 0.000000 2.224000
+      param "npc.boatman_RadioNag02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

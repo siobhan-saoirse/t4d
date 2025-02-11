@@ -1,0 +1,87 @@
+// Choreo version 1
+event loop "1"
+{
+  time 5.027000 -1.000000
+  param "0.200000"
+  loopcount "-1"
+}
+actor "Biker"
+{
+  channel "Flex"
+  {
+    event flexanimation "Flex"
+    {
+      time 0.013333 5.113334
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "outer_raiser" combo 
+        {
+          0.2177 0.2100 "curve_easein_to_curve_easeout"
+          5.0377 0.2100 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2177 0.5000
+          5.0377 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.2000 0.3000 "curve_easein_to_curve_easeout"
+          5.0636 0.3000 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2000 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.2177 0.0800 "curve_easein_to_curve_easeout"
+          5.0377 0.0800 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2177 0.5000
+          5.0377 0.5000
+        }
+        "upper_raiser" combo 
+        {
+          0.2177 0.2000 "curve_easein_to_curve_easeout"
+          5.0377 0.2000 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2177 0.5000
+          5.0377 0.5000
+        }
+        "chin_raiser" 
+        {
+          0.2177 0.8400 "curve_easein_to_curve_easeout"
+          5.0377 0.8400 "curve_easein_to_curve_easeout"
+        }
+        "part" combo 
+        {
+          0.2177 0.0800 "curve_easein_to_curve_easeout"
+          5.0377 0.0800 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.2177 0.5000
+          5.0377 0.5000
+        }
+        "tightener" 
+        {
+          0.2177 0.4200 "curve_easein_to_curve_easeout"
+          5.0377 0.4200 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+  "ExpressionTool" "22"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

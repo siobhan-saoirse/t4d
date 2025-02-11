@@ -1,0 +1,118 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.445380 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 2.445380
+      param "Mechanic_World125"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 1.220524 3.124690
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.2652 0.0393
+        0.5091 0.0641
+        0.8212 0.0000
+        1.2940 0.0605
+        1.8955 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.123089
+        "extreme" 0.238718
+        "loop" 0.462517
+        "end" 0.678856
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "serious"
+    {
+      time 1.211436 2.268418
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.3667 0.9483
+        0.7107 0.7969
+        1.0168 0.0812
+      }
+    }
+    event expression "angry - dialogue"
+    {
+      time 1.836436 4.383001
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.1930
+        0.2576 0.3326
+        0.5333 0.3843
+        2.1761 0.3165
+        2.4336 0.1773
+      }
+    }
+    event expression "angry - dialogue"
+    {
+      time 0.003103 1.570501
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.3667 0.9483
+        1.1545 0.8930
+        1.5272 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

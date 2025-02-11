@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_plane_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.planepilot_RadioCombatColor08"
+    {
+      time 0.000000 1.011000
+      param "npc.planepilot_RadioCombatColor08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

@@ -1,0 +1,82 @@
+// Choreo version 1
+actor "!Target1"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.659722 1.801060
+      param "Player.TeenGirl_AnswerLostCall01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event sequence "anim"
+    {
+      time 0.114583 3.093750
+      param "Idle_Standing_Rifle"
+    }
+  }
+  channel "gestures"
+  {
+    event expression "gruff"
+    {
+      time 0.020833 2.532546
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "gruff"
+      event_ramp
+      {
+        0.1727 1.0000
+        2.3382 1.0000
+      }
+    }
+  }
+  channel "postures"
+  {
+    event firetrigger "fire01"
+    {
+      time 0.583334 -1.000000
+      param "1"
+    }
+  }
+  channel "facial flex"
+  {
+    event gesture "TeenAngst_gesture_overhere"
+    {
+      time 0.541667 2.141667
+      param "TeenAngst_gesture_overhere"
+      absolutetags playback_time
+      {
+        "in" 0.106383
+        "out" 0.829787
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.106383
+        "out" 0.829787
+      }
+      sequenceduration 1.600000
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "100"
+  "CChoreoView" "64"
+}
+fps 60
+snap off
+ignorePhonemes off

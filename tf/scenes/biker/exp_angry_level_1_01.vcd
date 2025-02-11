@@ -1,0 +1,178 @@
+// Choreo version 1
+event loop "1"
+{
+  time 5.027000 -1.000000
+  param "0.040000"
+  loopcount "-1"
+}
+actor "Biker"
+{
+  channel "Flex"
+  {
+    event flexanimation "angry_level_1_01"
+    {
+      time 0.000000 5.106667
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.0200 0.3100 "curve_default_to_curve_default"
+          0.0200 0.3100 "curve_default_to_curve_default"
+          5.0700 0.3100 "curve_default_to_curve_default"
+          5.0700 0.3100 "curve_default_to_curve_default"
+          5.0700 0.3100 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.0000 "curve_default_to_curve_default"
+          0.0200 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+        }
+        "lowerer" combo 
+        {
+          0.0200 0.4800 "curve_default_to_curve_default"
+          0.0200 0.4800 "curve_default_to_curve_default"
+          5.0700 0.4800 "curve_default_to_curve_default"
+          5.0700 0.4800 "curve_default_to_curve_default"
+          5.0700 0.4800 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.5396 "curve_default_to_curve_default"
+          0.0200 0.5396 "curve_default_to_curve_default"
+          5.0700 0.5396 "curve_default_to_curve_default"
+          5.0700 0.5396 "curve_default_to_curve_default"
+          5.0700 0.5396 "curve_default_to_curve_default"
+        }
+        "cheek_raiser" combo 
+        {
+          0.0200 0.2600 "curve_default_to_curve_default"
+          0.0200 0.2600 "curve_default_to_curve_default"
+          5.0700 0.2600 "curve_default_to_curve_default"
+          5.0700 0.2600 "curve_default_to_curve_default"
+          5.0700 0.2600 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 1.0000 "curve_default_to_curve_default"
+          0.0200 1.0000 "curve_default_to_curve_default"
+          5.0700 1.0000 "curve_default_to_curve_default"
+          5.0700 1.0000 "curve_default_to_curve_default"
+          5.0700 1.0000 "curve_default_to_curve_default"
+        }
+        "wrinkler" combo 
+        {
+          0.0200 0.5400 "curve_default_to_curve_default"
+          0.0200 0.5400 "curve_default_to_curve_default"
+          5.0700 0.5400 "curve_default_to_curve_default"
+          5.0700 0.5400 "curve_default_to_curve_default"
+          5.0700 0.5400 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.7898 "curve_default_to_curve_default"
+          0.0200 0.7898 "curve_default_to_curve_default"
+          5.0700 0.7898 "curve_default_to_curve_default"
+          5.0700 0.7898 "curve_default_to_curve_default"
+          5.0700 0.7898 "curve_default_to_curve_default"
+        }
+        "dilator" 
+        {
+          0.0200 0.7000 "curve_default_to_curve_default"
+          0.0200 0.7000 "curve_default_to_curve_default"
+          5.0700 0.7000 "curve_default_to_curve_default"
+          5.0700 0.7000 "curve_default_to_curve_default"
+          5.0700 0.7000 "curve_default_to_curve_default"
+        }
+        "upper_raiser" combo 
+        {
+          0.0200 0.0000 "curve_default_to_curve_default"
+          0.0200 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.5000 "curve_default_to_curve_default"
+          0.0200 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+        }
+        "chin_raiser" 
+        {
+          0.0200 0.5000 "curve_default_to_curve_default"
+          0.0200 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+        }
+        "puckerer" combo 
+        {
+          0.0200 0.1900 "curve_default_to_curve_default"
+          0.0200 0.1900 "curve_default_to_curve_default"
+          5.0700 0.1900 "curve_default_to_curve_default"
+          5.0700 0.1900 "curve_default_to_curve_default"
+          5.0700 0.1900 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.5000 "curve_default_to_curve_default"
+          0.0200 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+        }
+        "bite" 
+        {
+          0.0200 0.0000 "curve_default_to_curve_default"
+          0.0200 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+        }
+        "presser" 
+        {
+          0.0200 0.3800 "curve_default_to_curve_default"
+          0.0200 0.3800 "curve_default_to_curve_default"
+          5.0700 0.3800 "curve_default_to_curve_default"
+          5.0700 0.3800 "curve_default_to_curve_default"
+          5.0700 0.3800 "curve_default_to_curve_default"
+        }
+        "lower_lip" combo 
+        {
+          0.0200 0.0000 "curve_default_to_curve_default"
+          0.0200 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+        }
+        {
+          0.0200 0.5000 "curve_default_to_curve_default"
+          0.0200 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+          5.0700 0.5000 "curve_default_to_curve_default"
+        }
+        "lip_sealer" 
+        {
+          0.0200 0.0000 "curve_default_to_curve_default"
+          0.0200 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+          5.0700 0.0000 "curve_default_to_curve_default"
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "48"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

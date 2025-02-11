@@ -1,0 +1,130 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.488653 -1.000000
+  param ""
+}
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.488653
+      param "Player.TeenGirl_NegativeNoise14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "hurt01"
+    {
+      time -0.002462 1.470070
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "hurt01"
+      event_ramp
+      {
+        0.1273 0.8154
+        0.2152 1.0000
+        0.3152 0.8000
+        0.4333 0.8462
+        0.9879 0.8411
+        1.4575 0.8206
+        0.6812 0.8051
+        0.9509 0.6820
+        1.1721 0.3795
+        1.3085 0.1846
+        1.3963 0.0718
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "TeenAngst_gesture_head_down"
+    {
+      time 0.002272 2.372916
+      param "TeenAngst_gesture_head_down"
+      event_ramp
+      {
+        0.0000 0.4513
+        0.1303 0.8872
+        0.3242 0.5744
+        0.6970 0.5949
+        1.5525 0.5692
+        2.0040 0.4308
+        2.2010 0.2718
+        2.2737 0.1385
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.024266
+        "extreme" 0.068966
+        "loop" 0.169860
+        "end" 0.675179
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "facial flex"
+  {
+    event gesture "TeenAngst_gesture_head_twistLeft"
+    {
+      time -0.004735 2.279167
+      param "TeenAngst_gesture_head_twistLeft"
+      event_ramp
+      {
+        0.0000 0.5641
+        0.4485 0.4616
+        0.7485 0.3744
+        1.4607 0.3385
+        1.8364 0.3026
+        2.0667 0.2051
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.034529
+        "extreme" 0.104914
+        "loop" 0.207171
+        "end" 0.617235
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.139535
+        "extreme" 0.255814
+        "loop" 0.395349
+        "end" 0.674419
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "NamVet"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event sequence "Idle_intro_Calm"
+    {
+      time 0.071429 9.127976
+      param "Idle_intro_Calm"
+      event_ramp
+      {
+        0.5118 0.9936 "curve_easein_to_curve_easeout"
+        9.0565 1.0000 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+  faceposermodel "D:\dev\L4D\game\left4dead\models\survivors\survivor_namvet.mdl"
+}
+
+scalesettings
+{
+  "CChoreoView" "40"
+  "ExpressionTool" "100"
+  "RampTool" "10"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

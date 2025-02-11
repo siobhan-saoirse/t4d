@@ -1,0 +1,118 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 6.644020 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 6.644020
+      param "Producer_WorldC2M2B34"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 4.939274 6.780940
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        1.2315 0.1993
+        1.3359 0.1402
+        1.4533 0.0000
+        1.5772 0.0000
+        1.7098 0.0000
+        1.8330 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.159806
+        "extreme" 0.309927
+        "loop" 0.600484
+        "end" 0.881356
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.166667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "fear2 - dialogue"
+    {
+      time 0.000000 6.697917
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "fear2 - dialogue"
+      event_ramp
+      {
+        0.1273 0.2575
+        0.3939 0.3832
+        0.6303 0.3743
+        1.3758 0.4850
+        2.1000 0.4671
+        2.6364 0.4311
+        3.1758 0.1228
+        3.5424 0.5329
+        4.8364 0.5958
+      }
+    }
+    event expression "worried"
+    {
+      time 4.968750 6.687500
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "worried"
+      event_ramp
+      {
+        0.0818 0.1707
+        0.2546 0.6737 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.6848 0.8383 "curve_easein_to_curve_easeout"
+        1.2824 0.8623
+        1.4554 0.8503
+        1.5182 0.7515 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        1.6122 0.1677
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "148"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

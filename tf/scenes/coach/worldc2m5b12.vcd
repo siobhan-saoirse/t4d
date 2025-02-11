@@ -1,0 +1,97 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.945992 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.945992
+      param "Coach_WorldC2M5B12"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 2.895192
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1788 0.7354
+        0.4761 0.3100
+        0.7636 0.2621
+        1.0576 0.2476
+        1.4606 0.0583 "curve_easein_to_curve_easein"
+        1.6303 0.1529
+        1.8788 0.0461
+        2.4995 0.0701
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.020612 2.901122
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.4676 0.8930
+        2.6827 0.7601
+        2.7615 0.6162
+        2.7918 0.4317
+        2.8403 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "concerned_fear - dialogue"
+    {
+      time 1.437729 1.826008
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "concerned_fear - dialogue"
+      event_ramp
+      {
+        0.0739 0.3932
+        0.1882 0.5461 "curve_kochanek_to_curve_kochanek"
+        0.2702 0.1675
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "364"
+  "ExpressionTool" "100"
+  "RampTool" "476"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

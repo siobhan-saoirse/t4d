@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "dlc1_intro_male_leanup"
+    {
+      time 0.142857 4.142857
+      param "dlc1_intro_male_leanup"
+      sequenceduration 4.000000
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "dlc1_intro_male_leanleft"
+    {
+      time 0.119047 4.119047
+      param "dlc1_intro_male_leanleft"
+    }
+  }
+  faceposermodel "D:\l4d2_dev\main\game\left4dead2_dlc1\models\survivors\survivor_teenangst.mdl"
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "100"
+  "CChoreoView" "56"
+}
+fps 60
+snap off
+ignorePhonemes off

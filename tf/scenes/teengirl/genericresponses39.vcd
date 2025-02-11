@@ -1,0 +1,92 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.838154 -1.000000
+  param ""
+}
+actor "TeenGirl"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.004662 3.838154
+      param "npc.TeenGirl_GenericResponses39"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "TeenAngst_gesture_head_yes"
+    {
+      time 0.001488 1.468154
+      param "TeenAngst_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.5487
+        0.6242 0.4513
+        1.4606 0.1590
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.035714
+        "extreme" 0.097403
+        "loop" 0.185065
+        "end" 0.493506
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "gestures"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.008334 4.347616
+      param "survivors\survivor_teenangst\teen_expressions"
+      param2 "angry - dialogue"
+      event_ramp
+      {
+        0.2242 1.0000
+        0.3606 0.6872
+        0.5909 0.6154
+        3.9061 0.6667
+        4.0879 0.6000
+        4.2122 0.4205
+        4.2667 0.2051
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

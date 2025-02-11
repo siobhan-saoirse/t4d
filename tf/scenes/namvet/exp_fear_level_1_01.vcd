@@ -1,0 +1,131 @@
+// Choreo version 1
+event loop "1"
+{
+  time 5.027000 -1.000000
+  param "0.040000"
+  loopcount "-1"
+}
+actor "NamVet"
+{
+  channel "Flex"
+  {
+    event flexanimation "fear_level_1_01"
+    {
+      time -0.000000 5.120000
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_raiser" combo 
+        {
+          0.0260 0.9300 "curve_default_to_curve_default"
+          0.0260 0.9300 "curve_default_to_curve_default"
+          5.0727 0.9300 "curve_default_to_curve_default"
+          5.0727 0.9300 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.0000 "curve_default_to_curve_default"
+          0.0260 0.0000 "curve_default_to_curve_default"
+          5.0727 0.0000 "curve_default_to_curve_default"
+          5.0727 0.0000 "curve_default_to_curve_default"
+        }
+        "inner_raiser" combo 
+        {
+          0.0260 1.0000 "curve_default_to_curve_default"
+          0.0260 1.0000 "curve_default_to_curve_default"
+          5.0727 1.0000 "curve_default_to_curve_default"
+          5.0727 1.0000 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.3600 "curve_default_to_curve_default"
+          0.0260 0.3600 "curve_default_to_curve_default"
+          5.0727 0.3600 "curve_default_to_curve_default"
+          5.0727 0.3600 "curve_default_to_curve_default"
+        }
+        "lowerer" combo 
+        {
+          0.0260 0.5300 "curve_default_to_curve_default"
+          0.0260 0.5300 "curve_default_to_curve_default"
+          5.0727 0.5300 "curve_default_to_curve_default"
+          5.0727 0.5300 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.5000 "curve_default_to_curve_default"
+          0.0260 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+        }
+        "cheek_raiser" combo 
+        {
+          0.0260 0.2300 "curve_default_to_curve_default"
+          0.0260 0.2300 "curve_default_to_curve_default"
+          5.0727 0.2300 "curve_default_to_curve_default"
+          5.0727 0.2300 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.5000 "curve_default_to_curve_default"
+          0.0260 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+        }
+        "dilator" 
+        {
+          0.0260 0.3100 "curve_default_to_curve_default"
+          0.0260 0.3100 "curve_default_to_curve_default"
+          5.0727 0.3100 "curve_default_to_curve_default"
+          5.0727 0.3100 "curve_default_to_curve_default"
+        }
+        "upper_raiser" combo 
+        {
+          0.0260 0.4800 "curve_default_to_curve_default"
+          0.0260 0.4800 "curve_default_to_curve_default"
+          5.0727 0.4800 "curve_default_to_curve_default"
+          5.0727 0.4800 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.5000 "curve_default_to_curve_default"
+          0.0260 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+        }
+        "corner_depressor" combo 
+        {
+          0.0260 0.6500 "curve_default_to_curve_default"
+          0.0260 0.6500 "curve_default_to_curve_default"
+          5.0727 0.6500 "curve_default_to_curve_default"
+          5.0727 0.6500 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 0.5000 "curve_default_to_curve_default"
+          0.0260 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+          5.0727 0.5000 "curve_default_to_curve_default"
+        }
+        "lower_lip" combo 
+        {
+          0.0260 0.6300 "curve_default_to_curve_default"
+          0.0260 0.6300 "curve_default_to_curve_default"
+          5.0727 0.6300 "curve_default_to_curve_default"
+          5.0727 0.6300 "curve_default_to_curve_default"
+        }
+        {
+          0.0260 1.0000 "curve_default_to_curve_default"
+          0.0260 1.0000 "curve_default_to_curve_default"
+          5.0727 1.0000 "curve_default_to_curve_default"
+          5.0727 1.0000 "curve_default_to_curve_default"
+        }
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "48"
+  "RampTool" "100"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

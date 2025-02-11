@@ -1,0 +1,91 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.081170 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.081170
+      param "Player.Manager_Choke01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "disgusted"
+    {
+      time -0.270833 2.083333
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "disgusted"
+      event_ramp
+      {
+        0.1727 0.5565
+        1.8667 0.3645
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.083333 2.060417
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.4121 0.7659
+        0.6697 0.0161
+        0.9152 0.3919
+        1.1545 0.0645
+        1.3498 0.6018
+        1.6545 0.0484
+        1.8182 0.1823
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

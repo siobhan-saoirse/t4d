@@ -1,0 +1,79 @@
+// Choreo version 1
+actor "pilot"
+{
+  channel "wav"
+  {
+    event speak "npc.ChopperPilot_hospital_finale_flyout_02"
+    {
+      time 0.026666 4.485396
+      param "npc.ChopperPilot_hospital_finale_flyout_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_03"
+    {
+      time 4.986666 11.054239
+      param "npc.ChopperPilot_hospital_finale_flyout_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_11"
+    {
+      time 21.006666 30.605556
+      param "npc.ChopperPilot_hospital_finale_flyout_11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_09"
+    {
+      time 17.500000 20.827166
+      param "npc.ChopperPilot_hospital_finale_flyout_09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_06"
+    {
+      time 15.513332 17.228502
+      param "npc.ChopperPilot_hospital_finale_flyout_06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_05"
+    {
+      time 12.993333 15.264784
+      param "npc.ChopperPilot_hospital_finale_flyout_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "npc.ChopperPilot_hospital_finale_flyout_03"
+    {
+      time 11.486665 12.458978
+      param "npc.ChopperPilot_hospital_finale_flyout_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

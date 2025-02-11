@@ -1,0 +1,72 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.860604 -1.000000
+  param ""
+}
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 2.860604
+      param "Player.Biker_GoingToDie04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "pain - dialogue"
+    {
+      time 0.062500 3.235752
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "pain - dialogue"
+      event_ramp
+      {
+        0.1303 1.0000
+        3.0765 1.0000
+      }
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namVet_head_no"
+    {
+      time 0.583334 2.716667
+      param "namVet_head_no"
+      event_ramp
+      {
+        0.2424 0.5177
+        1.9697 0.5929
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

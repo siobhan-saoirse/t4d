@@ -1,0 +1,138 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.700981 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 3.700981
+      param "Producer_WorldC1M2B02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 1.626774 3.708023
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.0411
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        1.4711 0.1993
+        1.5755 0.1402
+        1.6929 0.0648
+        1.8168 0.0171
+        1.9494 0.0000
+        2.0726 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.155890
+        "extreme" 0.363552
+        "loop" 0.568309
+        "end" 0.766241
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.787899 2.167863
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.0296
+        0.4761 0.3100
+        1.3800 0.0291
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.123795
+        "extreme" 0.198073
+        "loop" 0.414307
+        "end" 0.849624
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 1.753185
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        1.3268 0.8930
+        1.5419 0.7601
+        1.6207 0.6162
+        1.6510 0.4317
+        1.6995 0.0812
+      }
+    }
+    event expression "maniacal smile"
+    {
+      time 1.562500 4.041667
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "maniacal smile"
+      event_ramp
+      {
+        0.1970 0.6143
+        2.1759 0.6041
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,136 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.541185 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 4.541185
+      param "Coach_WorldC1M1B87"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.730940 3.499690
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.5697 0.1922
+        1.2061 0.0214
+        1.6818 0.1673
+        2.1424 0.0285
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.159806
+        "extreme" 0.309927
+        "loop" 0.600484
+        "end" 0.881356
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 3.569149 4.574113
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.1551
+        0.4761 0.2068
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "worried"
+    {
+      time 1.760195 5.277565
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "worried"
+      event_ramp
+      {
+        0.3333 0.2606
+        0.6425 0.5480
+        1.7455 0.5302
+        1.8537 0.5907
+        2.0305 0.9039
+        2.8136 0.9286
+        3.3105 0.5527
+        3.4772 0.0812
+      }
+    }
+    event expression "shocked"
+    {
+      time 0.041446 2.152565
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.2666 0.8726
+        0.6789 1.0000
+        0.9346 0.4304
+        1.0697 0.2384
+        1.8800 0.1275
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

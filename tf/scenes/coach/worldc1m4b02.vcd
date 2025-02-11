@@ -1,0 +1,143 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 5.901639 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 5.901639
+      param "Coach_WorldC1M4B02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 3.812380 6.859854
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.3210
+        0.2652 0.2030
+        0.4717 0.1956
+        0.5891 0.1993
+        0.7152 0.2066
+        2.4373 0.1993
+        2.5417 0.1402
+        2.6591 0.0000
+        2.7830 0.0000
+        2.9156 0.0000
+        3.0388 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.064570
+        "extreme" 0.334437
+        "loop" 0.639073
+        "end" 0.942900
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.652934
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583 "curve_kochanek_early_to_curve_kochanek_early"
+        0.1000 0.2816 "curve_kochanek_to_curve_kochanek"
+        0.3667 0.6869
+        0.4761 0.5212
+        0.6212 0.6432
+        1.0178 0.1114
+        1.4212 0.1966
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 1.632281 3.960477
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        2.3282 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.073376
+        "extreme" 0.249458
+        "loop" 0.507592
+        "end" 0.796095
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 6.849676
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        6.4233 0.8930
+        6.6384 0.7601
+        6.7172 0.6162
+        6.7475 0.4317
+        6.7960 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "132"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

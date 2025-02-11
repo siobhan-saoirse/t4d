@@ -1,0 +1,109 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.322917 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event flexanimation "idle_03"
+    {
+      time 0.010417 5.052084
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lowerer" combo 
+        {
+          0.4171 0.2300 "curve_easein_to_curve_easeout"
+          4.6359 0.2302 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.4171 0.5000
+          4.6359 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.4171 0.1600 "curve_easein_to_curve_easeout"
+          4.6359 0.1601 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.4171 0.5000
+          4.6359 0.5000
+        }
+        "wrinkler" combo 
+        {
+          0.4171 0.1400 "curve_easein_to_curve_easeout"
+          4.6359 0.1401 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.4171 0.5000
+          4.6359 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.4171 0.0800 "curve_easein_to_curve_easeout"
+          4.6359 0.0800 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.4171 0.5000 "curve_easein_to_curve_easeout"
+          4.6359 0.5000 "curve_easein_to_curve_easeout"
+        }
+        "part" combo 
+        {
+          0.4171 0.3000 "curve_easein_to_curve_easeout"
+          4.6359 0.3002 "curve_easein_to_curve_easeout"
+        }
+        {
+          0.4171 0.5000
+          4.6359 0.5000
+        }
+        "stretcher" combo 
+        {
+          4.6359 0.0000
+        }
+        {
+          0.4171 0.5000
+          4.6359 0.5000
+        }
+        "jaw_drop" range 0.0 2.0 
+        {
+          0.4171 0.0900 "curve_easein_to_curve_easeout"
+          4.6359 0.0901 "curve_easein_to_curve_easeout"
+        }
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "40"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

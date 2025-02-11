@@ -1,0 +1,81 @@
+// Choreo version 1
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "Manager_EmphaticGo01"
+    {
+      time 0.128472 0.993302
+      param "Player.Manager_EmphaticGo01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_head_twistLeft"
+    {
+      time 0.040000 1.506667
+      param "namvet_gesture_head_twistLeft"
+      event_ramp
+      {
+        0.2303 0.5752
+        1.0061 0.7301 "curve_easein_to_curve_easeout"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.139535
+        "extreme" 0.255814
+        "loop" 0.395349
+        "end" 0.674419
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.139535
+        "extreme" 0.255814
+        "loop" 0.395349
+        "end" 0.674419
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event expression "gruff - dialogue"
+    {
+      time 0.052083 1.687500
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1636 1.0000
+        1.5333 1.0000
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "100"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

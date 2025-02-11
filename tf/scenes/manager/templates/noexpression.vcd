@@ -1,0 +1,45 @@
+// Choreo version 1
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "Manager_AlertGiveItem05"
+    {
+      time 0.128472 1.716136
+      param "Player.Manager_AlertGiveItem05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

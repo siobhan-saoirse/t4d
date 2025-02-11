@@ -1,0 +1,54 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.880952 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angrier"
+    {
+      time 0.011905 5.464286
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "angrier"
+      event_ramp
+      {
+        0.3111 0.9326 "curve_easein_to_curve_easeout"
+        5.1056 0.9288 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "56"
+  "ExpressionTool" "36"
+  "RampTool" "36"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

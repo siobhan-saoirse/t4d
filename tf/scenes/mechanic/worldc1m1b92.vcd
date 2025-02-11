@@ -1,0 +1,215 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 8.788215 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 8.788215
+      param "Mechanic_WorldC1M1B92"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 2.335107 6.760107
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.5150 0.2705
+        0.9450 0.0107
+        1.5950 0.0036
+        1.7950 0.2456
+        1.9350 0.0676
+        2.4250 0.0000
+        2.7550 0.0142
+        3.0100 0.1637
+        3.3350 0.0391
+        3.8650 0.0036
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.125041
+        "extreme" 0.257160
+        "loop" 0.719275
+        "end" 0.834906
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.485816 2.053280
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.5675 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.108987
+        "extreme" 0.174379
+        "loop" 0.364748
+        "end" 0.570909
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 6.610816 7.615780
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "serious"
+    {
+      time 7.302083 9.062500
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.0556 0.5620
+        0.2611 0.6332
+        0.8389 0.7568
+        1.3778 0.6481
+        1.6500 0.6369
+      }
+    }
+    event expression "concerned_fear - dialogue"
+    {
+      time 0.010417 7.843750
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned_fear - dialogue"
+      event_ramp
+      {
+        0.0939 0.3745
+        0.3636 0.5768
+        0.9833 0.8790
+        1.7111 0.7972
+        2.1444 0.1566
+        2.3389 0.0890
+        3.5333 0.1246
+        3.6333 0.1637
+        3.8667 0.6228
+        3.9889 0.6548
+        4.3056 0.9786
+        4.4000 0.9395
+        4.5500 0.2349
+        4.7111 0.0996
+        4.8444 0.0890
+        5.2444 0.0000
+        6.3778 0.0249
+        6.9056 0.0320
+        7.2993 0.3077
+      }
+    }
+    event expression "gruff2 - dialogue"
+    {
+      time 1.500000 6.437500
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.3272 0.6094
+        0.5969 0.8117
+        1.2556 0.8399
+        1.4111 0.7865
+        1.6389 0.0819
+        1.7111 0.0569
+        1.9667 0.3310
+        2.0611 0.3452
+        3.1611 0.2633
+        3.3778 0.3025
+        3.5882 0.5801
+        3.7833 0.5907
+        3.8667 0.5552
+        3.9444 0.2598
+        4.0833 0.1423
+        4.5438 0.1103
+      }
+    }
+    event expression "optimistic - dialogue"
+    {
+      time 6.083333 7.677083
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.3833 0.6475
+        0.8389 0.7746
+        1.2111 0.6659
+        1.4833 0.3558
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "40"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,70 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.739166 -1.000000
+  param ""
+}
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.368055 2.739166
+      param "Biker_DLC1_C6M1_InitialMeeting08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "dlc1_intro_male_leanleft"
+    {
+      time 0.031250 4.031250
+      param "dlc1_intro_male_leanleft"
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "Serious"
+    {
+      time 0.250000 3.111060
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "Serious"
+      event_ramp
+      {
+        0.1879 0.6840
+        0.2485 0.8993
+        0.3091 0.9722
+        0.3697 0.9965
+        0.4424 1.0000
+        2.4388 0.9861
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

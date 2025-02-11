@@ -1,0 +1,88 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.344889 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.344889
+      param "npc.Manager_HunterFrancisPounced03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.028194 1.394861
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.1697 0.2320
+        0.6455 0.1403 "curve_bspline_to_curve_bspline"
+        0.8848 0.3334 "curve_bspline_to_curve_bspline"
+        1.2333 0.0935 "curve_linear_interp_to_curve_linear_interp"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "fear"
+    {
+      time -0.006667 2.038254
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "fear"
+      event_ramp
+      {
+        0.0455 0.9274 "curve_easein_to_curve_easeout"
+        1.9910 0.8419 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

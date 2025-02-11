@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_farm_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.soldier_RadioButton208"
+    {
+      time 0.000000 4.217000
+      param "npc.soldier_RadioButton208"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

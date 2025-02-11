@@ -1,0 +1,175 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 18.523521 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.090352 18.502687
+      param "Mechanic_EllisStoriesS01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 2.572917 3.939583
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+    event expression "pain3"
+    {
+      time 11.864583 13.947917
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "pain3"
+      event_ramp
+      {
+        0.1818 0.7577
+        1.9352 0.7611
+      }
+    }
+    event expression "angry2-dialogue"
+    {
+      time 16.958332 19.468750
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "angry2-dialogue"
+      event_ramp
+      {
+        0.1545 0.7577
+        2.3468 0.7645
+      }
+    }
+    event expression "shocked"
+    {
+      time 15.479167 17.114582
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.0939 0.7782
+        1.4778 0.7918
+      }
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 11.614584 12.981250
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "postures"
+  {
+    event expression "optimistic - dialogue"
+    {
+      time 6.395833 9.187499
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.1273 0.8089
+        2.5545 0.7952
+      }
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 19.471560
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        19.0452 0.8930
+        19.2603 0.7601
+        19.3391 0.6162
+        19.3694 0.4317
+        19.4179 0.0812
+      }
+    }
+    event expression "shocked"
+    {
+      time 2.635417 3.635417
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.0636 0.7918
+        0.8818 0.7952
+      }
+    }
+    event expression "shocked"
+    {
+      time 9.000000 10.854166
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.1697 0.7611
+        1.6044 0.7611
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

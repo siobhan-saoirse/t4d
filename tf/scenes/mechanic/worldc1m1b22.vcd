@@ -1,0 +1,99 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.876242 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 3.876242
+      param "Mechanic_WorldC1M1B22"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 2.461437 4.501363
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.2697 0.3783
+        0.8394 0.4082
+        1.5485 0.4457
+        1.9998 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "smile - full"
+    {
+      time 0.000000 2.614583
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "smile - full"
+      event_ramp
+      {
+        0.0424 0.6180
+        0.3545 0.6592
+        0.9636 0.6292
+        1.7998 0.5431
+        2.1756 0.4007
+        2.4362 0.2397
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

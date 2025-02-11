@@ -1,0 +1,88 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.194980 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 1.194980
+      param "npc.Manager_GenericResponses24"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.060000 1.526667
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.1818 0.2629
+        0.5121 0.1403
+        0.8939 0.6903
+        1.3212 0.6276
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "gruff2 - dialogue"
+    {
+      time 0.020000 1.915011
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.0788 0.9839 "curve_easein_to_curve_easeout"
+        1.7987 0.9871 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

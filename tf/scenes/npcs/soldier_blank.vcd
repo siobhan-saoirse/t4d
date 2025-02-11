@@ -1,0 +1,19 @@
+// Choreo version 1
+actor "orator_farm_radio"
+{
+  channel "wav"
+  {
+    event speak "npc.blank"
+    {
+      time 0.000000 0.010000
+      param "npc.blank"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    active "0"
+  }
+  channel "triggers"
+  {
+  }
+}

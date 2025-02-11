@@ -1,0 +1,120 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 13.649235 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.121602 13.659652
+      param "Mechanic_EllisStoriesH01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 3.899356
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        3.4730 0.8930
+        3.6881 0.7601
+        3.7669 0.6162
+        3.7972 0.4317
+        3.8457 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "angrier"
+    {
+      time 3.437500 7.031250
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "angrier"
+      event_ramp
+      {
+        0.0861 0.4151 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.2291 0.6117 "curve_kochanek_late_to_curve_kochanek_late"
+        0.6836 0.6966 "curve_kochanek_to_curve_kochanek"
+        1.5212 0.7136 "curve_simple_cubic_to_curve_simple_cubic"
+        1.7455 1.0000
+        3.2328 1.0000
+        3.4273 0.6917
+      }
+    }
+    event expression "optismistic2 - dialogue"
+    {
+      time 6.750000 14.739584
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optismistic2 - dialogue"
+      event_ramp
+      {
+        0.0667 0.4660
+        0.2636 0.8058 "curve_kochanek_to_curve_kochanek"
+        0.5091 0.8956 "curve_simple_cubic_to_curve_simple_cubic"
+        1.2600 0.8932
+        6.1867 0.8786
+        6.9600 0.8592
+        7.5467 0.7354
+        7.8200 0.4879
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "30"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

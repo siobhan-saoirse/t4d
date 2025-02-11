@@ -1,0 +1,87 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_Cough05"
+    {
+      time 0.128472 2.789810
+      param "Player.Biker_Cough05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "self"
+    {
+      time 0.187836 2.833812
+      param "!self"
+      event_ramp
+      {
+        0.5364 0.9170
+        2.1395 0.9206
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.062500 2.914584
+      param "namvet_gesture_cough2"
+      event_ramp
+      {
+        0.4000 0.9422
+        2.5187 0.9819
+      }
+      absolutetags playback_time
+      {
+        "in" 0.095238
+        "out" 0.788321
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.095238
+        "out" 0.936508
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "hurt_2 - dialogue"
+    {
+      time 0.118205 2.833812
+      param "survivors\survivor_namvet\namvet_expressions"
+      param2 "hurt_2 - dialogue"
+      event_ramp
+      {
+        0.4636 0.9928
+        2.4450 0.9856
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

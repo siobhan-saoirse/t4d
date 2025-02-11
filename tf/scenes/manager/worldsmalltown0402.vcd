@@ -1,0 +1,76 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.456862 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 3.456862
+      param "npc.Manager_WorldSmallTown0402"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namVet_head_no"
+    {
+      time 0.053334 2.186667
+      param "namVet_head_no"
+      event_ramp
+      {
+        0.2636 0.1029
+        0.6576 0.1677
+        0.9636 0.8661
+        1.3667 0.9113
+        1.7515 0.4946
+        1.9364 0.4500
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "gruff2 - dialogue"
+    {
+      time 0.000000 4.670227
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "gruff2 - dialogue"
+      event_ramp
+      {
+        0.0909 0.9500 "curve_easein_to_curve_easeout"
+        4.5484 0.9290 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

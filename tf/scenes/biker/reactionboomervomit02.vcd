@@ -1,0 +1,111 @@
+// Choreo version 1
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "Biker_ReactionBoomerVomit02"
+    {
+      time 0.128472 3.842803
+      param "Player.Biker_ReactionBoomerVomit02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+    event lookat "self"
+    {
+      time 0.062500 4.083334
+      param "!self"
+      event_ramp
+      {
+        0.1758 0.9856
+        3.7872 0.9892
+      }
+    }
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.041667 2.858334
+      param "namvet_gesture_vomit01"
+      event_ramp
+      {
+        0.2545 0.9639
+        2.4457 0.9856
+      }
+      absolutetags playback_time
+      {
+        "in" 0.103528
+        "out" 0.776291
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.060606
+        "out" 0.909091
+      }
+      sequenceduration 2.233333
+    }
+    event gesture "1"
+    {
+      time 2.718750 4.685417
+      param "namvet_gesture_head_down"
+      event_ramp
+      {
+        0.5697 0.7762
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "hurt_2 - dialogue"
+    {
+      time -0.010417 4.177083
+      param "survivors\survivor_namvet\namvet_expressions"
+      param2 "hurt_2 - dialogue"
+      event_ramp
+      {
+        0.6242 0.9856
+        3.7708 0.9819
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

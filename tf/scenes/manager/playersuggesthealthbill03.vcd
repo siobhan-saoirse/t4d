@@ -1,0 +1,89 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.200604 -1.000000
+  param ""
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 3.200604
+      param "npc.Manager_PlayerSuggestHealthBill03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event expression "maniacal smile"
+    {
+      time 0.054167 3.478719
+      param "survivors\survivor_manager\manager_expressions"
+      param2 "maniacal smile"
+      event_ramp
+      {
+        0.0576 0.8452 "curve_easein_to_curve_easeout"
+        3.3946 0.7629 "curve_easein_to_curve_easeout"
+      }
+    }
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 0.083333 2.060417
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.3424 0.5382
+        0.5697 0.7129
+        0.9939 0.0710 "curve_easein_to_curve_easeout"
+        1.4740 0.2920 "curve_bspline_to_curve_bspline"
+        1.7061 0.4790
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

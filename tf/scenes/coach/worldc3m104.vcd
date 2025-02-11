@@ -1,0 +1,136 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 4.842636 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 4.842636
+      param "Coach_WorldC3M104"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 2.553857 5.291357
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.2178
+        0.4950 0.2456
+        0.8450 0.0427
+        1.1250 0.1815
+        1.4350 0.0605
+        1.8150 0.0463
+        2.0850 0.2135
+        2.7375 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.194656
+        "extreme" 0.278626
+        "loop" 0.774809
+        "end" 0.828244
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.329566 1.730363
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.4008 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.233498
+        "extreme" 0.306670
+        "loop" 0.519689
+        "end" 0.750379
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.062279 2.901933
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.2956 0.6556
+        0.6767 0.9483
+        2.2018 0.9464
+        2.5495 0.6257
+      }
+    }
+    event expression "smile - half"
+    {
+      time 2.478946 5.860266
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.2956 0.3211
+        0.6767 0.5070
+        1.7750 0.4733
+        1.9400 0.5302
+        2.1500 0.9181
+        2.3835 0.9357
+        2.8712 0.6969
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "40"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

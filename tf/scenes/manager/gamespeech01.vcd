@@ -1,0 +1,236 @@
+// Choreo version 1
+event stoppoint "end"
+{
+  time 4.220000 -1.000000
+  param "noaction"
+}
+actor "Manager"
+{
+  channel "audio"
+  {
+    event speak "Player.Manager_Player.GameSpeech01"
+    {
+      time 0.033334 4.194422
+      param "Player.Manager_Player.GameSpeech01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 2.588194 4.308195
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.151163
+        "extreme" 0.271318
+        "loop" 0.337209
+        "end" 0.775194
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namVet_head_no"
+    {
+      time 2.480000 4.546667
+      param "namVet_head_no"
+      event_ramp
+      {
+        0.3515 0.5018
+        1.6788 0.4797
+      }
+      sequenceduration 2.133333
+    }
+    event gesture "namVet_head_no"
+    {
+      time 0.059999 2.286667
+      param "namVet_head_no"
+      event_ramp
+      {
+        0.3515 0.2287
+        1.8388 0.2066
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_down"
+    {
+      time 0.060001 2.546667
+      param "namvet_gesture_head_down"
+      event_ramp
+      {
+        0.1606 0.1328
+        2.1776 0.1919
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.109088
+        "extreme" 0.136360
+        "loop" 0.259083
+        "end" 0.852151
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.137931
+        "extreme" 0.172414
+        "loop" 0.327586
+        "end" 0.655172
+      }
+      sequenceduration 1.966667
+    }
+  }
+  channel "postures"
+  {
+    event flexanimation "flex"
+    {
+      time 0.006667 4.586667
+      param ""
+      flexanimations samples_use_time defaultcurvetype=curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+      {
+        "lid_tightener" combo 
+        {
+          0.1200 0.6900
+          0.1787 0.6900
+          4.2360 0.6903
+          4.3693 0.6903
+        }
+        {
+          0.1200 0.5600
+          0.1787 0.5600
+          4.2360 0.5600
+          4.3693 0.5600
+        }
+        "inner_raiser" combo 
+        {
+          0.1200 0.1000
+          0.1787 0.1000
+          4.2360 0.1000
+          4.3693 0.1000
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "outer_raiser" combo 
+        {
+          0.1200 0.0500
+          0.1787 0.0500
+          4.2360 0.0500
+          4.3693 0.0500
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "lowerer" combo 
+        {
+          0.1200 0.3900
+          0.1787 0.3900
+          4.2360 0.3902
+          4.3693 0.3902
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "cheek_raiser" combo 
+        {
+          0.1200 0.1500
+          0.1787 0.1500
+          4.2360 0.1501
+          4.3693 0.1501
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "wrinkler" combo 
+        {
+          0.1200 0.3300
+          0.1787 0.3300
+          4.2360 0.3302
+          4.3693 0.3302
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "corner_puller" combo 
+        {
+          0.1200 0.0000
+          0.1787 0.0000
+          4.2360 0.0000
+          4.3693 0.0000
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "corner_depressor" combo 
+        {
+          0.1200 0.3600
+          0.1787 0.3600
+          4.2360 0.3602
+          4.3693 0.3602
+        }
+        {
+          0.1200 0.5000
+          0.1787 0.5000
+          4.2360 0.5000
+          4.3693 0.5000
+        }
+        "chin_raiser" 
+        {
+          0.1200 0.1100
+          0.1787 0.1100
+          4.2360 0.1101
+          4.3693 0.1101
+        }
+      }
+    }
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "SceneRampTool" "100"
+  "GestureTool" "100"
+  "RampTool" "66"
+  "ExpressionTool" "100"
+  "CChoreoView" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

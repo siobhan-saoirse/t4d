@@ -1,0 +1,104 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 6.021752 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 6.021752
+      param "Mechanic_WorldC1M4B09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.397916
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "optismistic2 - dialogue"
+    {
+      time 0.000000 4.427083
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optismistic2 - dialogue"
+      event_ramp
+      {
+        0.1580 0.1610
+        0.3381 0.2135
+        1.0758 0.2472
+        1.5333 0.4644
+        2.3297 0.4644
+        2.4795 0.4382
+        2.4939 0.5206
+        3.1729 0.4382
+        3.8896 0.4120
+        4.0785 0.3521
+        4.2618 0.1835
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "smile - half"
+    {
+      time 4.197917 6.052083
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.1048 0.3708
+        0.5095 0.5843
+        1.2762 0.5506
+        1.5619 0.4045
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "42"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

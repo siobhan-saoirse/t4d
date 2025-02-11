@@ -1,0 +1,87 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 0.916468 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 0.916468
+      param "Coach_MeleeSwing11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.031250 1.361612
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.128411
+        "extreme" 0.205458
+        "loop" 0.359551
+        "end" 0.667738
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.281250
+        "loop" 0.500000
+        "end" 0.625000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.020612 1.871598
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "angrier - dialogue"
+      event_ramp
+      {
+        0.0424 0.7232
+        0.2485 0.9483
+        0.4939 0.6772
+        1.4381 0.6576
+        1.6532 0.6193
+        1.7320 0.4754
+        1.7623 0.2909
+        1.8108 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "404"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,62 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.040626 -1.000000
+  param ""
+}
+actor "Biker"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.128472 3.040626
+      param "npc.Biker_GettingRevived14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event expression "maniacal smile"
+    {
+      time 0.052083 3.197849
+      param "survivors\survivor_biker\biker_expressions"
+      param2 "maniacal smile"
+      event_ramp
+      {
+        0.1121 0.8186
+        0.2515 1.0000
+        2.9833 1.0000
+      }
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,180 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 24.292885 -1.000000
+  param ""
+}
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 24.292885
+      param "Mechanic_EllisStoriesD01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 0.167614 1.534280
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 11.213070 12.579735
+      param "namvet_gesture_head_nod"
+      absolutetags playback_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.000000 17.498499
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optismistic2 - dialogue"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        16.2200 0.9879 "curve_kochanek_to_curve_kochanek"
+        16.8600 0.9296 "curve_kochanek_to_curve_kochanek"
+        17.1800 0.7694 "curve_kochanek_to_curve_kochanek"
+        17.4448 0.0812
+      }
+    }
+    event expression "shocked"
+    {
+      time 1.575758 2.530303
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.2273 0.4830 "curve_kochanek_to_curve_kochanek"
+        0.2727 0.5850 "curve_kochanek_to_curve_kochanek"
+        0.3939 0.5947
+        0.6333 0.5218
+        0.7333 0.3568
+        0.7606 0.2718 "curve_kochanek_to_curve_kochanek"
+      }
+    }
+    event expression "shocked"
+    {
+      time 18.045456 19.000000
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.1879 0.4150 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.2727 0.5049 "curve_kochanek_to_curve_kochanek"
+        0.3939 0.4369
+        0.5364 0.1165
+        0.6333 0.0000
+      }
+    }
+    event expression "shocked"
+    {
+      time 11.106061 12.060606
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.2273 0.7718 "curve_kochanek_to_curve_kochanek"
+        0.2727 0.8738 "curve_kochanek_to_curve_kochanek"
+        0.3939 0.8835
+        0.6333 0.9248
+        0.7273 0.8811 "curve_kochanek_to_curve_kochanek"
+        0.7333 0.8908
+        0.7606 0.7767 "curve_kochanek_to_curve_kochanek"
+      }
+    }
+    event expression "optimistic - dialogue"
+    {
+      time 16.166666 25.257576
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.4327 0.7888
+        0.6964 0.9393 "curve_kochanek_to_curve_kochanek"
+        1.1600 0.9709 "curve_kochanek_to_curve_kochanek"
+        7.9576 0.9539
+        8.4848 0.9199
+        8.8848 0.7354
+      }
+    }
+    event expression "shocked"
+    {
+      time 5.742424 6.696970
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "shocked"
+      event_ramp
+      {
+        0.1879 0.4150 "curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x"
+        0.2727 0.5049 "curve_kochanek_to_curve_kochanek"
+        0.3939 0.4369
+        0.5364 0.1165
+        0.6333 0.0000
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "44"
+  "ExpressionTool" "100"
+  "RampTool" "10"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

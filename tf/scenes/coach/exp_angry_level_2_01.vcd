@@ -1,0 +1,56 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.864583 -1.000000
+  param "1.000000"
+  loopcount "-1"
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry"
+    {
+      time 0.093750 5.552083
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "angry"
+      event_ramp
+      {
+        0.1303 0.5943
+        0.3697 0.9502
+        4.9545 0.9822
+        5.3242 0.7153
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

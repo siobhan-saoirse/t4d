@@ -1,0 +1,181 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 7.167534 -1.000000
+  param ""
+}
+
+
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 7.167534
+      param "Coach_WorldC1M1B100"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "namvet_gesture_head_yes"
+    {
+      time 1.283024 6.619481
+      param "namvet_gesture_head_yes"
+      event_ramp
+      {
+        0.0000 0.1870
+        0.2652 0.0690
+        0.4717 0.0616
+        0.5891 0.0653
+        0.7152 0.0726
+        2.1394 0.0794
+        4.7263 0.1993
+        4.8307 0.1402
+        4.9481 0.0000
+        5.0720 0.0000
+        5.2046 0.0000
+        5.3278 0.0000
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.043921
+        "extreme" 0.085180
+        "loop" 0.165036
+        "end" 0.242231
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.069767
+        "extreme" 0.162791
+        "loop" 0.232558
+        "end" 0.744186
+      }
+      sequenceduration 1.466667
+    }
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.246211
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.2276 0.3100
+        0.4633 0.1545
+        0.6485 0.2854
+        0.8175 0.1315 "curve_kochanek_to_curve_kochanek"
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.094100
+        "extreme" 0.218709
+        "loop" 0.457473
+        "end" 0.716044
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 6.267066 7.272030
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 1.254987 5.565373
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "fear 2 - dialogue"
+      event_ramp
+      {
+        0.2121 0.4111 "curve_bspline_to_curve_bspline"
+        0.5515 0.5811 "curve_easein_to_curve_easeout"
+        2.1455 0.5558 "curve_easein_to_curve_easeout"
+        3.8975 0.8930
+        4.1126 0.7601
+        4.1914 0.6162
+        4.2217 0.4317
+        4.2702 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+    event expression "smile - half"
+    {
+      time 0.000000 1.494792
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.0758 0.5881
+        1.4061 0.5658
+      }
+    }
+    event expression "smile - half"
+    {
+      time 5.239583 7.265625
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.1333 0.3797
+        0.3455 0.5881
+        1.9374 0.5658
+      }
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "128"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

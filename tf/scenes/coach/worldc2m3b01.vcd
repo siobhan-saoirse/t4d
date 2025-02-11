@@ -1,0 +1,116 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 5.121412 -1.000000
+  param ""
+}
+actor "Coach"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 5.121412
+      param "Coach_WorldC2M3B01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 6.094915
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.0828 0.1820
+        0.2586 0.7961
+        0.4069 0.3034
+        0.4761 0.0916
+        0.6345 0.0316 "curve_kochanek_to_curve_kochanek"
+        0.9552 0.0194
+        1.5320 0.0971
+        1.7840 0.2864
+        2.1000 0.1626
+        2.3720 0.2816
+        2.7331 0.0631
+        3.0200 0.0461
+        3.3800 0.0316
+        3.4760 0.0461
+        3.7480 0.3665
+        4.1920 0.4612
+        4.3640 0.3811
+        4.6440 0.5218
+        4.9480 0.3859
+        5.2960 0.5170
+        5.4920 0.4854
+        5.6992 0.0701
+      }
+      sequenceduration 1.366667
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 3.440349 6.069449
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "optimistic - dialogue"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.2163 0.8930
+        2.4314 0.7601
+        2.5102 0.6162
+        2.5405 0.4317
+        2.5890 0.0812
+      }
+    }
+    event expression "serious"
+    {
+      time 0.000000 3.804878
+      param "survivors\survivor_coach\coach_expressions"
+      param2 "serious"
+      event_ramp
+      {
+        0.1000 0.4442
+        0.1552 0.6214
+        0.5276 0.7451 "curve_kochanek_to_curve_kochanek"
+        0.9483 0.7451
+        2.7586 0.7063
+        3.1655 0.6966
+        3.3586 0.6165
+        3.5345 0.4709
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "164"
+  "ExpressionTool" "100"
+  "RampTool" "50"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

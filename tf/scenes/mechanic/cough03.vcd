@@ -1,0 +1,90 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 1.758487 -1.000000
+  param ""
+}
+
+
+actor "Mechanic"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 1.758487
+      param "Mechanic_Cough03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+    event gesture "1"
+    {
+      time 0.062500 2.195834
+      param "namvet_gesture_cough3"
+      event_ramp
+      {
+        0.4000 0.9422
+        1.8000 0.9819
+      }
+      absolutetags playback_time
+      {
+        "in" 0.095238
+        "out" 0.936508
+      }
+      absolutetags shifted_time
+      {
+        "in" 0.095238
+        "out" 0.936508
+      }
+      sequenceduration 2.133333
+    }
+  }
+  channel "postures"
+  {
+  }
+  channel "facial flex"
+  {
+    event expression "angry - dialogue"
+    {
+      time 0.013520 2.706524
+      param "survivors\survivor_mechanic\mechanic_expressions"
+      param2 "gruff - dialogue"
+      event_ramp
+      {
+        0.1606 0.7232
+        0.2121 0.9446
+        0.3667 0.9483
+        2.2801 0.8930
+        2.4952 0.7601
+        2.5740 0.6162
+        2.6043 0.4317
+        2.6528 0.0812
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "64"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,129 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 3.475834 -1.000000
+  param ""
+}
+actor "Producer"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.111185 3.475834
+      param "Producer_WorldC2M1B02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "look at"
+  {
+  }
+  channel "move to"
+  {
+  }
+  channel "gestures"
+  {
+  }
+  channel "postures"
+  {
+    event gesture "namvet_gesture_head_nod"
+    {
+      time -0.003546 1.001419
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.2583
+        0.4761 0.3100
+        0.6057 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.117021
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+    event gesture "namvet_gesture_head_nod"
+    {
+      time 2.458419 3.463383
+      param "namvet_gesture_head_nod"
+      event_ramp
+      {
+        0.0000 0.1116
+        0.4761 0.1753
+        1.0050 0.0701
+      }
+      absolutetags playback_time
+      {
+        "apex" 0.169989
+        "extreme" 0.271983
+        "loop" 0.568905
+        "end" 0.890459
+      }
+      absolutetags shifted_time
+      {
+        "apex" 0.125000
+        "extreme" 0.200000
+        "loop" 0.350000
+        "end" 0.650000
+      }
+      sequenceduration 1.100000
+    }
+  }
+  channel "facial flex"
+  {
+    event expression "concerned"
+    {
+      time -0.000000 2.607306
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "concerned"
+      event_ramp
+      {
+        0.1182 0.2186
+        0.3000 0.6886
+        0.5333 0.8473
+        0.7576 0.8952
+        1.8273 0.7605
+        2.1182 0.6377
+        2.3818 0.4341
+        2.4939 0.1617
+      }
+    }
+    event expression "smile - half"
+    {
+      time 2.513699 3.730594
+      param "survivors\survivor_producer\producer_expressions"
+      param2 "smile - half"
+      event_ramp
+      {
+        0.9333 0.8563
+      }
+    }
+  }
+  channel "triggers"
+  {
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "292"
+  "ExpressionTool" "100"
+  "RampTool" "66"
+  "GestureTool" "100"
+  "SceneRampTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off
