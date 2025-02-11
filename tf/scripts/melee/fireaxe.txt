@@ -56,8 +56,8 @@ MeleeWeaponData
 	// define the hit and miss sounds
 	SoundData
 	{
-		"melee_miss"		"Axe.Miss"
-		"melee_hit"		"Axe.ImpactFlesh"
+		"melee_miss"		"Weapon_FireAxe.Swing"
+		"melee_hit"		"Weapon_FireAxe.HitFlesh"
 		"melee_hit_world"	"Axe.ImpactWorld"
 	}
 		
@@ -74,7 +74,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_PRIMARYATTACK"
@@ -86,7 +86,7 @@ MeleeWeaponData
 		{
 			"startdir"		"W"
 			"enddir"		"E"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_HITLEFT"
@@ -101,8 +101,8 @@ MeleeWeaponData
 		{
 				"startdir"		"N"
 				"enddir"		"S"
-				"duration"		"1.24"
-				"starttime"		"0.35"
+				"duration"		"0.8"
+				"starttime"		"0.1"
 				"endtime"		"0.60"
 				"activity"		"ACT_VM_SWINGHARD"
 				"player_activity"	"ACT_SHOOT_STRONG_AXE"
@@ -116,7 +116,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".73"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"

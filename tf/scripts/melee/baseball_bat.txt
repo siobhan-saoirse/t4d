@@ -62,8 +62,8 @@ MeleeWeaponData
 	SoundData
 	{
 		"melee_miss"		"Bat.Miss"
-		"melee_hit"		"Bat.ImpactFlesh"
-		"melee_hit_world"	"Bat.ImpactWorld"
+		"melee_hit"		"Weapon_Bat.HitFlesh"
+		"melee_hit_world"	"Weapon_Bat.HitWorld"
 	}
 		
 	// Force vector to apply to the ragdolls of zombies we kill
@@ -84,7 +84,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"			"W"
-			"duration"		"0.9"
+			"duration"		"0.5"
 			"starttime"		"0.1"
 			"endtime"			"0.34"
 			"activity"		"ACT_VM_HITCENTER"
@@ -96,8 +96,8 @@ MeleeWeaponData
 		{
 			"startdir"		"NW"
 			"enddir"			"SE"
-			"duration"		"0.9"
-			"starttime"		"0.0"
+			"duration"		"0.5"
+			"starttime"		"0.1"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITLEFT"
 			"player_activity"	"ACT_SHOOT_W2E_BAT"
@@ -108,8 +108,8 @@ MeleeWeaponData
 		{
 			"startdir"		"NE"
 			"enddir"			"SW"
-			"duration"		"0.9"
-			"starttime"		"0.0"
+			"duration"		"0.5"
+			"starttime"		"0.1"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITRIGHT"
 			"player_activity"	"ACT_SHOOT_E2W_BAT"
@@ -123,8 +123,8 @@ MeleeWeaponData
 		{
 				"startdir"		"E"
 				"enddir"		"W"
-				"duration"		"1" //37 frames @ 37fps
-				"starttime"		"0.46" //starts at 17
+				"duration"		"0.5"
+				"starttime"		"0.1"
 				"endtime"		".78" //ends at 22
 				"activity"		"ACT_VM_SWINGHARD"
 				"player_activity"	"ACT_SHOOT_STRONG_BAT"
@@ -138,7 +138,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".73"
+			"duration"		"0.5"
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
