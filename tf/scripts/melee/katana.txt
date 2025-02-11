@@ -61,9 +61,9 @@ MeleeWeaponData
 	// define the hit and miss sounds
 	SoundData
 	{
-		"melee_miss"			"Katana.Miss"
-		"melee_hit"			"Katana.ImpactFlesh"
-		"melee_hit_world"		"Katana.ImpactWorld"
+		"melee_miss"			"Weapon_Katana.Miss"
+		"melee_hit"			"Weapon_Katana.HitFlesh"
+		"melee_hit_world"		"Weapon_Katana.HitWorld"
 	}
 
 	// Player animation to fire, 0 = PLAYERANIMEVENT_MELEE for now
