@@ -4,7 +4,7 @@ MeleeWeaponData
 	"refire_delay"	"0.75"
 	
 	// Model to show in firstperson
-	"viewmodel"		"models/weapons/melee/v_bat.mdl"
+	"viewmodel"		"models/weapons/v_models/v_bat_scout.mdl"
 	
 	// Model to show in thirdperson
 	"playermodel"	"models/weapons/melee/w_bat.mdl"

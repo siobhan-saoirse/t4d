@@ -43,7 +43,7 @@ WeaponData
 	// End Terror-specific Data ----------------
 
 	"MaxPlayerSpeed"		"250"
-	"WeaponType"			"pistol"
+	"WeaponType"			"smg"
 	"WeaponPrice"			"500"
 	"WeaponArmorRatio"		"1.0"
 	"CrosshairMinDistance"		"8"
@@ -66,8 +66,7 @@ WeaponData
 	"Range"				"2500"
 	"RangeModifier"			"0.75"
 	"Bullets"			"1"
-	//"CycleTime"			"0.15"
-	"CycleTime"			"0.175"
+	"CycleTime"			"0.15"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Pistol"
@@ -77,7 +76,7 @@ WeaponData
 
 	"worldmodel"			"models/w_models/weapons/w_pistol_B.mdl"
 	
-	"viewmodel"			"models/v_models/v_pistolA.mdl"
+	"viewmodel"			"models/weapos/v_models/v_pistol_engineer.mdl"
 	"viewmodel_dual"		"models/v_models/v_dual_pistolA.mdl"
 
 	"CharacterViewmodelAddon"
@@ -109,8 +108,8 @@ WeaponData
 
 	SoundData
  	{
-  		"single_shot"  "Pistol.Fire"
-		"double_shot"  "Pistol.DualFire"
+  		"single_shot"  "Weapon_Pistol.Single"
+		"double_shot"  "Weapon_Pistol.Single"
  	}
 	
 // Weapon Sprite data is loaded by the Client DLL.

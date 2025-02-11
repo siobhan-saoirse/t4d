@@ -76,7 +76,7 @@ WeaponData
 	"printname"			"SMG"
 	"playermodel"			"models/w_models/weapons/w_smg_a.mdl"
 	
-	"viewmodel"			"models/v_models/v_silenced_smg.mdl"
+	"viewmodel"			"models/weapons/v_models/v_smg_sniper.mdl"
 	
 	"CharacterViewmodelAddon"
 	{

@@ -72,18 +72,18 @@ WeaponData
 	"printname"			"Auto Shotgun"
 	"playermodel"			"models/w_models/weapons/w_autoshot_m4super.mdl"
 	
-	"viewmodel"			"models/v_models/v_autoshotgun.mdl"
+	"viewmodel"			"models/weapons/v_models/v_shotgun_soldier.mdl"
 	"CharacterViewmodelAddon"
 	{
-		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
-		"Mechanic"			"models/weapons/arms/v_arms_mechanic_new.mdl"
-		"Producer"			"models/weapons/arms/v_arms_producer_new.mdl"
-		"Gambler"			"models/weapons/arms/v_arms_gambler_new.mdl"
+		"Coach"				"models/weapons/c_models/c_heavy_arms.mdl"
+		"Mechanic"			"models/weapons/c_models/c_engineer_arms.mdl"
+		"Producer"			"models/weapons/c_models/c_pyro_arms.mdl"
+		"Gambler"			"models/weapons/c_models/c_spy_arms.mdl"
 		
-		"Manager"			"models/weapons/arms/v_arms_louis.mdl"
-		"Biker"				"models/weapons/arms/v_arms_francis.mdl"
-	 	"TeenGirl"			"models/weapons/arms/v_arms_zoey.mdl"
-		"NamVet"			"models/weapons/arms/v_arms_bill.mdl"
+		"Manager"			"models/weapons/c_models/c_demo_arms.mdl"
+		"Biker"				"models/weapons/c_models/c_sniper_arms.mdl"
+	 	"TeenGirl"			"models/weapons/c_models/c_medic_arms.mdl"
+		"NamVet"			"models/weapons/c_models/c_soldier_arms.mdl"
 	}
 	
 	"anim_prefix"			"anim"

@@ -4,7 +4,8 @@ MeleeWeaponData
 	"refire_delay"	"0.8"
 
 	// Model to show in firstperson
-	"viewmodel"		"models/v_models/v_knife_t.mdl"
+
+	"viewmodel"		"models/weapons/v_models/v_knife_spy.mdl"
 
 	// Model to show in thirdperson
 	"playermodel"	"models/w_models/weapons/w_knife_t.mdl"
