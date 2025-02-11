@@ -59,7 +59,7 @@ MeleeWeaponData
 	// define the hit and miss sounds
 	SoundData
 	{
-		"melee_miss"			"Weapon_Knife.Swing"
+		"melee_miss"			"Weapon_Knife.Miss"
 		"melee_hit"			"Weapon_Knife.HitFlesh"
 		"melee_hit_world"		"Weapon_Knife.HitWorld"
 	}
