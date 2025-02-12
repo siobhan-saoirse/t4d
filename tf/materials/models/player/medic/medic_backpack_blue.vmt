@@ -2,10 +2,10 @@
 {
 	"$basetexture"	"models/player/medic/medic_backpack_blue"
 	"$basemapalphaphongmask" "1"
-		"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "2"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "2"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 
 
 // 	"$bbqamount" "1"	

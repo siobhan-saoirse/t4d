@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
- 				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+ 				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"14"
 				"weight"	"400"
@@ -1221,6 +1221,7 @@ Scheme
 		"12"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"13"		"resource/linux_fonts/LiberationMono-Regular.ttf"
 		"14"		"resource/tf2secondary.vfont"
+		"15"		"resource/tf2build.vfont"
 	}
 
 }

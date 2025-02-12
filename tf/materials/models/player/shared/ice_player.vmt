@@ -3,10 +3,10 @@
 	"$basetexture" "models/player/shared/ice_player"
 	"$bumpmap" "models/weapons/c_items/c_xms_cold_shoulder_normal"
 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "5"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 	"$yellow" "0"
 
 	"$phong" "1"

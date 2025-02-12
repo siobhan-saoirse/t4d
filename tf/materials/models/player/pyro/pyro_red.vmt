@@ -2,10 +2,10 @@
 {
 	"$basetexture" "models/player/pyro/pyro_red"
 	"$bumpmap" "models/player/pyro/pyro_normal"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" 0.0
-	"$detailblendmode" 6
+//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "5"
+//	"$detailblendfactor" 0.0
+//	"$detailblendmode" 6
 
 	"$yellow" "0"
 	"$one" "1"

@@ -3,10 +3,10 @@
 {
 	"$basetexture" "models/player/medic/medic_head"
 	"$bumpmap"     "models/player/shared/shared_normal"
-		"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "1"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+	//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "1"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 
 
 

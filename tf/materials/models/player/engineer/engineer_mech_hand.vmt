@@ -2,10 +2,10 @@
 {
 	"$basetexture" "models/player/engineer/engineer_mech_hand"
 	"$bumpmap"     "models/player/engineer/engineer_mech_hand_phongmask"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "1"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "1"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 
 
 	"$yellow" "0"

@@ -3,10 +3,10 @@
 {
 	"$basetexture" "models/player/spy/spy_red"
 	"$bumpmap" "models/player/spy/spy_normal"
-			"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+		//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "5"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 
 
 

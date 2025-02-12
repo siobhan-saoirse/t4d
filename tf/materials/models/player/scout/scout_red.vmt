@@ -2,10 +2,10 @@
 {
 	"$basetexture" "models/player/scout/scout_red"
 	"$bumpmap" "models/player/scout/scout_normal"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .01
-	"$detailblendmode" 6
+//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	"$detailscale" "5"
+//	"$detailblendfactor" .01
+//	"$detailblendmode" 6
 
 
 	"$yellow" "0"
