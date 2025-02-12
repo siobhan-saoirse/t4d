@@ -63,7 +63,7 @@ MeleeWeaponData
 	{
 		"melee_miss"			"Weapon_Bat.Miss"
 		"melee_hit"			"Weapon_BaseballBat.HitFlesh"
-		"melee_hit_world"	    "Weapon_BaseballBat.HtWorld"
+		"melee_hit_world"	    "Weapon_BaseballBat.HitWorld"
 	}
 
 // Force vector to apply to the ragdolls of zombies we kill
