@@ -325,7 +325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"    [$WIN32]
 				"tall"			"14"    [$X360]
@@ -338,7 +338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"900"
@@ -351,7 +351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"900"
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"0"
@@ -387,7 +387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"700"
@@ -398,7 +398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"700"
@@ -410,7 +410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"700"
@@ -422,7 +422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"400"
@@ -433,7 +433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"				[$WIN32]
 				"tall"			"24"				[$X360]
@@ -445,7 +445,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"400"
@@ -456,7 +456,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"700"
@@ -468,7 +468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"10"
 				"weight"		"400"
@@ -479,7 +479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"14"
 				"weight"		"400"
@@ -490,7 +490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"16"
 				"weight"		"400"
@@ -502,7 +502,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"400"
@@ -513,7 +513,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"14"
 				"weight"		"400"
@@ -524,7 +524,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"400"
@@ -535,7 +535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"15"
 				"weight"		"400"
@@ -546,7 +546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"16"
 				"weight"		"1000"
@@ -560,7 +560,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"11"
 				"weight"		"700"
@@ -574,7 +574,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"11"
 				"weight"		"700"
@@ -585,7 +585,7 @@ Scheme
 			}
 			"2" [$WIN32]
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"11"
 				"weight"		"700"
@@ -596,7 +596,7 @@ Scheme
 			}
 			"3" [$WIN32]
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"900"
@@ -606,7 +606,7 @@ Scheme
 			}
 			"4" [$WIN32]
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"16"
 				"weight"		"900"
@@ -616,7 +616,7 @@ Scheme
 			}
 			"5" [$WIN32]
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"17"
 				"weight"		"1000"
@@ -644,7 +644,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
+				"name"		"TF2 Secondary"
 				"tall"		"60"
 				"weight"	"700"
 				"antialias" "1"
@@ -688,7 +688,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
+				"name"		"TF2 Secondary"
 				"tall"		"28"
 				"weight"	"400"
 				"additive"	"1"
@@ -700,7 +700,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
+				"name"		"TF2 Secondary"
 				"tall"		"38"
 				"weight"	"400"
 				"additive"	"1"
@@ -712,7 +712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"18" [!$DECK]
 				"tall"		"22" [$DECK]
@@ -726,7 +726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12" [!$DECK]
 				"tall"			"16" [$DECK]
@@ -740,7 +740,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18" [!$DECK]
 				"tall"			"22" [$DECK]
@@ -754,7 +754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"14"
 				"weight"		"400"
@@ -939,7 +939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"24"
 				"weight"		"400"
@@ -950,7 +950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"400"
@@ -961,7 +961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"400"
@@ -973,7 +973,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"12"
 				"weight"		"400"
@@ -984,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"14"
 				"weight"		"400"
@@ -995,7 +995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"11"
 				"weight"		"500"
@@ -1006,7 +1006,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"400"
@@ -1018,7 +1018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"14"
 				"weight"		"400"
@@ -1032,7 +1032,7 @@ Scheme
 		{
 			"1" [($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 			{
-				"name"			"Stubble bold"		
+				"name"			"TF2 Secondary"		
 				"tall"			"16"
 				"weight"		"700"
 				"antialias"		"1"
@@ -1050,7 +1050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Stubble bold"
+				"name"		"TF2 Secondary"
 				"tall"		"30"
 				"weight"	"400"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -1217,7 +1217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"20"
 				"weight"		"800"
@@ -1229,7 +1229,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Stubble bold"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"20"
 				"weight"		"800"
@@ -1897,7 +1897,7 @@ Scheme
 		"3"     "resource/TG.vfont"
 		"4"     "resource/TGB.vfont"
 		"5"		"resource/HALFLIFE2.vfont"
-		"6"		"resource/Stubble-Bold.vfont"	
+		"6"		"resource/tf2secondary.vfont"	
 	}
 
 }

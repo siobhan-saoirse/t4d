@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
- 				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+ 				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"14"
 				"weight"	"400"
@@ -378,7 +378,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"14"				[$WIN32]
 				"tall"		"16"				[$X360]
@@ -391,7 +391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"14"				[$WIN32]
 				"tall"		"16"				[$X360]
@@ -405,7 +405,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"18" 				[$X360 && ($ENGLISH || $FRENCH || $GERMAN || $ITALIAN || $SPANISH)]
 				// these need a smaller font because the gamer names in the lobbys were not title safe
@@ -421,7 +421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18" 				[$X360 && ($ENGLISH || $FRENCH || $GERMAN || $ITALIAN || $SPANISH)]
 				// these need a smaller font because the gamer names in the lobbys were not title safe
@@ -438,7 +438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"18"
 				"weight"		"400"				[$WIN32]
@@ -451,7 +451,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"24"
 				"weight"		"400"
@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold"	[($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"24"
 				"weight"		"400"
@@ -477,7 +477,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"20"
 				"weight"		"400"				[$WIN32]
@@ -490,7 +490,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"			"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"			"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"			"20"
 				"weight"		"400"				[$WIN32]
@@ -507,7 +507,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
+				"name"		"TF2 Secondary"		[($WIN32 && $WIN32HIDEF) || ($X360 && ($X360WIDE && $X360HIDEF))]
 				"name"		"Trade Gothic Bold" [($WIN32 && !$WIN32HIDEF) || ($X360 && !($X360WIDE && $X360HIDEF))]
 				"tall"		"28"
 				"weight"	"400"
@@ -582,7 +582,7 @@ Scheme
 
 			"1" [!($X360WIDE && $X360HIDEF)]
 			{
-				"name"		"TF2 Build"
+				"name"		"TF2 Secondary"
 				"name"		"Trade Gothic Bold" [!($X360WIDE && $X360HIDEF)]
 				"tall"		"14"
 				"weight"	"400"
@@ -1220,7 +1220,7 @@ Scheme
 		"11"		"resource/linux_fonts/LiberationSans-Regular.ttf"
 		"12"		"resource/linux_fonts/LiberationSans-Bold.ttf"
 		"13"		"resource/linux_fonts/LiberationMono-Regular.ttf"
-		"14"		"resource/tf2build.vfont"
+		"14"		"resource/tf2secondary.vfont"
 	}
 
 }
