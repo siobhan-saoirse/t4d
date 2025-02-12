@@ -2702,7 +2702,7 @@ criterion "IsNotCloaked" "cloaked" "!=1" required
 
 criterion "IsOnScout" "crosshair_on" "Scout" "required"
 criterion "IsOnSniper" "Subject"     "Biker" "required" weight 0
-criterion "IsOnSoldier" "Subject"     "Mamvet" "required" weight 0
+criterion "IsOnSoldier" "Subject"     "NamVet" "required" weight 0
 criterion "IsOnDemoman" "Subject"     "Manager" "required" weight 0
 criterion "IsOnMedic" "Subject"     "TeenGirl" "required" weight 0
 criterion "IsOnHeavy" "Subject"     "Coach" "required" weight 0

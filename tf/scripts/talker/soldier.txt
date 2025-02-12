@@ -1383,7 +1383,7 @@ Response MvMBombPickupSoldier
 }
 Rule MvMBombPickupSoldier
 {
-	criteria ConceptMvMBombPickup IsSoldier
+	criteria ConceptPlayerWarnHearZombie IsBoomerClass IsSoldier
 	Response MvMBombPickupSoldier
 }
 
@@ -1393,7 +1393,7 @@ Response MvMSniperCalloutSoldier
 }
 Rule MvMSniperCalloutSoldier
 {
-	criteria ConceptMvMSniperCallout IsSoldier
+	criteria ConceptPlayerWarnHearZombie IsSmokerClass IsSoldier
 	Response MvMSniperCalloutSoldier
 }
 
@@ -1403,7 +1403,7 @@ Response MvMSentryBusterSoldier
 }
 Rule MvMSentryBusterSoldier
 {
-	criteria ConceptMvMSentryBuster 50PercentChance IsSoldier
+	criteria ConceptPlayerWarnHearZombie IsJockeyClass IsSoldier
 	Response MvMSentryBusterSoldier
 }
 
@@ -1467,7 +1467,7 @@ Response MvMGiantCalloutSoldier
 }
 Rule MvMGiantCalloutSoldier
 {
-	criteria ConceptMvMGiantCallout IsSoldier
+	criteria ConceptPlayerWarnHearZombie IsChargerClass IsSoldier
 	Response MvMGiantCalloutSoldier
 }
 
@@ -1510,7 +1510,7 @@ Response MvMTankCalloutSoldier
 }
 Rule MvMTankCalloutSoldier
 {
-	criteria ConceptMvMTankCallout IsSoldier
+	criteria ConceptMvMTankCallout IsSoldier IsTalk IsTalkNamVet IsWorldTalkNamVet
 	Response MvMTankCalloutSoldier
 }
 

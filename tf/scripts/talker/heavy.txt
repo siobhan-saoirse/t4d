@@ -1495,7 +1495,7 @@ Response MvMBombPickupHeavy
 }
 Rule MvMBombPickupHeavy
 {
-	criteria ConceptMvMBombPickup IsHeavy
+	criteria ConceptPlayerWarnHearZombie IsBoomerClass IsHeavy
 	Response MvMBombPickupHeavy
 }
 
@@ -1505,7 +1505,7 @@ Response MvMSniperCalloutHeavy
 }
 Rule MvMSniperCalloutHeavy
 {
-	criteria ConceptMvMSniperCallout IsHeavy
+	criteria ConceptPlayerWarnHearZombie IsSmokerClass IsHeavy
 	Response MvMSniperCalloutHeavy
 }
 
@@ -1515,7 +1515,7 @@ Response MvMSentryBusterHeavy
 }
 Rule MvMSentryBusterHeavy
 {
-	criteria ConceptMvMSentryBuster 50PercentChance IsHeavy
+	criteria ConceptPlayerWarnHearZombie IsJockeyClass IsHeavy
 	Response MvMSentryBusterHeavy
 }
 
@@ -1587,7 +1587,7 @@ Response MvMGiantCalloutHeavy
 }
 Rule MvMGiantCalloutHeavy
 {
-	criteria ConceptMvMGiantCallout IsHeavy
+	criteria ConceptPlayerWarnHearZombie IsChargerClass IsHeavy
 	Response MvMGiantCalloutHeavy
 }
 
@@ -1629,7 +1629,7 @@ Response MvMTankCalloutHeavy
 }
 Rule MvMTankCalloutHeavy
 {
-	criteria ConceptMvMTankCallout IsHeavy
+	criteria ConceptMvMTankCallout IsHeavy IsTalk IsTalkCoach IsWorldTalkCoach
 	Response MvMTankCalloutHeavy
 }
 

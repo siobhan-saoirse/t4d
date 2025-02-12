@@ -1485,7 +1485,7 @@ Response MvMBombPickupEngineer
 }
 Rule MvMBombPickupEngineer
 {
-	criteria ConceptMvMBombPickup IsEngineer
+	criteria ConceptPlayerWarnHearZombie IsBoomerClass IsEngineer
 	Response MvMBombPickupEngineer
 }
 
@@ -1495,7 +1495,7 @@ Response MvMSniperCalloutEngineer
 }
 Rule MvMSniperCalloutEngineer
 {
-	criteria ConceptMvMSniperCallout IsEngineer
+	criteria ConceptPlayerWarnHearZombie IsSmokerClass IsEngineer
 	Response MvMSniperCalloutEngineer
 }
 
@@ -1505,7 +1505,7 @@ Response MvMSentryBusterEngineer
 }
 Rule MvMSentryBusterEngineer
 {
-	criteria ConceptMvMSentryBuster 50PercentChance IsEngineer
+	criteria ConceptPlayerWarnHearZombie IsJockeyClass IsEngineer
 	Response MvMSentryBusterEngineer
 }
 
@@ -1569,7 +1569,7 @@ Response MvMGiantCalloutEngineer
 }
 Rule MvMGiantCalloutEngineer
 {
-	criteria ConceptMvMGiantCallout IsEngineer
+	criteria ConceptPlayerWarnHearZombie IsChargerClass IsEngineer
 	Response MvMGiantCalloutEngineer
 }
 
@@ -1610,7 +1610,7 @@ Response MvMTankCalloutEngineer
 }
 Rule MvMTankCalloutEngineer
 {
-	criteria ConceptMvMTankCallout IsEngineer
+	criteria ConceptMvMTankCallout IsEngineer IsTalk IsTalkMechanic IsWorldTalkMechanic
 	Response MvMTankCalloutEngineer
 }
 

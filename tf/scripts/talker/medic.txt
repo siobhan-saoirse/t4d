@@ -1116,7 +1116,7 @@ Response MvMBombPickupMedic
 }
 Rule MvMBombPickupMedic
 {
-	criteria ConceptMvMBombPickup 5PercentChance IsMedic
+	criteria ConceptPlayerWarnHearZombie IsBoomerClass IsMedic
 	Response MvMBombPickupMedic
 }
 
@@ -1126,7 +1126,7 @@ Response MvMSniperCalloutMedic
 }
 Rule MvMSniperCalloutMedic
 {
-	criteria ConceptMvMSniperCallout 50PercentChance IsMedic
+	criteria ConceptPlayerWarnHearZombie IsSmokerClass IsMedic
 	Response MvMSniperCalloutMedic
 }
 
@@ -1136,7 +1136,7 @@ Response MvMSentryBusterMedic
 }
 Rule MvMSentryBusterMedic
 {
-	criteria ConceptMvMSentryBuster 50PercentChance IsMedic
+	criteria ConceptPlayerWarnHearZombie IsJockeyClass IsMedic
 	Response MvMSentryBusterMedic
 }
 
@@ -1203,7 +1203,7 @@ Response MvMGiantCalloutMedic
 }
 Rule MvMGiantCalloutMedic
 {
-	criteria ConceptMvMGiantCallout IsMedic
+	criteria ConceptPlayerWarnHearZombie IsChargerClass IsMedic
 	Response MvMGiantCalloutMedic
 }
 
@@ -1234,7 +1234,7 @@ Response MvMTankCalloutMedic
 }
 Rule MvMTankCalloutMedic
 {
-	criteria ConceptMvMTankCallout IsMedic
+	criteria ConceptMvMTankCallout IsMedic IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl
 	Response MvMTankCalloutMedic
 }
 
