@@ -1,0 +1,133 @@
+"RadialMenu"
+{
+	//--------------------------------------------------------------
+	"Orders,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerLookHere"
+			"text"		"Spy!"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerMoveOn"
+			"text"		"Go! Go! Go!"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerLeadOn"
+			"text"		"Battle Cry"
+		}	
+		"East"
+		{
+			"command"	"vocalize PlayerHurryUp"
+			"text"		"Move up!"
+		}	
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNiceJob"
+			"text"		"Nice Job!"
+		}	
+		"South"
+		{
+			"command"	"vocalize PlayerWaitHere"
+			"text"		"Teleporter Here"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerToTheRescue"
+			"text"		"Cheers"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerWarnCareful"
+			"text"		"Positive"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerImWithYou"
+			"text"		"Dispenser Here"
+		}	
+	}
+	//--------------------------------------------------------------
+	"QA,Survivor,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerAskReady"
+			"text"		"Activate Charge!"
+		}
+		"North"
+		{
+			"command"	"vocalize PlayerLaugh"
+			"text"		"#L4D_rosetta_laugh"
+		}
+		"NorthEast"
+		{
+			"command"	"vocalize PlayerTaunt"
+			"text"		"#L4D_rosetta_taunt"
+		}
+
+		"East"
+		{
+			"command"	"vocalize PlayerNegative"
+			"text"		"Negative"
+		}
+		"SouthEast"
+		{
+			"command"	"vocalize PlayerNo"
+			"text"		"No"
+		}
+		"South"
+		{
+			"command"	"vocalize PlayerSorry"
+			"text"		"Sentry Here"
+		}
+		"SouthWest"
+		{
+			"command"	"vocalize PlayerYes"
+			"text"		"Yes"
+		}
+		"West"
+		{
+			"command"	"vocalize PlayerHurrah"
+			"text"		"#L4D_rosetta_hurrah"
+		}
+		"NorthWest"
+		{
+			"command"	"vocalize PlayerThanks"
+			"text"		"Thanks!"
+		}
+	}
+	
+	//--------------------------------------------------------------
+	"Orders,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"label"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"QA,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+	//--------------------------------------------------------------
+	"Alerts,Alive"
+	{
+		"Center"
+		{
+			"command"	"vocalize PlayerZombieTaunt"
+			"text"		"#L4D_rosetta_grrrr"
+		}
+	}
+
+}
