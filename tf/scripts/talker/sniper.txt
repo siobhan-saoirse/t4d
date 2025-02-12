@@ -717,7 +717,7 @@ Response KilledPlayerVeryManySniper
 }
 Rule KilledPlayerVeryManySniper
 {
-	criteria ConceptKilledPlayer IsVeryManyRecentKills 50PercentChance IsWeaponPrimary SniperNotKillSpeech IsSniper
+	criteria ConceptKilledPlayer SniperNotKillSpeech IsSniper
 	ApplyContext "SniperKillSpeech:1:10"
 	Response KilledPlayerVeryManySniper
 }

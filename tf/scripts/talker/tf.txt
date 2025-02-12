@@ -1764,6 +1764,11 @@
 	response "MedicTauntLaugh"
 	{
 		scene "scenes/player/medic/low/taunt_laugh.vcd"
+		scene "scenes/Player/Medic/low/604.vcd" 
+		scene "scenes/Player/Medic/low/1228.vcd" 
+		scene "scenes/Player/Medic/low/1231.vcd" 
+		scene "scenes/Player/Medic/low/609.vcd" 
+		scene "scenes/Player/Medic/low/610.vcd" 
 	}
 	rule MedicTauntLaugh
 	{
@@ -1774,6 +1779,10 @@
 	response "HeavyTauntLaugh"
 	{
 		scene "scenes/player/heavy/low/taunt_laugh.vcd"
+		scene "scenes/Player/Heavy/low/1270.vcd" 
+		scene "scenes/Player/Heavy/low/1271.vcd" 
+		scene "scenes/Player/Heavy/low/1274.vcd" 
+		scene "scenes/Player/Heavy/low/1273.vcd" 
 	}
 	rule HeavyTauntLaugh
 	{
@@ -1784,6 +1793,9 @@
 	response "DemomanTauntLaugh"
 	{
 		scene "scenes/player/demoman/low/taunt_laugh.vcd"
+		scene "scenes/Player/Demoman/low/1380.vcd" 
+		scene "scenes/Player/Demoman/low/1382.vcd" 
+		scene "scenes/Player/Demoman/low/1386.vcd" 
 	}
 	rule DemomanTauntLaugh
 	{
@@ -1794,6 +1806,11 @@
 	response "SpyTauntLaugh"
 	{
 		scene "scenes/player/spy/low/taunt_laugh.vcd"
+	scene "scenes/Player/Spy/low/777.vcd" 
+	scene "scenes/Player/Spy/low/778.vcd" 
+	scene "scenes/Player/Spy/low/1314.vcd" 
+	scene "scenes/Player/Spy/low/1315.vcd" 
+	scene "scenes/Player/Spy/low/1316.vcd" 
 	}
 	rule SpyTauntLaugh
 	{
@@ -1804,6 +1821,12 @@
 	response "SniperTauntLaugh"
 	{
 		scene "scenes/player/Sniper/low/taunt_laugh.vcd"
+		scene "scenes/Player/Sniper/low/1774.vcd" 
+		scene "scenes/Player/Sniper/low/1676.vcd" 
+		scene "scenes/Player/Sniper/low/1677.vcd" 
+		scene "scenes/Player/Sniper/low/1775.vcd" 
+		scene "scenes/Player/Sniper/low/1776.vcd" 
+		scene "scenes/Player/Sniper/low/1777.vcd" 
 	}
 	rule SniperTauntLaugh
 	{
@@ -1814,6 +1837,12 @@
 	response "SoldierTauntLaugh"
 	{
 		scene "scenes/player/Soldier/low/taunt_laugh.vcd"
+		scene "scenes/Player/Sniper/low/1774.vcd" 
+		scene "scenes/Player/Sniper/low/1676.vcd" 
+		scene "scenes/Player/Sniper/low/1677.vcd" 
+		scene "scenes/Player/Sniper/low/1775.vcd" 
+		scene "scenes/Player/Sniper/low/1776.vcd" 
+		scene "scenes/Player/Sniper/low/1777.vcd" 
 	}
 	rule SoldierTauntLaugh
 	{
@@ -1824,6 +1853,12 @@
 	response "ScoutTauntLaugh"
 	{
 		scene "scenes/player/Scout/low/taunt_laugh.vcd"
+		scene "scenes/Player/Scout/low/1298.vcd" 
+		scene "scenes/Player/Scout/low/436.vcd" 
+		scene "scenes/Player/Scout/low/437.vcd" 
+		scene "scenes/Player/Scout/low/1299.vcd" 
+		scene "scenes/Player/Scout/low/1300.vcd" 
+		scene "scenes/Player/Scout/low/1301.vcd" 
 	}
 	rule ScoutTauntLaugh
 	{
@@ -1844,6 +1879,9 @@
 	response "PyroTauntLaugh"
 	{
 		scene "scenes/player/pyro/low/taunt_laugh.vcd"
+	scene "scenes/Player/Pyro/low/1563.vcd" 
+	scene "scenes/Player/Pyro/low/1595.vcd" 
+	scene "scenes/Player/Pyro/low/1487.vcd" 
 	}
 	rule PyroTauntLaugh
 	{
