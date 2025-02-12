@@ -99,6 +99,7 @@ game_sounds_manifest
 	"precache_file"		"scripts/game_sounds_vo_tough_break.txt"
 	"precache_file"		"scripts/game_sounds_weapons_tf2.txt"
 	"precache_file"		"scripts/game_sounds_physics_tf2.txt"
+	"precache_file"		"scripts/game_sounds_tf2.txt"
 }
 
 
