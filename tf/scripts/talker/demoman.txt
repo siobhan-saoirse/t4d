@@ -15,7 +15,6 @@ Criterion "DemomanNotAssistSpeech" "DemomanAssistSpeech" "!=1" "required" weight
 Criterion "IsDrunk" "NotSober" "1" "required" weight 0
 Criterion "DemomanNotAwardSpeech" "DemomanAwardSpeech" "!=1" "required" weight 0
 
-
 Response PlayerCloakedSpyDemomanDemoman
 {
 	scene "scenes/Player/Demoman/low/901.vcd" 

@@ -2057,3 +2057,78 @@
 	}
 
 //============================================================================================================
+
+// L4D2 RESPONSES
+
+Response SurvivorDeathDemoman
+{
+	speak "Demoman.MeleeDeath"
+}
+Rule SurvivorDeathDemoman
+{
+	criteria ConceptPlayerDeath IsDemoman
+	Response SurvivorDeathDemoman
+}
+Response SurvivorDeathEngineer
+{
+	speak "Engineer.MeleeDeath"
+}
+Rule SurvivorDeathEngineer
+{
+	criteria ConceptPlayerDeath IsEngineer
+	Response SurvivorDeathEngineer
+}
+Response SurvivorDeathScout
+{
+	speak "Scout.MeleeDeath"
+}
+Rule SurvivorDeathScout
+{
+	criteria ConceptPlayerDeath IsScout
+	Response SurvivorDeathScout
+}
+Response SurvivorDeathHeavy
+{
+	speak "Heavy.MeleeDeath"
+}
+Rule SurvivorDeathHeavy
+{
+	criteria ConceptPlayerDeath IsHeavy
+	Response SurvivorDeathHeavy
+}
+Response SurvivorDeathPyro
+{
+	speak "Pyro.MeleeDeath"
+}
+Rule SurvivorDeathPyro
+{
+	criteria ConceptPlayerDeath IsPyro
+	Response SurvivorDeathPyro
+}
+Response SurvivorDeathSniper
+{
+	speak "Sniper.MeleeDeath"
+}
+Rule SurvivorDeathSniper
+{
+	criteria ConceptPlayerDeath IsSniper
+	Response SurvivorDeathSniper
+}
+Response SurvivorDeathSpy
+{
+	speak "Spy.MeleeDeath"
+}
+Rule SurvivorDeathSpy
+{
+	criteria ConceptPlayerDeath IsSpy
+	Response SurvivorDeathSpy
+}
+Response SurvivorDeathMedic
+{
+	speak "Medic.MeleeDeath"
+}
+Rule SurvivorDeathMedic
+{
+	criteria ConceptPlayerDeath IsMedic
+	Response SurvivorDeathMedic
+}
