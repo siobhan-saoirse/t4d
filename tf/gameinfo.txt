@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Left 4 Fortress 2"	// Window title
+	game	"Team 4 Dead"	// Window title
 	type multiplayer_only
 	nomodels 1
 	nohimodel 1

@@ -1868,6 +1868,20 @@
 	response "EngineerTauntLaugh"
 	{
 		scene "scenes/player/Engineer/low/taunt_laugh.vcd"
+		scene "scenes/player/Engineer/low/100.vcd"
+		scene "scenes/player/Engineer/low/101.vcd"
+		scene "scenes/player/Engineer/low/102.vcd"
+		scene "scenes/player/Engineer/low/103.vcd"
+		scene "scenes/player/Engineer/low/105.vcd"
+		scene "scenes/player/Engineer/low/106.vcd"
+		scene "scenes/player/Engineer/low/1331.vcd"
+		scene "scenes/player/Engineer/low/1332.vcd"
+		scene "scenes/player/Engineer/low/1333.vcd"
+		scene "scenes/player/Engineer/low/1334.vcd"
+		scene "scenes/player/Engineer/low/1335.vcd"
+		scene "scenes/player/Engineer/low/1336.vcd"
+		scene "scenes/player/Engineer/low/1337.vcd"
+		scene "scenes/player/Engineer/low/1338.vcd"
 	}
 	rule EngineerTauntLaugh
 	{
