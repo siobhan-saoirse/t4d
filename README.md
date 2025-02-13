@@ -1,4 +1,4 @@
-# Left 4 Fortress
+# Team 4 Dead
 A very work in progress conversion mod of Left 4 Dead 2 to Team Fortress 2.
 
 To prevent confusion, This is not a Sourcemod. This is a special mod designed for Left 4 Dead 2. It overrides the talker system and adds custom voice lines for each character 
