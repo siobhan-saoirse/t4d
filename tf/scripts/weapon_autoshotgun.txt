@@ -72,7 +72,7 @@ WeaponData
 	"printname"			"Auto Shotgun"
 	"playermodel"			"models/w_models/weapons/w_autoshot_m4super.mdl"
 	
-	"viewmodel"			"models/v_models/v_autoshotgun.mdl"
+	"viewmodel"			"models/v_models/v_shotgun_chrome.mdl"
 	"CharacterViewmodelAddon"
 	{
 		"Coach"				"models/weapons/arms/v_arms_coach_new.mdl"
