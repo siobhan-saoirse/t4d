@@ -67,12 +67,12 @@ WeaponData
 	"RangeModifier"			"0.75"
 	"Bullets"			"1"
 	//"CycleTime"			"0.15"
-	"CycleTime"			"0.5"
+	"CycleTime"			"0.3"
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Magnum"
 	
-	"playermodel"			"models/w_models/weapons/w_desert_eagle.mdl"
+	"playermodel"			"models/weapons/w_models/w_revolver.mdl"
 	
 	"viewmodel"			"models/v_models/v_desert_eagle.mdl"
 
