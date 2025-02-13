@@ -82,8 +82,8 @@ MeleeWeaponData
 			"starttime"		"0.15"
 			"endtime"		"0.36"
 			"activity"		"ACT_VM_PRIMARYATTACK"
-			"player_activity" "ACT_SHOOT_N2S_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_N2S_IDLE_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"50 -30 0"
 		}	
 		"bonk2"
@@ -94,8 +94,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"		"0.3"
 			"activity"							"ACT_VM_HITLEFT"
-			"player_activity" 			"ACT_SHOOT_W2E_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_FRYINGPAN"
+			"player_activity" 			"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"50 -30 0"
 		}		
 	}	
@@ -109,8 +109,8 @@ MeleeWeaponData
 				"starttime"		"0.35"
 				"endtime"		"0.60"
 				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_FRYINGPAN"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_FRYINGPAN"
+				"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+				"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 				"force_dir"		"60 0 60"
 		}
 	}
@@ -124,8 +124,8 @@ MeleeWeaponData
 			"starttime"		"0.15"
 			"endtime"		"0.3"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity" "ACT_SHOOT_SECONDARY_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}
 	

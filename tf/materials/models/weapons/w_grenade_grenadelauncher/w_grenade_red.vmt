@@ -20,14 +20,4 @@
 		}
 	}
 
-
-	// Cloaking
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"invis"
-		{
-		}
-	}
-
 }

@@ -1234,7 +1234,7 @@ Response MvMTankCalloutMedic
 }
 Rule MvMTankCalloutMedic
 {
-	criteria ConceptMvMTankCallout IsMedic IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl
+	criteria ConceptPlayerWarnHearZombie IsTankClass IsMedic
 	Response MvMTankCalloutMedic
 }
 
@@ -1256,7 +1256,7 @@ Response MvMAttackTheTankMedic
 }
 Rule MvMAttackTheTankMedic
 {
-	criteria ConceptMvMAttackTheTank 50PercentChance IsMedic
+	criteria ConceptPlayerReloading IsZombiePresentTank IsMedic
 	Response MvMAttackTheTankMedic
 }
 

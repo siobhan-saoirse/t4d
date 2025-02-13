@@ -1,16 +1,15 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "models\weapons\w_stickybomb/w_stickybomb_blue"
-//	"$bumpmap" "models/weapons/w_stickybomb/w_stickybomb_normal"
+	"$bumpmap" "models/weapons/w_stickybomb/w_stickybomb_normal"
 	"$selfillum" "1"
 	"$nodecal" "1"
 
 	"$phong" "1"
-	"$phongexponent" "5"
-	"$phongboost" ".25"	
+	"$phongexponent" "30"
+	"$phongboost" "10"	
 	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
 	"$phongfresnelranges" "[0.25 0.5 1]"
-	"$glowcolor" "1"
 
 	// Use separate self-illum mask on Pre DX9 hardware
 	">=DX90"
@@ -23,28 +22,5 @@
 	"<DX90"
 	{
 		"$baseTexture" 	"models\weapons\w_stickybomb/w_stickybomb_blue"
-	}
-
-	// Cloaking
-	"$cloakPassEnabled" "1"
-	"Proxies"
-	{
-		"invis"
-		{
-		}
-		"StickybombGlowColor"
-		{
-			"resultVar" "$glowcolor"
-		}
-		"Equals"
-		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$selfillumtint"
-		}
-		"Equals"
-		{
-			"srcVar1"  "$glowcolor"
-			"resultVar" "$color2"
-		}
 	}
 }

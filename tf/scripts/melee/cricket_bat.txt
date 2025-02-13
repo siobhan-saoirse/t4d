@@ -88,8 +88,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"			"0.34"
 			"activity"		"ACT_VM_HITCENTER"
-			"player_activity"	"ACT_SHOOT_E2W_BAT"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 -40 0"
 		}
 			"slash2"
@@ -100,8 +100,8 @@ MeleeWeaponData
 			"starttime"		"0.0"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITLEFT"
-			"player_activity"	"ACT_SHOOT_W2E_BAT"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 40 -10"
 		}
 			"slash3"
@@ -112,8 +112,8 @@ MeleeWeaponData
 			"starttime"		"0.0"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITRIGHT"
-			"player_activity"	"ACT_SHOOT_E2W_BAT"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 -40 -10"
 		}
 	}	

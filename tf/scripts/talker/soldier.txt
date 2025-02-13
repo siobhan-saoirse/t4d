@@ -1510,7 +1510,7 @@ Response MvMTankCalloutSoldier
 }
 Rule MvMTankCalloutSoldier
 {
-	criteria ConceptMvMTankCallout IsSoldier IsTalk IsTalkNamVet IsWorldTalkNamVet
+	criteria ConceptPlayerWarnHearZombie IsTankClass IsSoldier
 	Response MvMTankCalloutSoldier
 }
 
@@ -1543,7 +1543,7 @@ Response MvMAttackTheTankSoldier
 }
 Rule MvMAttackTheTankSoldier
 {
-	criteria ConceptMvMAttackTheTank 50PercentChance IsSoldier
+	criteria ConceptPlayerReloading IsZombiePresentTank IsSoldier
 	Response MvMAttackTheTankSoldier
 }
 

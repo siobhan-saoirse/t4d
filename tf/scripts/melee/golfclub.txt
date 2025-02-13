@@ -84,8 +84,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"		"0.25"
 			"activity"		"ACT_VM_HITCENTER"
-			"player_activity"	"ACT_SHOOT_E2W_KATANA"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_KATANA"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"4 -10 0"
 		}
 			"slash2"
@@ -96,8 +96,8 @@ MeleeWeaponData
 			"starttime"		"0.0"
 			"endtime"		"0.2"
 			"activity"		"ACT_VM_HITLEFT"
-			"player_activity"	"ACT_SHOOT_W2E_KATANA"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_KATANA"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"4 10 -10"
 		}
 		
@@ -112,8 +112,8 @@ MeleeWeaponData
 				"starttime"		"0.46" //starts at 17
 				"endtime"		".78" //ends at 22
 				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_BAT"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 				"force_dir"		"6 -9 10"
 		}
 	}
@@ -127,8 +127,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity"	"ACT_SHOOT_SECONDARY_BAT"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}	
 	

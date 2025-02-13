@@ -1610,7 +1610,7 @@ Response MvMTankCalloutEngineer
 }
 Rule MvMTankCalloutEngineer
 {
-	criteria ConceptMvMTankCallout IsEngineer IsTalk IsTalkMechanic IsWorldTalkMechanic
+	criteria ConceptPlayerWarnHearZombie IsTankClass IsEngineer
 	Response MvMTankCalloutEngineer
 }
 
@@ -1640,7 +1640,7 @@ Response MvMAttackTheTankEngineer
 }
 Rule MvMAttackTheTankEngineer
 {
-	criteria ConceptMvMAttackTheTank 50PercentChance IsEngineer
+	criteria ConceptPlayerReloading IsZombiePresentTank IsEngineer
 	Response MvMAttackTheTankEngineer
 }
 

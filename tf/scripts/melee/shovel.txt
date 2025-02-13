@@ -111,8 +111,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity"	"ACT_SHOOT_SECONDARY_AXE"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_AXE"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}	
 	
