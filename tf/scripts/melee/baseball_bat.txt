@@ -7,7 +7,7 @@ MeleeWeaponData
 	"viewmodel"		"models/weapons/melee/v_bat.mdl"
 	
 	// Model to show in thirdperson
-	"playermodel"	"models/weapons/melee/w_bat.mdl"
+	"playermodel"	"models/weapons/w_models/w_bat.mdl"
 	
 	// Animation prefix - not sure what this is used for just yet
 	"anim_prefix"	"anim"
@@ -88,8 +88,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"			"0.34"
 			"activity"		"ACT_VM_HITCENTER"
-			"player_activity"	"ACT_SHOOT_E2W_BAT"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 -40 0"
 		}
 			"slash2"
@@ -100,8 +100,8 @@ MeleeWeaponData
 			"starttime"		"0.0"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITLEFT"
-			"player_activity"	"ACT_SHOOT_W2E_BAT"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 40 -10"
 		}
 			"slash3"
@@ -112,8 +112,8 @@ MeleeWeaponData
 			"starttime"		"0.0"
 			"endtime"			"0.2"
 			"activity"		"ACT_VM_HITRIGHT"
-			"player_activity"	"ACT_SHOOT_E2W_BAT"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"15 -40 -10"
 		}
 	}	
@@ -127,8 +127,8 @@ MeleeWeaponData
 				"starttime"		"0.46" //starts at 17
 				"endtime"		".78" //ends at 22
 				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_BAT"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_BAT"
+				"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+				"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 				"force_dir"		"22 -30 35"
 		}
 	}
@@ -142,8 +142,8 @@ MeleeWeaponData
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity"	"ACT_SHOOT_SECONDARY_BAT"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_BAT"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}	
 	

@@ -7,7 +7,7 @@ MeleeWeaponData
 	"viewmodel"		"models/v_models/v_knife_t.mdl"
 
 	// Model to show in thirdperson
-	"playermodel"	"models/w_models/weapons/w_knife_t.mdl"
+	"playermodel"	"models/weapons/w_models/w_knife.mdl"
 
 	// Animation prefix - not sure what this is used for just yet
 	"anim_prefix"	"anim"

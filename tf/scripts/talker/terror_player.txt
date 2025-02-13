@@ -2722,7 +2722,7 @@ criterion "IsHeadShot" "customdeath" "headshot" "required"
 criterion "ConceptKilledPlayer" "Concept"	"KilledZombie" required
 criterion "KilledPlayerDelay" "worldDontKilledPlayer" "!=1" "required"
 
-criterion "IsScout" "playerclass" "Scout" "required" 
+criterion "IsScout" "Who" "scout" "required" 
 criterion "IsSniper" "Who"	"biker" "required"
 criterion "IsSoldier" "Who"	"namvet" "required"
 criterion "IsDemoman" "Who"	"manager" "required"
@@ -2777,7 +2777,7 @@ criterion "100PercentChance"  "randomnum"               ">0"   required weight 1
 criterion "IsARecentKill"  "recentkills"               ">0"   required
 criterion "IsManyRecentKills"  "recentkills"               ">1"   required
 criterion "IsVeryManyRecentKills"  "recentkills"               ">3"   required
-criterion "IsInvulnerable"  "invulnerable"               "1"   required weight 10
+criterion "IsInvulnerable"  "Concept" "ChainsawUsed"   required weight 10
 
 criterion "IsOnFriendlyControlPoint"  "OnFriendlyControlPoint"	"1"   required
 criterion "IsOnCappableControlPoint"  "OnCappableControlPoint"	"1"   required
@@ -2955,8 +2955,8 @@ criterion "IsCriticalPain"		"PainLevel"	"Critical"		required
 // Custom criterion to check if not scoped in, we do not want the lines to mix
 criterion "Unzoomed" "sniperzoomed" "!=1" "required"
 criterion "DeployedContext" "sniperzoomed" "1" "required"
-criterion "ConceptFireWeapon" "Concept" "Attack" required
-criterion "ConceptFireMinigun" "Concept" "Attack" required
+criterion "ConceptFireWeapon" "Concept" "ChainsawUsed" required
+criterion "ConceptFireMinigun" "Concept" "ChainsawUsed" required
 criterion "ConceptWindMinigun" "Concept" "TLK_WINDMINIGUN" required
 criterion "LowHealthContext" "playerhealthfrac" "<0.25" required
 // Custom stuff

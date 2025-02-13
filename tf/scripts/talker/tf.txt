@@ -1837,12 +1837,11 @@
 	response "SoldierTauntLaugh"
 	{
 		scene "scenes/player/Soldier/low/taunt_laugh.vcd"
-		scene "scenes/Player/Sniper/low/1774.vcd" 
-		scene "scenes/Player/Sniper/low/1676.vcd" 
-		scene "scenes/Player/Sniper/low/1677.vcd" 
-		scene "scenes/Player/Sniper/low/1775.vcd" 
-		scene "scenes/Player/Sniper/low/1776.vcd" 
-		scene "scenes/Player/Sniper/low/1777.vcd" 
+		scene "scenes/Player/Soldier/low/1136.vcd" 
+		scene "scenes/Player/Soldier/low/1137.vcd" 
+		scene "scenes/Player/Soldier/low/1138.vcd" 
+		scene "scenes/Player/Soldier/low/1351.vcd" 
+		scene "scenes/Player/Soldier/low/1352.vcd" 
 	}
 	rule SoldierTauntLaugh
 	{
