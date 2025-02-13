@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/scout/scout_blue"
+	"$basetexture" "models/player/scout/scout_red"
 	"$bumpmap" "models/player/scout/scout_normal"
 //	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 //	"$detailscale" "5"
@@ -24,6 +24,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	"$cloakPassEnabled" "1"
+	"$color2" "[ 6 9 2 ]"
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

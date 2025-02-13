@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/medic/medic_hands_blue"
+	"$basetexture" "models/player/medic/medic_hands_red"
 	"$basemapalphaphongmask" "1"
 
 	"$phong" "1"

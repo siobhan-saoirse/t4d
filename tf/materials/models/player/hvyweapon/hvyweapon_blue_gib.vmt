@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/hvyweapon/hvyweapon_blue_gib"
+	"$basetexture" "models/player/hvyweapon/hvyweapon_red_gib"
 	"$bumpmap" "models/player/hvyweapon/hvyweapon_normal"
 
 	"$phong" "1"

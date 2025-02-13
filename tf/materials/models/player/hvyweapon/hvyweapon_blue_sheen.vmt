@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/hvyweapon/hvyweapon_blue"
+	"$basetexture" "models/player/hvyweapon/hvyweapon_red"
 	"$bumpmap" "models/player/hvyweapon/hvyweapon_normal"
 //	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 //	"$detailscale" "5"

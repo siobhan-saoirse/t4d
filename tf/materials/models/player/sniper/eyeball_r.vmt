@@ -23,7 +23,7 @@
 	"Eyes_dx8"
 	{
 		"$basetexture"	"models/player/shared/dxlevel80/eyeball_r"
-		"$iris"         "models/player/shared/dxlevel80/iris_blue_r"
+		"$iris"         "models/player/shared/dxlevel80/iris_red_r"
 	}
 
 	"$cloakPassEnabled" "1"

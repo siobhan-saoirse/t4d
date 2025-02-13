@@ -26,6 +26,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	"$cloakPassEnabled" "1"
+	"$color2" "[ 6 9 2 ]"
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support

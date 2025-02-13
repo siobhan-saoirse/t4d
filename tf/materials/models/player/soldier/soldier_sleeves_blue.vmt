@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/soldier/soldier_sleeves_blue"
+	"$basetexture" "models/player/soldier/soldier_sleeves_red"
 
 	"$bumpmap" "models/player/soldier/soldier_sleeves_normal"
 

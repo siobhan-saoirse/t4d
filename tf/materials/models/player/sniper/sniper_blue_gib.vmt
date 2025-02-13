@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/player/sniper/sniper_blue_gib"
+	"$basetexture"	"models/player/sniper/sniper_red_gib"
 	"$surfaceprop"	"flesh"
 	"$bumpmap" "models/player/sniper/sniper_normal"
 
@@ -15,4 +15,5 @@
 	"$rimlight" "1"												// To enable rim lighting (requires phong)
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+	"$color2" "[ 6 9 2 ]"
 }

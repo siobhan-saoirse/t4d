@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/player/demo/demoman_blue_gib"
+	"$basetexture"	"models/player/demo/demoman_red_gib"
 	"$surfaceprop"	"flesh"
 	"$bumpmap" "models/player/demo/demoman_normal"
 

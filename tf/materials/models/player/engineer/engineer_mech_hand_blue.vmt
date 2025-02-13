@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/engineer/engineer_mech_hand_blue"
+	"$basetexture" "models/player/engineer/engineer_mech_hand_red"
 	"$bumpmap"     "models/player/engineer/engineer_mech_hand_phongmask"
 //	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 //	"$detailscale" "1"

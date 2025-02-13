@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/player/pyro/pyro_blue"
+	"$basetexture" "models/player/pyro/pyro_red"
 	"$bumpmap" "models/player/pyro/pyro_normal"
 //	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 //	"$detailscale" "5"
@@ -23,7 +23,7 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
-	"360?$color2" "[ 0.75 0.75 0.7 ]"
+	"$color2" "[ 6 9 2 ]"
 
 	"$cloakPassEnabled" "1"
 	"Proxies"

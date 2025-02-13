@@ -1,6 +1,6 @@
 "VertexLitGeneric"
 {
-	"$basetexture"	"models/player/medic/medic_backpack_blue"
+	"$basetexture"	"models/player/medic/medic_backpack_red"
 	"$basemapalphaphongmask" "1"
 	//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 //	"$detailscale" "2"
