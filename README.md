@@ -19,3 +19,6 @@ More stuff will be implemented in the future.
 
 > [!TIP]
 > If you want to play L4D2, look into the instructions i've given you through the gameinfo_left4dead2.txt file if you're looking to uninstall it.
+
+> [!WARNING]
+> For the best experience, Sourcemod and Metamod is required. Extract the metamod_sourcemod_t4d.zip file into your "Left 4 Dead 2/left4dead2" folder, and add '-insecure' to your launch options.
