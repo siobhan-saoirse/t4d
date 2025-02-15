@@ -1,6 +1,6 @@
 "GameInfo"
 {
-	game	"Left 4 Dead 2"	// Window title
+	game	"Team 4 Dead"	// Window title
 	type multiplayer_only
 	nomodels 1
 	nohimodel 1
@@ -41,13 +41,12 @@
 		//
 		SearchPaths
 		{
-			Game				tf
-			Game				left4dead_mod
+			Game				|gameinfo_path|.
 			Game				update
 			Game				left4dead2_dlc3
 			Game				left4dead2_dlc2
 			Game				left4dead2_dlc1
-			Game				|gameinfo_path|.
+			Game				left4dead2
 			Game				hl2
 		}
 	}
