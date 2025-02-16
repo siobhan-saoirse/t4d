@@ -13,13 +13,13 @@ More stuff will be implemented in the future.
 > Due to how L4D engine branch handles sourcemods, it doesn't correctly handle custom file mounting. Look into gameinfo_left4dead2.txt for more information.
 
 1. Clone 't4d' to your sourcemods folder
-1.1. Rename 't4d-main' to 't4d'
+2. Rename 't4d-main' to 't4d'
 3. Read the instructions in the gameinfo_left4dead2.txt file
 4. Copy the gameinfo_left4dead2.txt file.
 5. Go to your L4D2 directory, and go in the 'left4dead2' directory.
 6. Delete the old gameinfo.txt, paste the gameinfo_left4dead2.txt file and rename it to 'gameinfo.txt'
-5. Restart Steam.
-6. You did it! You installed Team 4 Dead! If you're looking to play the mod, do not play Left 4 Dead 2. Instead, play Team 4 Dead. It should be in your library.
+7. Restart Steam.
+8. You did it! You installed Team 4 Dead! If you're looking to play the mod, do not play Left 4 Dead 2. Instead, play Team 4 Dead. It should be in your library.
 
 > [!TIP]
 > If you want to play L4D2, look into the instructions i've given you through the gameinfo_left4dead2.txt file if you're looking to uninstall it.
