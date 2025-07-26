@@ -12,7 +12,7 @@
 
 	"x360ctx"	"4"
 
-	"meleeweapons"	"electric_guitar;katana;fireaxe;crowbar;baseball_bat;knife"
+	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife;frying_pan;electric_guitar;machete;pitchfork;shovel;tonfa;wrench;bottle"
 
 	// Loading poster data
 	"poster"

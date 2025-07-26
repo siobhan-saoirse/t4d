@@ -74,7 +74,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_PRIMARYATTACK"
@@ -86,7 +86,7 @@ MeleeWeaponData
 		{
 			"startdir"		"W"
 			"enddir"		"E"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_HITLEFT"
@@ -101,7 +101,7 @@ MeleeWeaponData
 		{
 				"startdir"		"N"
 				"enddir"		"S"
-				"duration"		"1.24"
+			"duration"		"0.8"
 				"starttime"		"0.35"
 				"endtime"		"0.60"
 				"activity"		"ACT_VM_SWINGHARD"
@@ -116,7 +116,7 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".73"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"

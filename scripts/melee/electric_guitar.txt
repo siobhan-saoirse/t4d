@@ -59,8 +59,8 @@ MeleeWeaponData
 	SoundData
 	{
 		"melee_miss"		"Guitar.Miss"
-		"melee_hit"		"Guitar.ImpactFlesh"
-		"melee_hit_world"	"Guitar.ImpactWorld"
+		"melee_hit"		"Weapon_Guitar.Impact"
+		"melee_hit_world"	"Weapon_Guitar.Impact"
 	}
 		
 	// Player animation to fire, 0 = PLAYERANIMEVENT_MELEE for now
@@ -76,24 +76,24 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_PRIMARYATTACK"
-			"player_activity"	"ACT_SHOOT_E2W_GUITAR"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_GUITAR"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"0 -15 0"
 		}	
 		"slash2"
 		{
 			"startdir"		"W"
 			"enddir"		"E"
-			"duration"		"1.23"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.33"
 			"activity"		"ACT_VM_HITLEFT"
-			"player_activity"	"ACT_SHOOT_E2W_GUITAR"
-			"player_activity_idle"	"ACT_SHOOT_E2W_IDLE_GUITAR"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"0 15 0"
 		}		
 	}	
@@ -103,12 +103,12 @@ MeleeWeaponData
 		{
 				"startdir"		"N"
 				"enddir"		"S"
-				"duration"		"1.24"
+				"duration"		"0.8"
 				"starttime"		"0.35"
 				"endtime"		"0.60"
 				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_AXE"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_AXE"
+				"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+				"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 				"force_dir"		"0 0 18"
 		}
 	}
@@ -118,12 +118,12 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".73"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.26"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity"	"ACT_SHOOT_SECONDARY_GUITAR"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_GUITAR"
+			"player_activity"	"ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle"	"ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}	
 	

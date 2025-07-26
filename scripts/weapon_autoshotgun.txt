@@ -70,7 +70,7 @@ WeaponData
 	
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"			"Auto Shotgun"
-	"playermodel"			"models/workshop/weapons/c_models/c_russian_riot/c_russian_riot.mdl"
+	"playermodel"			"models/weapons/c_models/c_frontierjustice/c_frontierjustice.mdl"
 	
 	"viewmodel"			"models/v_models/v_shotgun_chrome.mdl"
 	"CharacterViewmodelAddon"
@@ -90,7 +90,7 @@ WeaponData
 	"bucket"			"0"
 	"bucket_position"		"0"
 
-	"clip_size"			"8"  //increased from 9
+	"clip_size"			"3"  //increased from 9
 	
 	"primary_ammo"			"AMMO_TYPE_AUTOSHOTGUN"
 	"secondary_ammo"		"None"
@@ -103,8 +103,8 @@ WeaponData
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
 	{
-		"single_shot"		"Weapon_FamilyBusiness.Single"
-		"shoot_incendiary"	"Weapon_FamilyBusiness.SingleCrit"
+		"single_shot"		"Weapon_FrontierJustice.Single"
+		"shoot_incendiary"	"Weapon_FrontierJustice.SingleCrit"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

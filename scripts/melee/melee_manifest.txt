@@ -13,4 +13,6 @@ melee_manifest
 	"file"		"scripts/melee/golfclub.txt"
 	"file"		"scripts/melee/shovel.txt"
 	"file"		"scripts/melee/pitchfork.txt"
+	"file"		"scripts/melee/bottle.txt"
+	"file"		"scripts/melee/wrench.txt"
 }

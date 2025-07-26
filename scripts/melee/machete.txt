@@ -79,12 +79,12 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".76"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.25"
 			"activity"		"ACT_VM_PRIMARYATTACK" //was ACT_VM_PRIMARYATTACK
-			"player_activity" 	"ACT_SHOOT_N2S_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_N2S_IDLE_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle" "ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"5 -5 3"
 		}	
 
@@ -92,12 +92,13 @@ MeleeWeaponData
 		{
 			"startdir"		"W"
 			"enddir"		"E"
-			"duration"		".7"
+			"duration"		"0.8"
 			"starttime"		"0"
 			"endtime"		"0.2"
 			"activity"		"ACT_VM_HITRIGHT"
-			"player_activity" 	"ACT_SHOOT_W2E_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_W2E_IDLE_FRYINGPAN"
+
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle" "ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"10 -7 2"
 		}
 
@@ -105,12 +106,12 @@ MeleeWeaponData
 		{
 			"startdir"		"E"
 			"enddir"		"W"
-			"duration"		".58"
+			"duration"		"0.8"
 			"starttime"		"0.1"
 			"endtime"		"0.22"
 			"activity"		"ACT_VM_HITLEFT"
-			"player_activity" 	"ACT_SHOOT_N2S_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_N2S_IDLE_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle" "ACT_MP_ATTACK_STAND_MELEE"
 			"force_dir"		"10 -7 2"
 		}		
 	}	
@@ -120,12 +121,12 @@ MeleeWeaponData
 		{
 				"startdir"		"S"
 				"enddir"		"N"
-				"duration"		"1.24"
+			"duration"		"0.8"
 				"starttime"		"0.35"
 				"endtime"		"0.60"
 				"activity"		"ACT_VM_SWINGHARD"
-				"player_activity"	"ACT_SHOOT_STRONG_FRYINGPAN"
-				"player_activity_idle"	"ACT_SHOOT_STRONG_IDLE_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle" "ACT_MP_ATTACK_STAND_MELEE"
 				"force_dir"		"60 0 60"
 		}
 	}
@@ -135,12 +136,12 @@ MeleeWeaponData
 		{
 			"startdir"		"W"
 			"enddir"		"E"
-			"duration"		"1.3"
+			"duration"		"0.8"
 			"starttime"		"0.15"
 			"endtime"		"0.3"
 			"activity"		"ACT_VM_SECONDARYATTACK"
-			"player_activity" "ACT_SHOOT_SECONDARY_FRYINGPAN"
-			"player_activity_idle"	"ACT_SHOOT_SECONDARY_FRYINGPAN"
+			"player_activity" "ACT_MP_ATTACK_STAND_MELEE"
+			"player_activity_idle" "ACT_MP_ATTACK_STAND_MELEE"
 		}	
 	}	
 	

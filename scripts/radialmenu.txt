@@ -54,8 +54,8 @@
 	{
 		"Center"
 		{
-			"command"	"vocalize PlayerAskReady"
-			"text"		"Activate Charge!"
+			"command"	"vocalize AskForHealth"
+			"text"		"MEDIC!"
 		}
 		"North"
 		{

@@ -12,7 +12,7 @@
 
 	"x360ctx"	"3"
 
-	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife"
+	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife;frying_pan;electric_guitar;machete;pitchfork;shovel;tonfa;wrench;bottle"
 
 	"allow_cola"	"1"
 	"no_wpn_restore"	"1"		// on player wipe, don't keep any weapons

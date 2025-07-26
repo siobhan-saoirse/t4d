@@ -12,8 +12,7 @@
 
 	"x360ctx"	"8"
 	"dlcmask"	"0x0000000000000002"
-
-	"meleeweapons"	"fireaxe;crowbar;golfclub;katana;baseball_bat;shovel"
+	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife;frying_pan;electric_guitar;machete;pitchfork;shovel;tonfa;wrench;bottle"
 	"allow_cola"	"0"
 	"no_wpn_restore"	"1"		// on player wipe, don't keep any weapons
 	"no_female_boomers"	"1"		// Can't have female Boomers because there's no audio support

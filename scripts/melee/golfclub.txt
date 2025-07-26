@@ -7,7 +7,7 @@ MeleeWeaponData
 	"viewmodel"		"models/weapons/melee/v_golfclub.mdl"
 	
 	// Model to show in thirdperson
-	"playermodel"	"models/weapons/melee/w_golfclub.mdl"
+	"playermodel"	"models/workshop/weapons/c_models/c_golfclub/c_golfclub.mdl"
 	
 	// Animation prefix - not sure what this is used for just yet
 	"anim_prefix"	"anim"
@@ -21,7 +21,7 @@ MeleeWeaponData
 	//DMG_SLASH			(1 << 2) = 4 - cuts off parts of infected
 	//DMG_BURN			(1 << 3) = 8 - lights zombies on fire
 	//DMG_CLUB			(1 << 7) = 128 - knocks them back?
-	"damage_flags"	"128"
+	"damage_flags"	"4"
 	
 	// Rumble effect to play on 360 when we swing
 	// RUMBLE_CROWBAR_SWING = 9

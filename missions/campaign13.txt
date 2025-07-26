@@ -11,8 +11,7 @@ mission
 	
 	"Image"			"maps/c13"
 	"OuttroImage"	"vgui/OutroTitle_Coldstream"
-	
-	"meleeweapons"	"fireaxe;machete;tonfa;katana;shovel;baseball_bat;knife"
+	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife;frying_pan;electric_guitar;machete;pitchfork;shovel;tonfa;wrench;bottle"
 	
 	//"allow_cola"	"1"
 	//"allow_diesel"	"1"

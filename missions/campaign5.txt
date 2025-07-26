@@ -11,8 +11,7 @@
 	"OuttroImage"	"vgui/outroTitle_TheParish"
 
 	"x360ctx"	"7"
-
-	"meleeweapons"	"tonfa;frying_pan;machete;electric_guitar;shovel;baseball_bat;knife"
+	"meleeweapons"	"fireaxe;crowbar;cricket_bat;katana;baseball_bat;golfclub;knife;frying_pan;electric_guitar;machete;pitchfork;shovel;tonfa;wrench;bottle"
 
 	// Loading poster data
 	"poster"
