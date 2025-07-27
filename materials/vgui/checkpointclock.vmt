@@ -1,5 +1,0 @@
-UnlitGeneric
-{
-$baseTexture "vgui/checkpointClock"
-$translucent 1
-}

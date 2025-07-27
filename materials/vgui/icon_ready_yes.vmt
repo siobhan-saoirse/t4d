@@ -1,6 +1,0 @@
-UnlitGeneric
-{
-$basetexture "vgui\icon_ready_yes"
-$translucent 1
-$ignorez 1
-}
