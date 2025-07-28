@@ -2,12 +2,12 @@
 {
 	"$basetexture" "models/player/hvyweapon/hvyweapon_red"
 	"$bumpmap" "models/player/hvyweapon/hvyweapon_normal"
-//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "5"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
+//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "5"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
 
-	"$yellow" "0"
+	//"$yellow" "0"
 	"$one" "1"
 
 	"$phong" "1"
@@ -25,7 +25,7 @@
 	"360?$color2" "[ 0.8 0.8 0.8 ]"
 	"$color2" "[ 6 9 2 ]"
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support
@@ -36,13 +36,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 	}
 }

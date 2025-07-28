@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/spy/spy_detective_noir_blu"
+	"$bumpmap" "models/player/items/spy/spy_detective_noir_normal" 
+	
+	//"$yellow" "0"
+
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{69 79 88}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$phong" "1"
+	"$phongexponent" "8"
+	"$phongboost" ".16"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 .5]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "2"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.5"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+}

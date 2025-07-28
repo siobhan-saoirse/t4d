@@ -1,0 +1,26 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/items/engineer/hair/professor_hair"
+	"$bumpmap" "models/player/items/engineer/hair/professor_hair_normal"
+	
+	//"$yellow" "0"
+	
+	
+	"$colortint_base" "{255 255 255}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+
+	
+	"$phong" "1"
+	"$phongexponent" "22"
+	"$phongboost" ".15"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$rimlight" ".5"
+	"$rimlightexponent" "110"
+	"$rimlightboost" "3"
+	// Cloaking
+	
+
+}

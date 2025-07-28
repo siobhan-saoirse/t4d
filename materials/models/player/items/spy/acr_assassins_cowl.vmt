@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/spy/acr_assassins_cowl"
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".2"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+	"$basemapalphaphongmask" "1"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{80 50 52}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".65"
+	// Cloaking
+	
+
+}

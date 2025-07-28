@@ -3,11 +3,11 @@
 	"$basetexture" "models/player/shared/ice_player"
 	"$bumpmap" "models/weapons/c_items/c_xms_cold_shoulder_normal"
 
-//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "5"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
-	"$yellow" "0"
+//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "5"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
+	//"$yellow" "0"
 
 	"$phong" "1"
 	"$phongexponent" "200"
@@ -27,7 +27,7 @@
 	"$rimlightboost" "15"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"invis"
@@ -35,13 +35,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 	}
 }

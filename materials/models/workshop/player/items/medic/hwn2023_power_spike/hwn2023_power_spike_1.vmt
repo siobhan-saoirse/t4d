@@ -1,0 +1,134 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/medic/hwn2023_power_spike/hwn2023_power_spike_1_color"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.010000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"4"
+	"$rimlightboost"		"1.500000"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"1.000000"
+	"$colortint_base"		"{ 208 63 66 }"
+	"$color2"		"{ 208 63 66 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+	//"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	//"$detailscale"		"5"
+	//"$detailblendfactor"		"0"
+	//"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"$glowSine"		"0.000000"
+	"$glowSine2"		"0.000000"
+	"$glowSineFlashGap"		"0.000000"
+	"$glowSineFlash"		"0.000000"
+	"$flashMin"		"0.930000"
+	"$flashOff"		"1"
+	"$flashSelfMin"		"1.050000"
+	"$glowSine3"		"0.000000"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		//"$detail"
+			"animatedtextureframenumvar"		//"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		//"$detailblendfactor"
+		}
+		"Sine"
+		{
+			"sinemax"		"0.950000"
+			"sinemin"		"1.650000"
+			"sineperiod"		"2.100000"
+			"resultVar"		"$glowSine"
+		}
+		"Sine"
+		{
+			"sinemax"		"0.950000"
+			"sinemin"		"1.250000"
+			"sineperiod"		"0.570000"
+			"resultVar"		"$glowSine2"
+		}
+		"Sine"
+		{
+			"sinemax"		"0.000000"
+			"sinemin"		"1.600000"
+			"sineperiod"		"0.330000"
+			"resultVar"		"$glowSineFlash"
+		}
+		"Sine"
+		{
+			"sinemax"		"0"
+			"sinemin"		"1"
+			"sineperiod"		"2.350000"
+			"resultVar"		"$glowSineFlashGap"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$glowSine2"
+			"srcVar2"		"$glowSine"
+			"resultVar"		"$glowSine3"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"		"$glowSineFlashGap"
+			"srcVar2"		"$flashMin"
+			"resultVar"		"$glowSineFlash"
+			"greaterVar"		"$glowSineFlash"
+			"LessEqualVar"		"$flashOff"
+		}
+		"LessOrEqual"
+		{
+			"srcVar1"		"$glowSineFlash"
+			"srcVar2"		"$flashSelfMin"
+			"resultVar"		"$glowSineFlash"
+			"greaterVar"		"$glowSineFlash"
+			"LessEqualVar"		"$flashOff"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$glowSine3"
+			"srcVar2"		"$glowSineFlash"
+			"resultVar"		"$glowSine3"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$glowSine3"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

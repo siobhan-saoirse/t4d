@@ -15,7 +15,7 @@
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
 	// Cloaking
-	"$cloakPassEnabled" "1"
+	
 	"$cloakColorTint" "[0.4 0.5 1]"
 	"Proxies"
 	{
@@ -24,8 +24,8 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 	}

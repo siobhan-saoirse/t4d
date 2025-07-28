@@ -3137,16 +3137,22 @@ criterion "ConceptPlayerMatchOverComp" "Concept" "TLK_MATCH_OVER_COMP" required
 #include "talker/Pyro_auto.txt"
 #include "talker/Spy_auto.txt"
 
-//--------------------------------------------------------------------------------------------------------------
-// Character-Specific Includes
-//--------------------------------------------------------------------------------------------------------------
-#include "talker/terror_player_addon.txt"
-#include "talker/conversation.txt"
+#include "talker/terror_player_dlc2_use.txt"
+//#include "talker/response_rules_dlc2.txt"
 #include "talker/requires.txt"
+#include "talker/terror_player_dlc1.txt"
+#include "talker/terror_player_dlc3.txt"
+#include "talker/terror_player_addon.txt"
+#include "talker/terror_player_addon_dlc1.txt"
+#include "talker/terror_player_addon_dlc2.txt"
+#include "talker/terror_player_addon_dlc3.txt"
+#include "talker/requires_dlc1.txt"
+#include "talker/conversation.txt"
+#include "talker/requires_dlc3.txt"
+#include "talker/finales_dlc2.txt"
 #include "talker/orator.txt"
 #include "talker/whitaker.txt"
 #include "talker/virgil.txt"
 #include "talker/soldier1.txt"
 #include "talker/soldier2.txt"
 #include "talker/arenaheli.txt"
-#include "talker/l4d2_DLC1.txt"

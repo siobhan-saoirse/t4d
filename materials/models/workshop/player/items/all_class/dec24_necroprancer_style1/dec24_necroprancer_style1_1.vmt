@@ -1,0 +1,115 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/all_class/dec24_necroprancer_style1/dec24_necroprancer_style1_1_color"
+	"$lightwarptexture"		"models/lightwarps/jarate_lightwarp"
+	"$phongexponenttexture"		"models/workshop/player/items/all_class/dec24_necroprancer_style1/dec24_necroprancer_style1_1_color"
+	"$phong"		"1"
+	"$phongexponent"		"2"
+	"$phongboost"		"0.200000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"10"
+	"$rimlightboost"		"10"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 150 0 35 }"
+	"$color2"		"{ 150 0 35 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$cloakPassEnabled"		"1"
+	"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	"$detailscale"		"5"
+	"$detailblendfactor"		"0"
+	"$detailblendmode"		"6"
+	"$yellow"		"0"
+	"$half"		"0.775000"
+	"$selfillumtint"		"{ 150 0 35 }"
+	"$selfIllumFresnel"		"1"
+	"$selfIllumFresnelMinMaxExp"		"[0 10 10]"
+	"$phongtint"		"{ 150 0 35 }"
+	"$tintaddamount"		"0.250000"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		"$detail"
+			"animatedtextureframenumvar"		"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$phongtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$selfillumtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$phongtint"
+			"srcVar2"		"$half"
+			"resultVar"		"$phongtint"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$selfillumtint"
+			"srcVar2"		"$half"
+			"resultVar"		"$selfillumtint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$phongtint"
+			"srcVar2"		"$tintaddamount"
+			"resultVar"		"$phongtint"
+		}
+		"Add"
+		{
+			"srcVar1"		"$selfillumtint"
+			"srcVar2"		"$tintaddamount"
+			"resultVar"		"$selfillumtint"
+		}
+		"Sine"
+		{
+			"sineperiod"		"2.000000"
+			"sinemin"		"0.200000"
+			"sinemax"		"1.200000"
+			"resultVar"		"$selfIllumFresnelMinMaxExp[0]"
+		}
+	}
+	"$rimmask"		"1"
+}

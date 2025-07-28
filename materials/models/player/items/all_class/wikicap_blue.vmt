@@ -1,0 +1,26 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/wikicap_blue"
+	"$bumpmap" "models/player/items/all_class/wikicap_phongmask" 
+	
+	//"$yellow" "0"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{56 88 112}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "2"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".65"
+	// Cloaking
+	
+
+}

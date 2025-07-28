@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/all_domination_hat"
+
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+	"$phong" "1"
+	"$phongexponent" "50"
+	"$phongboost" "0.5"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+	"$basemapalphaphongmask" "1"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"
+
+	"$colortint_base" "{56 48 48}"
+	"$colortint_tmp" "[0 0 0]" 
+
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" ".65"
+	// Cloaking
+	
+
+}

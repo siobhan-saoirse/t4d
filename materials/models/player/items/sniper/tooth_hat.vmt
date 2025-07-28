@@ -1,0 +1,20 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/sniper/tooth_hat"
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{128 109 83}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "2"
+
+	
+
+}

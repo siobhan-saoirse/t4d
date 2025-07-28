@@ -1,0 +1,154 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/medic/hwn2023_power_spike/hwn2023_power_spike_color"
+	"$lightwarptexture"		"models/lightwarps/jarate_lightwarp"
+	"$phong"		"1"
+	"$phongexponent"		"25"
+	"$phongboost"		"0.001000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"5.000000"
+	"$rimlightboost"		"0.001000"
+	"$blendtintbybasealpha"		"0"
+	"$blendtintcoloroverbase"		"0.000000"
+	"$colortint_base"		"{ 208 63 66 }"
+	"$color2"		"{ 208 63 66 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$additive"		"1"
+	"$translucent"		"1"
+	"$alphatest"		"0"
+	"$cloakPassEnabled"		"1"
+	//"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	//"$detailscale"		"5"
+	//"$detailblendfactor"		"0"
+	//"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"1"
+	}
+	"$selfillumtint"		"[1 1 1]"
+	"$glowSine"		"0.000000"
+	"$glowSine2"		"0.000000"
+	"$glowSine3"		"0.000000"
+	"$scaleSine"		"0.000000"
+	"$scrollSine"		"0.100000"
+	"$scrollSine2"		"0.100000"
+	"$scrollSine3"		"0.100000"
+	"$noise_alpha"		"0.100000"
+	"$scrollFinal"		"0.100000"
+	"$translate"		"[0.0 0.0]"
+	"$angle"		"0"
+	"$ramp"		"0"
+	"$center"		"[0.5 0.5]"
+	"$scale"		"[1 1]"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		//"$detail"
+			"animatedtextureframenumvar"		//"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"Sine"
+		{
+			"sinemax"		"0.950000"
+			"sinemin"		"1.650000"
+			"sineperiod"		"2"
+			"resultVar"		"$glowSine"
+		}
+		"Sine"
+		{
+			"sinemax"		"0.950000"
+			"sinemin"		"1.250000"
+			"sineperiod"		"0.570000"
+			"resultVar"		"$glowSine2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$glowSine2"
+			"srcVar2"		"$glowSine"
+			"resultVar"		"$glowSine3"
+		}
+		"Sine"
+		{
+			"sinemax"		"-0.000000"
+			"sinemin"		"0.100000"
+			"sineperiod"		"0.450000"
+			"resultVar"		"$scrollSine"
+		}
+		"Clamp"
+		{
+			"min"		"0.080000"
+			"max"		"1"
+			"srcVar1"		"$scrollSine"
+			"resultVar"		"$scrollSine"
+		}
+		"UniformNoise"
+		{
+			"minVal"		"-0.001000"
+			"maxVal"		"0.001000"
+			"resultVar"		"$noise_alpha"
+		}
+		"LinearRamp"
+		{
+			"rate"		"0.500000"
+			"initialValue"		"0"
+			"resultVar"		"$ramp"
+		}
+		"Add"
+		{
+			"srcVar1"		"$noise_alpha"
+			"srcVar2"		"$scrollSine"
+			"resultVar"		"$scrollSine3"
+		}
+		"Add"
+		{
+			"srcVar1"		"$scrollSine3"
+			"srcVar2"		"$ramp"
+			"resultVar"		"$translate[1]"
+		}
+		"TextureTransform"
+		{
+			"translateVar"		"$translate"
+			"rotateVar"		"$angle"
+			"centerVar"		"$center"
+			"scaleVar"		"$scale"
+			"resultVar"		"$baseTextureTransform"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		//"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$glowSine3"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

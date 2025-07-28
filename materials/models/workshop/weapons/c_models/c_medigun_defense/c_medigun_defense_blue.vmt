@@ -4,9 +4,9 @@
 	"$bumpmap" "models/effects/flat_normal"
 	"$basemapalphaphongmask" "1"
 
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .00
+	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	//"$detailscale" "5"
+	//"$detailblendfactor" .00
 	"$yellow" "0"
 	"$phong" "1"
 	"$phongexponent" "20"
@@ -46,8 +46,8 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"ModelGlowColor"

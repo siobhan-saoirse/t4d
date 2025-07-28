@@ -2,10 +2,10 @@
 {
 	"$baseTexture" "models/workshop/weapons/c_models/c_xms_gloves/c_xms_gloves_blue"
 	"$bumpmap" "models/workshop/weapons/c_models/c_xms_gloves/c_xms_gloves_normal"
-	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-	"$detailscale" "5"
-	"$detailblendfactor" .0
-	"$detailblendmode" 6
+	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	//"$detailscale" "5"
+	//"$detailblendfactor" .0
+	//"$detailblendmode" 6
 	"$yellow" "0"
 
 	"$phong" "1"
@@ -42,13 +42,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 		"YellowLevel"
 		{

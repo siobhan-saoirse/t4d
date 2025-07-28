@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models/player/items/all_class/summer_hat_style01"
+	"$bumpmap" "models/effects/flat_normal"
+	
+	//"$yellow" "0"
+	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{195 169 65}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+}

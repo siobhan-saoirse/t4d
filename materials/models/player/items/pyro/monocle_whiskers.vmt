@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/items/pyro/monocle_whiskers"
+	"$bumpmap" "models/player/items/pyro/monocle_whiskers_normal" 
+
+	
+	//"$yellow" "0"
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" ".25"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+	"$phongfresnelranges"	"[.25 .5 1]"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{67 45 24}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+}

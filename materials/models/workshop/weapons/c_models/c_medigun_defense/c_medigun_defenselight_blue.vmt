@@ -1,10 +1,10 @@
 "VertexlitGeneric"
 {
 	"$baseTexture" "models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_blue"	
-	"$detail" "models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_blue"	
-	"$detailscale" "1"
-	"$detailblendfactor" 1
-	"$detailblendmode" 5
+	//"$detail" "models/workshop/weapons/c_models/c_medigun_defense/c_medigun_defense_blue"	
+	//"$detailscale" "1"
+	//"$detailblendfactor" 1
+	//"$detailblendmode" 5
 	"$yellow" "0"
 
 	"$phong" "1"
@@ -41,21 +41,21 @@
 			"sinemax" "1"
 			"sinemin" ".25"
 			"sineperiod" "2"
-			"resultvar" "$detailblendfactor"
+			"resultvar" //"$detailblendfactor"
 	  }
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 // This is commented out because it conflicts with the Sine proxy.
 //		"BurnLevel"
 //		{
-//			"resultVar" "$detailblendfactor"
+//			"resultVar" //"$detailblendfactor"
 //		}
 		"YellowLevel"
 		{

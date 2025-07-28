@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/spy/spy_charmers_chapeau.vtf"
+	
+	"$bumpmap" "models/player/items/spy/spy_charmers_chapeau_normal.vtf" 
+	
+	//"$yellow" "0"
+
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 2]"
+
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{94 124 170}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"	
+	
+	
+	// Cloaking
+	
+
+}

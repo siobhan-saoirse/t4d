@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/sniper/grfs_sniper"
+
+	//"$yellow" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$phong" "1"
+	"$phongexponent" "1"
+	"$phongboost" ".5"
+	"$phongfresnelranges" "[.25 .5 1]"
+	"$basemapalphaphongmask" "1"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+
+	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{163 150 129}"
+	"$colortint_tmp" "[0 0 0]" 
+	"$color2""{163 150 129}"
+
+
+	
+
+}

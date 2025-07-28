@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/paper_hat/paper_hat_color"
+
+	//"$yellow" "0"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+	"$rimlight" "1"
+	"$rimlightexponent" "1"
+	"$rimlightboost" ".2"
+
+	
+
+	"Proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
+			"animatedtextureframerate" 30
+		}
+		"BurnLevel"
+		{
+			"resultVar" //"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar" //"$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1" //"$yellow"
+			"resultVar" "$color2"
+		}
+	}
+}

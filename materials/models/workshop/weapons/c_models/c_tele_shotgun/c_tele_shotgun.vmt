@@ -65,7 +65,7 @@
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 		"WeaponSkin"
 		{

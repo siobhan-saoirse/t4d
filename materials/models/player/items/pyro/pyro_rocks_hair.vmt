@@ -1,0 +1,33 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/pyro/pyro_rocks_hair"
+
+	
+
+	//"$yellow" "0"
+	"$one" "1"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".1"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+
+ 	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{189 72 74}"
+	"$color2" "{189 72 74}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "5"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+	"360?$color2" "[ 0.7 0.7 0.7 ]"
+
+}

@@ -2,12 +2,12 @@
 {
 	"$basetexture" "models/player/spy/spy_red"
 	"$bumpmap" "models/player/spy/spy_normal"
-	//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "5"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
+	//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "5"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
 
-	"$yellow" "0"
+	//"$yellow" "0"
 	"$one" "1"
 
 
@@ -23,7 +23,7 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
-	"$cloakPassEnabled" "1"
+	
 	"$color2" "[ 6 9 2 ]"
 	"Proxies"
 	{
@@ -35,13 +35,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 	}
 }

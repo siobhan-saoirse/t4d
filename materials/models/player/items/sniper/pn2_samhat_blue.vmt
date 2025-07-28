@@ -1,0 +1,30 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/sniper/pn2_samhat_blue"
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "1.2"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 .5 2]"
+	"$basemapalphaphongmask" "1"
+
+ 	"$blendtintbybasealpha" "0" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{48 64 88}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$color2" "{48 64 88}"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+}

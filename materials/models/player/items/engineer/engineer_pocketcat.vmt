@@ -1,0 +1,38 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/engineer/engineer_pocketcat"
+	"$bumpmap" "models/player/items/engineer/engineer_pocketcat_normal"
+	
+	
+	$basealphaenvmapmask 0
+	"$normalmapalphaenvmapmask" 1 
+	"$envmap" "effects/saxxy/saxxy_gold"
+	"$envmaptint" "[0.2 0.2 0.5]"	
+
+	//"$yellow" "0"
+	"$one" "1"
+
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" "0"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "1"
+
+	 "$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"	
+
+	"$color2" "{35 35 35 }"  // BLACK
+	"$colortint_base" "{35 35 35 }"
+	"$colortint_tmp" "[0 0 0]" 
+	
+	
+	// Rim lighting parameters
+	"$rimlight" "1"
+	"$rimlightexponent" "1.5"
+	"$rimlightboost" "6"  
+
+
+	// Cloaking
+	
+}

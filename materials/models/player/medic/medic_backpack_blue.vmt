@@ -2,10 +2,10 @@
 {
 	"$basetexture"	"models/player/medic/medic_backpack_red"
 	"$basemapalphaphongmask" "1"
-	//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "2"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
+	//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "2"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
 
 
 // 	"$bbqamount" "1"	
@@ -29,9 +29,9 @@
 	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
 	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
 
-	"$yellow" "0"
+	//"$yellow" "0"
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support
@@ -42,13 +42,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 	}
 }

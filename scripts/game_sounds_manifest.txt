@@ -8,17 +8,9 @@ game_sounds_manifest
 	 "precache_file"  	"scripts/game_sounds_infected_special.txt"
 
 	 "precache_file"  	"scripts/game_sounds_player.txt"
-	 "precache_file"  	"scripts/game_sounds_biker.txt"
-	 "precache_file"  	"scripts/game_sounds_manager.txt"
-	 "precache_file"  	"scripts/game_sounds_namvet.txt"
-	 "precache_file"  	"scripts/game_sounds_teengirl.txt"
 	 "precache_file"  	"scripts/game_sounds_npcs.txt"
 	 
 	 "precache_file"  	"scripts/game_sounds_npc2.txt"
-	 "precache_file"  	"scripts/game_sounds_mechanic.txt"
-	 "precache_file"  	"scripts/game_sounds_coach.txt"
-	 "precache_file"  	"scripts/game_sounds_producer.txt"
-	 "precache_file"  	"scripts/game_sounds_gambler.txt"
 	 "precache_file"  	"scripts/game_sounds_whitaker.txt"
 	 "precache_file"  	"scripts/game_sounds_virgil.txt"
 	 "precache_file"  	"scripts/game_sounds_soldier1.txt"
@@ -26,14 +18,6 @@ game_sounds_manifest
 	 "precache_file"  	"scripts/game_sounds_arenaheli.txt"
 	 "precache_file"  	"scripts/game_sounds_moustachio.txt"
 	 "precache_file"  	"scripts/game_sounds_melee_vo.txt"
-
-	 "precache_file"  	"scripts/game_sounds_biker_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_manager_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_teengirl_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_mechanic_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_coach_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_producer_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_gambler_dlc1.txt"
 
 
 
@@ -58,19 +42,6 @@ game_sounds_manifest
 	 "preload_file"		"scripts/level_sounds_general.txt"
 	 
 	 
-	 // BEGIN DLC2
-	 "precache_file"  	"scripts/game_sounds_npcs_dlc2.txt"
-	 "precache_file"  	"scripts/game_sounds_manager_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_teengirl_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_biker_dlc1.txt"
-	 "precache_file"  	"scripts/game_sounds_namvet_dlc2.txt"	 
-	 "precache_file"  	"scripts/game_sounds_manager_dlc2.txt"
-	 "precache_file"  	"scripts/game_sounds_teengirl_dlc2.txt"
-	 "precache_file"  	"scripts/game_sounds_biker_dlc2.txt"
-	 
- 	 "precache_file"  	"scripts/game_sounds_l4d1dlc2_teengirl.txt"
- 	 "precache_file"  	"scripts/game_sounds_l4d1dlc2_biker.txt"
- 	 "precache_file"  	"scripts/game_sounds_l4d1dlc2_manager.txt"
 	 "preload_file"  	"scripts/game_sounds_weapons_dlc2.txt"
 
 

@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+
+	"$basetexture" "models/player/items/soldier/ds_football_helmet"
+	"$bumpmap" "models/player/items/soldier/ds_football_helmet_normal"
+	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"
+
+	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "1"  
+	
+	"$color2" "{56 91 115}"          
+	"$colortint_base" "{56 91 115}"        	
+	"$colortint_tmp" "{0 0 0}" 
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "2"
+
+	$yellow 0
+	"$phongfresnelranges"	"[.33 1 4]"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+}

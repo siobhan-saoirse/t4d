@@ -2,13 +2,13 @@
 {
 	"$basetexture" "models/player/engineer/engineer_red"
 	"$bumpmap" "models/player/engineer/engineer_normal"
-//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "5"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
+//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "5"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
 
 
-	"$yellow" "0"
+	//"$yellow" "0"
 	"$one" "1"
 
 // 	"$bbqamount" "1"	
@@ -34,7 +34,7 @@
 
 	"$color2" "[ 6 9 2 ]"
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support
@@ -45,8 +45,8 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 	}

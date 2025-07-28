@@ -37,21 +37,21 @@
 			"sinemax" "1"
 			"sinemin" ".25"
 			"sineperiod" "2"
-			"resultvar" "$detailblendfactor"
+			"resultvar" //"$detailblendfactor"
 	  }
 		"invis"
 		{
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 // This is commented out because it conflicts with the Sine proxy.
 //		"BurnLevel"
 //		{
-//			"resultVar" "$detailblendfactor"
+//			"resultVar" //"$detailblendfactor"
 //		}
 		"YellowLevel"
 		{

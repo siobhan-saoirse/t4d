@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/items/all_class/mapper_medal"
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{157 48 47}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"											
+	"$rimlightboost" "2"										
+
+	
+
+	// Cloaking
+	
+}

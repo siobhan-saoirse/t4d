@@ -1,0 +1,59 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/heavy/hwn2024_strigoi_stare_style1/hwn2024_strigoi_stare_style1_1_color"
+	"$bumpmap"		"models/workshop/player/items/heavy/hwn2024_strigoi_stare_style1/hwn2024_strigoi_stare_style1_1_normal"
+	"$lightwarptexture"		"models/lightwarps/weapon_lightwarp"
+	"$phongexponenttexture"		"models/workshop/player/items/heavy/hwn2024_strigoi_stare_style1/hwn2024_strigoi_stare_style1_1_phongexponent"
+	"$phong"		"1"
+	"$phongalbedotint"		"1"
+	"$phongexponent"		"4.000000"
+	"$phongboost"		"0"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$envmapfresnel"		"-0.340000"
+	"$nocull"		"1"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"2.000000"
+	"$rimlightboost"		"50.000000"
+	"$rimmask"		"1"
+	"$color2"		"{ 255 255 255 }"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"effects/invun_red"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"0"
+	"$envmaptint"		"[0.968628 0.611765 0.525490]"
+	"$cloakPassEnabled"		"1"
+	//"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	//"$detailscale"		"5"
+	//"$detailblendfactor"		"0"
+	//"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		//"$detail"
+			"animatedtextureframenumvar"		//"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		//"$detailblendfactor"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"Equals"
+		{
+			"srcVar1"		"$yellow"
+			"resultVar"		"$color2"
+		}
+	}
+}

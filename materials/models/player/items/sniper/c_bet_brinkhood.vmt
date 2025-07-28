@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/sniper/c_bet_brinkhood" 
+	
+	//"$yellow" "0"
+	
+	
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{194 45 48}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+
+	
+	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+	"$basemapalphaphongmask" "0"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "2"
+	"$rimlightboost" "0.1"
+	
+
+}

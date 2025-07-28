@@ -4,12 +4,12 @@
 	"$bumpmap" "models/player/demo/demoman_normal"
 	"$surfaceprop"	"default"
 
-//	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
-//	"$detailscale" "5"
-//	"$detailblendfactor" .01
-//	"$detailblendmode" 6
+//	//"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+//	//"$detailscale" "5"
+//	//"$detailblendfactor" .01
+//	//"$detailblendmode" 6
 
-	"$yellow" "0"
+	//"$yellow" "0"
 	"$one" "1"
 
 
@@ -36,7 +36,7 @@
 
 	"$color2" "[ 6 9 2 ]"
 
-	"$cloakPassEnabled" "1"
+	
 	"Proxies"
 	{
 		"spy_invis" //wmodel and team color cloak support
@@ -47,13 +47,13 @@
 		}
 		"AnimatedTexture"
 		{
-			"animatedtexturevar" "$detail"
-			"animatedtextureframenumvar" "$detailframe"
+			"animatedtexturevar" //"$detail"
+			"animatedtextureframenumvar" //"$detailframe"
 			"animatedtextureframerate" 30
 		}
 		"BurnLevel"
 		{
-			"resultVar" "$detailblendfactor"
+			"resultVar" //"$detailblendfactor"
 		}
 	}
 }

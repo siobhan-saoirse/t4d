@@ -2,4 +2,5 @@ TEAM 4 DEAD DEVDLOPER CREDITS
 
 Siobhan - Lead Developer
 happyharvey1313 - Texture art, etc
-Willi - Textur art
+Willi - Texture art
+Super Zombie Fortress Team - Models

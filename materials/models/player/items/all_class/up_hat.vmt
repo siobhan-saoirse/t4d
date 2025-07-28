@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/up_hat"
+
+	
+	//"$yellow" "0"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+ 	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "0"  
+	
+	"$colortint_base" "{255 255 255}"
+	"$colortint_tmp" "[0 0 0]" 
+
+}

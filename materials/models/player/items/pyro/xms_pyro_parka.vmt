@@ -1,0 +1,34 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/pyro/xms_pyro_parka"
+
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+	"$one" "1"
+//	"$basemapalphaphongmask" "1"
+
+	"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" ".5"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.2 1 2]"
+	"$halflambert" "1"
+
+
+
+	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{188 62 52}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	
+
+}

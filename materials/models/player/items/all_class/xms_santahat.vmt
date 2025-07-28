@@ -1,0 +1,29 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/xms_santahat"
+	
+	//"$yellow" "0"
+
+	"$phong" "1"
+	"$phongboost" "1"
+	"$phongexponent" "5"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.2 .5 1]"
+//	"$basemapalphaphongmask" "1"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{184 56 59}"
+	"$colortint_tmp" "[0 0 0]"
+
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+
+	// Cloaking
+	
+
+}

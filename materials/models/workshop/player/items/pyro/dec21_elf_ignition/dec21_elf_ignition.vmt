@@ -1,0 +1,89 @@
+"VertexLitGeneric"
+{
+	"$basetexture"		"models/workshop/player/items/pyro/dec21_elf_ignition/dec21_elf_ignition_color"
+	"$bumpmap"		"models/workshop/player/items/pyro/dec21_elf_ignition/dec21_elf_ignition_normal"
+	"$lightwarptexture"		"models/player/pyro/pyro_lightwarp"
+	"$phongexponenttexture"		"models/workshop/player/items/pyro/dec21_elf_ignition/dec21_elf_ignition_phongexponent"
+	"$phong"		"1"
+	"$phongexponent"		"0.000000"
+	"$phongboost"		"20.000000"
+	"$phongfresnelranges"		"[.25 .5 1]"
+	"$phongalbedotint"		"1"
+	"$rimlight"		"1"
+	"$rimlightexponent"		"1.000000"
+	"$rimlightboost"		"2"
+	"$rimmask"		"1"
+	"$blendtintbybasealpha"		"1"
+	"$blendtintcoloroverbase"		"0"
+	"$colortint_base"		"{ 121 182 71 }"
+	"$color2"		"{ 121 182 71 }"
+	"$colortint_tmp"		"[0 0 0]"
+	"$bumpmapalphaphongmask"		"1"
+	"$envmap"		"env_cubemap"
+	"$basealphaenvmapmask"		"0"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"		"[0.215686 0.215686 0.215686]"
+	"$cloakPassEnabled"		"1"
+	//"$detail"		"effects/tiledfire/fireLayeredSlowTiled512"
+	//"$detailscale"		"5"
+	//"$detailblendfactor"		"0"
+	//"$detailblendmode"		"6"
+	"$yellow"		"0"
+	">=DX90"
+	{
+		"$selfillum"		"0"
+	}
+	"$paintboost"		"1.110000"
+	"$black"		"{ 20 20 20 }"
+	"$blackNew"		"{ 44 44 44 }"
+	"proxies"
+	{
+		"invis"
+		{
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar"		//"$detail"
+			"animatedtextureframenumvar"		//"$detailframe"
+			"animatedtextureframerate"		"30"
+		}
+		"BurnLevel"
+		{
+			"resultVar"		//"$detailblendfactor"
+		}
+		"ItemTintColor"
+		{
+			"resultVar"		"$colortint_tmp"
+		}
+		"SelectFirstIfNonZero"
+		{
+			"srcVar1"		"$colortint_tmp"
+			"srcVar2"		"$colortint_base"
+			"resultVar"		"$color2"
+		}
+		"YellowLevel"
+		{
+			"resultVar"		"$yellow"
+		}
+		"LessOrEqual"
+		{
+			"lessEqualVar"		"$blackNew"
+			"greaterVar"		"$color2"
+			"srcVar1"		"$color2"
+			"srcVar2"		"$black"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$yellow"
+			"resultVar"		"$color2"
+		}
+		"Multiply"
+		{
+			"srcVar1"		"$color2"
+			"srcVar2"		"$paintboost"
+			"resultVar"		"$color2"
+		}
+	}
+}

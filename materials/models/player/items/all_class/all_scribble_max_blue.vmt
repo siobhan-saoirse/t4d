@@ -1,0 +1,28 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/all_scribble_max"
+	"$bumpmap" "models/player/items/all_class/all_scribble_max_normal"
+	"$nocull" "1"
+
+	//"$yellow" "0"
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$colortint_base" "{73 125 160}"
+	"$color2" "{73 125 160}"
+	"$colortint_tmp" "[0 0 0]"
+
+ 	"$blendtintbybasealpha" "1" 
+	"$blendtintcoloroverbase" "1"  
+		
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "2"
+	"$phongfresnelranges" "[.4 1 12]"
+	"$basemapalphaphongmask" "0"
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "2"
+
+	
+
+}

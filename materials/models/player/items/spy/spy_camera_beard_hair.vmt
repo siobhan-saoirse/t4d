@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	$baseTexture "models/player/items/spy/spy_camera_beard_hair.vtf"
+	"$bumpmap" "models/effects/flat_normal" 
+	
+	//"$yellow" "0"
+
+	"$translucent" "1" 
+//	"$alphatest" "1"
+	"$nocull" "1"
+
+ 	"$blendtintbybasealpha" "0" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{40 36 24}"
+	"$colortint_tmp" "[0 0 0]" 
+
+	// Cloaking
+	
+
+}

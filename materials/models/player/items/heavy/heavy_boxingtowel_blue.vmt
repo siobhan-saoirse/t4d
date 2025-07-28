@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/heavy/heavy_boxingtowel"
+	
+	//"$yellow" "0"
+	
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" "0.1"
+	
+
+
+	
+	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "1"  
+
+	"$colortint_base" "{81 107 142}"
+	"$colortint_tmp" "[0 0 0]" 
+	
+	// Cloaking
+	
+
+}

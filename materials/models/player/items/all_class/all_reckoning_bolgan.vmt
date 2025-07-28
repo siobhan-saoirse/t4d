@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/player/items/all_class/all_reckoning_bolgan"
+	"$bumpmap" "models/player/items/all_class/all_reckoning_bolgan_normal"
+	
+	//"$yellow" "0"
+
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "1"
+//	"$lightwarptexture" "models/lightwarps/weapon_lightwarp"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[.25 1 4]"
+//	"$basemapalphaphongmask" "1"
+
+ 	"$blendtintbybasealpha" "1" 
+ 	"$blendtintcoloroverbase" "0"  
+
+	"$colortint_base" "{198 147 98}"  
+	"$colortint_tmp" "[0 0 0]" 
+
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" ".65"
+	// Cloaking
+	
+}
