@@ -6,12 +6,12 @@ Criterion "IsMerasmusHiding"	"IsMerasmusHiding" "1" "required" weight 100
 Criterion	"IsZombieCostume"		"IsZombieCostume"	"1" "required" weight 100
 Criterion "soldierNotZombieNoises" "soldierZombieNoises" "!=1" "required" weight 100
 Criterion "scoutNotZombieNoises" "scoutZombieNoises" "!=1" "required" weight 100
-criterion "ConceptMagicBigHead" "Concept" "TLK_MAGIC_BIGHEAD" required
+criterion "ConceptMagicBigHead" "Concept" "chargerpound" required
 criterion "ConceptMagicSmallHead" "Concept" "SurvivorJockeyed" required
 criterion "ConceptMagicGravity" "Concept" "TLK_MAGIC_GRAVITY" required
-criterion "ConceptMagicGood" "Concept" "Concept" "PlayerNearCheckpoint" required
+criterion "ConceptMagicGood" "Concept" "Concept" "PlayerPickup" required
 criterion "ConceptMagicDance" "Concept" "TLK_MAGIC_DANCE" required
-criterion "ConceptHalloweenPlayerPitFall" "Concept" "ScreamWhilePounced" required
+criterion "ConceptHalloweenPlayerPitFall" "Concept" "PlayerGroundPoundedByTank" required
 //------------------------------------------------------------------------------------------------------------------------
 
 Response PlayerFairyNoiseHeavy

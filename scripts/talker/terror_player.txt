@@ -2588,11 +2588,11 @@ criterion "ConceptPlayerTeleporterHere" "Concept" "PlayerWaitHere" required
 criterion "ConceptPlayerDispenserHere" "Concept" "PlayerImWithYou" required
 criterion "ConceptPlayerSentryHere" "Concept" "PlayerSorry" required
 criterion "ConceptPlayerActivateCharge" "Concept" "PlayerAskReady" required
-criterion "ConceptPlayerChargeReady" "Concept" "PlayerAskReady" required
+criterion "ConceptPlayerChargeReady" "Concept" "PlayerItemForYou" required
 criterion "ConceptPlayerTaunts" "Concept" "TLK_PLAYER_TAUNTS" required
 criterion "ConceptPlayerBattleCry" "Concept" "PlayerLeadOn" required
 criterion "ConceptPlayerCheers" "Concept" "PlayerToTheRescue" required
-criterion "ConceptPlayerJeers" "Concept" "TLK_PLAYER_JEERS" required
+criterion "ConceptPlayerJeers" "Concept" "SurvivorJockeyed" required
 criterion "ConceptPlayerPositive" "Concept" "PlayerWarnCareful" required
 criterion "ConceptPlayerNegative" "Concept" "PlayerNegative" required
 criterion "ConceptPlayerNiceShot" "Concept" "PlayerNiceShot" required
@@ -2624,22 +2624,22 @@ criterion "ConceptPlayerHoldTaunt" "Concept" "TLK_PLAYER_HOLDTAUNT" required
 //Auto fire concepts
 criterion "ConceptPlayerCapturedPoint" "Concept" "PlayerTransition" required
 criterion "ConceptPlayerRoundStart" "Concept" "Spawn" required
-criterion "ConceptPlayerRoundStartComp" "Concept" "Spawn" required
-criterion "ConceptPlayerSuddenDeathStart" "Concept" "TLK_SUDDENDEATH_START" required
+criterion "ConceptPlayerRoundStartComp" "Concept" "Spawn2" required
+criterion "ConceptPlayerSuddenDeathStart" "Concept" "PlayerAnswerLostCall" required
 criterion "ConceptPlayerStalemate" "Concept"	"PlayerSeeDeadPlayer" required
 criterion "ConceptPlayerBuildingObject" "Concept" "TLK_BUILDING_OBJECT" required
 criterion "ConceptPlayerDetonatedObject" "Concept" "TLK_DETONATED_OBJECT" required
 criterion "ConceptLostObject" "Concept" "TLK_LOST_OBJECT" required
 criterion "ConceptKilledObject" "Concept" "TLK_KILLED_OBJECT" required
 criterion "ConceptMedicChargeReady" "Concept" "TLK_MEDIC_CHARGEREADY" required
-criterion "ConceptTeleported" "Concept" "TLK_TELEPORTED" required
-criterion "ConceptPlayerDead" "Concept" "TLK_DEAD" required
+criterion "ConceptTeleported" "Concept" "SurvivorBotThanksForGift" required
+criterion "ConceptPlayerDead" "Concept" "PlayerDeath" required
 
-criterion "ConceptPlayerGrabbedIntelligence" "Concept" "TLK_FLAGPICKUP" required          
+criterion "ConceptPlayerGrabbedIntelligence" "Concept" "SurvivorBotHurrahAlso" required          
 criterion "ConceptPlayerCapturedIntelligence" "Concept" "TLK_FLAGCAPTURED" required          
 
 //cart stuff
-criterion "ConceptCartMovingForward" "Concept" "TLK_CART_MOVING_FORWARD" required          
+criterion "ConceptCartMovingForward" "Concept" "PlayerLookOut" required          
 criterion "ConceptCartMovingStopped" "Concept" "ReviveFriendDown" required          
 criterion "ConceptCartMovingBackward" "Concept" "PlayerTonguePullStart" required          
 
@@ -2675,14 +2675,14 @@ criterion "ConceptTauntGuitarRiff" "Concept" "TLK_TAUNT_GUITAR_RIFF" required
 criterion "ConceptTauntEurekaTeleport" "Concept" "TLK_TAUNT_EUREKA_EFFECT" required
 
 criterion "IsOnOffense" "Team"    "Survivor" required
-criterion "IsOnDefense" "teamrole" "defense" required
+criterion "IsOnDefense" "Team"    "Infected" required
 
 
 // Expressions
 criterion "ConceptPlayerExpression" "Concept" "TLK_PLAYER_EXPRESSION" required
 
 
-criterion "ConceptPlayerLostPoint" "Concept" "TLK_LOST_CONTROL_POINT'" required
+criterion "ConceptPlayerLostPoint" "Concept" "SurvivorBotWarnIncoming" required
 
 
 criterion "IsSapper" "objtype" "sapper" required
@@ -2743,15 +2743,15 @@ criterion "IsNotSpy" "playerclass" "!=Spy" "required"
 criterion "IsNotEngineer" "playerclass" "!=Engineer" "required"
 
 
-criterion "IsVictimScout" "victimclass" "Scout" "required" weight 0
-criterion "IsVictimSniper" "victimclass" "Sniper" "required" weight 0
-criterion "IsVictimSoldier" "victimclass" "Soldier" "required" weight 0
-criterion "IsVictimDemoman" "victimclass" "Demoman" "required" weight 0
-criterion "IsVictimMedic" "victimclass" "Medic" "required" weight 0
-criterion "IsVictimHeavy" "victimclass" "Heavy" "required" weight 0
-criterion "IsVictimPyro" "victimclass" "Pyro" "required" weight 0
-criterion "IsVictimSpy" "victimclass" "Spy" "required" weight 0
-criterion "IsVictimEngineer" "victimclass" "Engineer" "required"  weight 0
+criterion "IsVictimScout" "SubjectIsA"     "Hunter"      required
+criterion "IsVictimSniper" "SubjectIsA"     "Spitter"      required
+criterion "IsVictimSoldier" "SubjectIsA"     "Tank"      required
+criterion "IsVictimDemoman" "SubjectIsA"     "Charger"      required
+criterion "IsVictimMedic" "SubjectIsA"     "Witch"      required
+criterion "IsVictimHeavy" "SubjectIsA"     "Boomer"      required
+criterion "IsVictimPyro" "SubjectIsA"     "Jockey"      required
+criterion "IsVictimSpy" "SubjectIsA"     "Smoker"      required
+criterion "IsVictimEngineer" "SubjectIsA"     "Charger"      required
 
 criterion "IsNotVictimScout" "victimclass" "!=Scout" "required" weight 0
 criterion "IsNotVictimSniper" "victimclass" "!=Sniper" "required" weight 0
@@ -2765,14 +2765,14 @@ criterion "IsNotVictimEngineer" "victimclass" "!=Engineer" "required" weight 0
     
 
 
-criterion "2PercentChance"   "randomnum"               ">0"   required
-criterion "5PercentChance"   "randomnum"               ">0"   required
-criterion "10PercentChance"  "randomnum"               ">0"   required
-criterion "20PercentChance"  "randomnum"               ">0"   required
-criterion "30PercentChance"  "randomnum"               ">0"   required
-criterion "40PercentChance"  "randomnum"               ">0"   required
-criterion "50PercentChance"  "randomnum"               ">0"   required
-criterion "75PercentChance"  "randomnum"               ">0"   required
+criterion "2PercentChance"   "randomnum"               "=>98"   required
+criterion "5PercentChance"   "randomnum"               "=>95"   required
+criterion "10PercentChance"  "randomnum"               ">90"   required
+criterion "20PercentChance"  "randomnum"               ">80"   required
+criterion "30PercentChance"  "randomnum"               ">70"   required
+criterion "40PercentChance"  "randomnum"               ">60"   required
+criterion "50PercentChance"  "randomnum"               ">50"   required
+criterion "75PercentChance"  "randomnum"               ">25"   required
 criterion "100PercentChance"  "randomnum"               ">0"   required weight 100
 criterion "IsARecentKill"  "recentkills"               ">0"   required
 criterion "IsManyRecentKills"  "recentkills"               ">1"   required
@@ -3004,7 +3004,7 @@ criterion "IsHauntedHat" "IsHauntedHat" "1" "required" weight 100
 criterion "HasTaunt2Item_TauntEnablerTest" "loadout_slot_action" "Taunt Enabler Test" "required"
 
 
-criterion "ConceptRequestDuel" "Concept" "TLK_REQUEST_DUEL" required
+criterion "ConceptRequestDuel" "Concept" "PlayerFriendlyFire" required
 criterion "ConceptDuelRejected" "Concept" "PlayerHurrah" required
 criterion "ConceptIAcceptDuel" "Concept" "TLK_ACCEPT_DUEL" required
 criterion "ConceptDuelAccepted" "Concept" "TLK_DUEL_WAS_ACCEPTED" required
@@ -3039,7 +3039,7 @@ criterion "ConceptMvMBombPickup" "Concept" "PlayerHeardBoomer" required
 criterion "ConceptMvMSentryBuster" "Concept" "PlayerHeardJockey" required 
 criterion "ConceptMvMSentryBusterDown" "Concept" "TLK_MVM_SENTRY_BUSTER_DOWN" required 
 criterion "ConceptMvMSniperCallout" "Concept" "PlayerHeardSmoker" required 
-criterion "ConceptMvMLastManStanding" "Concept" "TLK_MVM_LAST_MAN_STANDING" required 
+criterion "ConceptMvMLastManStanding" "Concept" "PlayerReviveFriend" required 
 criterion "ConceptMvMEncourageMoney" "Concept" "TLK_MVM_ENCOURAGE_MONEY" required 
 criterion "ConceptMvMMoneyPickup" "Concept" "TLK_MVM_MONEY_PICKUP" required 
 criterion "ConceptMvMEncourageUpgrade" "Concept" "TLK_MVM_ENCOURAGE_UPGRADE" required 
@@ -3052,12 +3052,12 @@ criterion "ConceptMvMSappedRobot" "Concept" "TLK_MVM_SAPPED_ROBOT" required
 criterion "ConceptMvMCloseCall" "Concept" "PlayerTransition" required 
 criterion "ConceptMvMTankCallout" "Concept" "PlayerHeardTank" required 
 criterion "ConceptMvMTankDead" "Concept" "TLK_MVM_TANK_DEAD" required 
-criterion "ConceptMvMTankDeploying" "Concept" "TLK_MVM_TANK_DEPLOYING" required 
+criterion "ConceptMvMTankDeploying" "Concept" "PlayerAlsoWarnTank" required 
 criterion "ConceptMvMAttackTheTank" "Concept" "PlayerHeardTank" required 
-criterion "ConceptMvMTaunt" "Concept" "PlayerTaunt" required 
-criterion "ConceptMvMWaveStart" "Concept" "TLK_MVM_WAVE_START" required 
-criterion "ConceptMvMWaveWin" "Concept" "TLK_MVM_WAVE_WIN" required 
-criterion "ConceptMvMWaveLose" "Concept" "TLK_MVM_WAVE_LOSE" required 
+criterion "ConceptMvMTaunt" "Concept" "SurvivorBotHurrahManyKills" required 
+criterion "ConceptMvMWaveStart" "Concept" "PlayerNearFinale" required 
+criterion "ConceptMvMWaveWin" "Concept" "PlayerNearCheckpoint" required 
+criterion "ConceptMvMWaveLose" "Concept" "PlayerVomitExpired" required 
 criterion "ConceptMvMDeployRage" "Concept" "TLK_MVM_DEPLOY_RAGE" required 
 
 //A Tale of Two Cities Update
@@ -3092,7 +3092,7 @@ criterion "ConceptPlayerSpellBlastJump" "Concept" "TLK_PLAYER_SPELL_BLAST_JUMP" 
 criterion "ConceptPlayerSpellStealth" "Concept" "TLK_PLAYER_SPELL_STEALTH" required  
 criterion "ConceptPlayerSpellTeleport" "Concept" "TLK_PLAYER_SPELL_TELEPORT" required  
 criterion "ConceptPlayerSpellLightningBall" "Concept" "TLK_PLAYER_SPELL_LIGHTNING_BALL" required  
-criterion "ConceptPlayerSpellMovementBuff" "Concept" "PlayerGoingToDie" required
+criterion "ConceptPlayerSpellMovementBuff" "Concept" "behh" required
 criterion "ConceptPlayerSpellMonoculous" "Concept" "TLK_PLAYER_SPELL_MONOCULOUS" required  
 criterion "ConceptPlayerSpellMeteorSwarm" "Concept" "TLK_PLAYER_SPELL_METEOR_SWARM" required  
 criterion "ConceptPlayerSpellSkeletonHorde" "Concept" "TLK_PLAYER_SPELL_SKELETON_HORDE" required  
