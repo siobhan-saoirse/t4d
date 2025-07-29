@@ -24,6 +24,8 @@ More stuff will be implemented in the future.
 > [!TIP]
 > If you want to play L4D2, look into the instructions i've given you through the gameinfo_left4dead2.txt file if you're looking to uninstall it.
 
--# Valve, the Valve logo, Steam, the Steam logo, Team Fortress, the Team Fortress logo, Source, the Source logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries. All other trademarks are property of their respective owners in the US and other countries.
+## Legal
 
--# Team 4 Dead is not sponsored, endorsed, licensed by, or affiliated with Valve Corporation.
+Valve, the Valve logo, Steam, the Steam logo, Team Fortress, the Team Fortress logo, Left 4 Dead, the Left 4 Dead logo, Source, the Source logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries. All other trademarks are property of their respective owners in the US and other countries.
+
+Team 4 Dead is not sponsored, endorsed, licensed by, or affiliated with Valve Corporation.
