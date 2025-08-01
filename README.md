@@ -12,7 +12,7 @@ More stuff will be implemented in the future.
 > [!WARNING]
 > Due to how L4D engine branch handles sourcemods, it doesn't correctly handle custom file mounting. Look into gameinfo_left4dead2.txt for more information.
 
-1. Clone 't4d' to your sourcemods folder
+1. Clone 't4d' to your sourcemods folder (It MUST be in your C drive.)
 2. Rename 't4d-main' to 't4d'
 3. Read the instructions in the gameinfo_left4dead2.txt file
 4. Copy the gameinfo_left4dead2.txt file.
