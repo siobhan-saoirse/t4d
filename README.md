@@ -17,7 +17,7 @@ More stuff will be implemented in the future.
 3. Read the instructions in the gameinfo_left4dead2.txt file
 4. Copy the gameinfo_left4dead2.txt file.
 5. Go to your L4D2 directory, and go in the 'left4dead2' directory.
-6. Delete the old gameinfo.txt, paste the gameinfo_left4dead2.txt file and rename it to 'gameinfo.txt'
+6. Make a backup of the old gameinfo.txt, paste the gameinfo_left4dead2.txt file and rename it to 'gameinfo.txt'
 7. Restart Steam.
 8. You did it! You installed Team 4 Dead! If you're looking to play the mod, do not play Left 4 Dead 2. Instead, play Team 4 Dead. It should be in your library.
 
