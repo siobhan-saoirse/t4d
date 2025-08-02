@@ -14,6 +14,7 @@
 	perfwizard 0
 	SupportsXbox360 1
 	SupportsDX8	0
+	icon		"resource/icon"
 	GameData	"left4dead2.fgd"
 
 	FileSystem
